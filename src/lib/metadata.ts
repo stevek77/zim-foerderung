@@ -1,0 +1,95 @@
+import type { Metadata } from "next";
+
+const siteUrl = "https://xn--zim-frderung-beantragen-oec.de";
+const siteName = "ZIM Förderung beantragen | Förder-Kompass";
+
+export const defaultMetadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "ZIM Förderung beantragen – Bis zu 60% Zuschuss für Ihr Innovationsprojekt | Förder-Kompass",
+    template: "%s | ZIM Förderung beantragen – Förder-Kompass",
+  },
+  description:
+    "ZIM Förderung beantragen mit Förder-Kompass. Bis zu 60% Zuschuss für FuE-Projekte. Kostenlose Erstberatung, hohe Bewilligungsquote, rein erfolgsbasierte Vergütung. Jetzt ZIM-Antrag starten.",
+  keywords: [
+    "ZIM Förderung",
+    "ZIM Förderung beantragen",
+    "ZIM Antrag",
+    "ZIM Förderprogramm",
+    "Zentrales Innovationsprogramm Mittelstand",
+    "ZIM Zuschuss",
+    "ZIM Beratung",
+    "ZIM Einzelprojekt",
+    "ZIM Kooperationsprojekt",
+    "Innovationsförderung Mittelstand",
+    "FuE Förderung",
+    "Forschungsförderung KMU",
+    "ZIM Fördermittel",
+    "ZIM Fördermittelberatung",
+    "BMWK Förderung",
+  ],
+  authors: [{ name: "Förder-Kompass – Steve Kovacs" }],
+  creator: "Förder-Kompass",
+  publisher: "Förder-Kompass",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: siteUrl,
+    siteName,
+    title: "ZIM Förderung beantragen – Bis zu 60% Zuschuss | Förder-Kompass",
+    description:
+      "ZIM Förderung beantragen mit Förder-Kompass. Bis zu 60% Zuschuss für FuE-Projekte. Kostenlose Erstberatung & rein erfolgsbasierte Vergütung.",
+    images: [
+      {
+        url: `${siteUrl}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "ZIM Förderung beantragen – Förder-Kompass",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ZIM Förderung beantragen – Bis zu 60% Zuschuss | Förder-Kompass",
+    description:
+      "ZIM Förderung beantragen mit Förder-Kompass. Bis zu 60% Zuschuss für FuE-Projekte.",
+    images: [`${siteUrl}/og-image.png`],
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
+  verification: {
+    // Google Search Console verification will be added later
+    // google: "YOUR_VERIFICATION_CODE",
+  },
+};
+
+export function generatePageMetadata(
+  title: string,
+  description: string,
+  path: string
+): Metadata {
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${siteUrl}${path}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `${siteUrl}${path}`,
+    },
+  };
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--zim-frderung-beantragen-oec.de/sitemap.xml
