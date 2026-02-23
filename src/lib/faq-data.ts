@@ -7,76 +7,101 @@ export const faqData: FAQItem[] = [
   {
     question: "Was ist das ZIM-Förderprogramm?",
     answer:
-      "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das größte technologieoffene Förderprogramm des BMWK für kleine und mittlere Unternehmen. Es fördert Forschungs- und Entwicklungsprojekte mit nicht-rückzahlbaren Zuschüssen von bis zu 60% der Projektkosten.",
+      "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein Förderprogramm des Bundesministeriums für Wirtschaft und Klimaschutz (BMWK), das seit 2008 die Innovationskraft mittelständischer Unternehmen stärkt. Es fördert technologie- und branchenoffen Forschungs- und Entwicklungsprojekte (FuE) mit nicht-rückzahlbaren Zuschüssen von bis zu 60% der Projektkosten. Mit einem jährlichen Budget von rund 630 Mio. Euro gehört es zu den wichtigsten Innovationsförderprogrammen in Deutschland.",
   },
   {
     question: "Wer kann ZIM Förderung beantragen?",
     answer:
-      "ZIM-förderfähig sind kleine und mittlere Unternehmen (KMU) mit bis zu 499 Beschäftigten und einer Betriebsstätte in Deutschland. Auch Forschungseinrichtungen können als Kooperationspartner gefördert werden. Es gibt keine Branchenbeschränkung – ZIM ist technologieoffen.",
+      "Antragsberechtigt sind kleine Unternehmen (unter 50 Mitarbeiter), mittlere Unternehmen (unter 250 Mitarbeiter) sowie weitere mittelständische Unternehmen mit unter 500 bzw. unter 1.000 Beschäftigten. Unternehmen mit bis zu 1.000 Mitarbeitern können gefördert werden, wenn sie mit einem KMU kooperieren. Auch Forschungseinrichtungen können als Kooperationspartner teilnehmen. Eine Betriebsstätte in Deutschland ist zwingend erforderlich.",
   },
   {
-    question: "Wie hoch ist die ZIM Förderung?",
+    question: "Welche ZIM-Projektformen gibt es?",
     answer:
-      "Die Förderhöhe hängt von der Unternehmensgröße und der Projektform ab. Kleine Unternehmen erhalten bei Kooperationsprojekten bis zu 55% Zuschuss, bei internationalen Kooperationen sogar bis zu 60%. Die maximale Zuwendung pro Unternehmen beträgt 560.000 € bei Kooperationsprojekten und 690.000 € bei Einzelprojekten.",
+      "Das ZIM fördert mehrere Projektformen: FuE-Einzelprojekte eines einzelnen Unternehmens, FuE-Kooperationsprojekte mit mindestens zwei Partnern, ZIM International (IraSME) für grenzüberschreitende Kooperationen, Durchführbarkeitsstudien zur Prüfung der technischen Machbarkeit, sowie Leistungen zur Markteinführung bereits geförderter ZIM-Projekte.",
   },
   {
-    question: "Was ist der Unterschied zwischen Einzel- und Kooperationsprojekt?",
+    question: "Wie hoch ist die ZIM Förderung bei Einzelprojekten?",
     answer:
-      "Bei einem Einzelprojekt führt ein einzelnes Unternehmen das FuE-Vorhaben eigenständig durch. Bei einem Kooperationsprojekt arbeiten mindestens zwei Partner zusammen – entweder zwei Unternehmen oder ein Unternehmen mit einer Forschungseinrichtung. Kooperationsprojekte haben höhere Fördersätze und sind statistisch erfolgreicher.",
+      "Bei FuE-Einzelprojekten können Unternehmen maximal bis zu 690.000 Euro als Zuschuss erhalten. Die Förderquote liegt je nach Unternehmensgröße und Standort zwischen 25 und 45 Prozent der zuwendungsfähigen Kosten. Kleine Unternehmen in strukturschwachen Regionen sowie junge Unternehmen erhalten die höchste Quote.",
+  },
+  {
+    question: "Wie hoch ist die ZIM Förderung bei Kooperationsprojekten?",
+    answer:
+      "Kooperationsprojekte können in der Summe mit bis zu 3 Millionen Euro gefördert werden. Pro Unternehmens-Teilprojekt liegt die maximale Förderung bei 560.000 Euro, pro beteiligte Forschungseinrichtung bei 280.000 Euro. Die Förderquoten bewegen sich zwischen 30 und 60 Prozent und fallen höher aus als bei Einzelprojekten.",
   },
   {
     question: "Welche Kosten werden durch ZIM gefördert?",
     answer:
-      "ZIM fördert Personalkosten für FuE-Mitarbeiter, Aufträge an Dritte (bis 35% der Personalkosten direkt, darüber hinaus über Gemeinkostenpauschale), sowie übrige Kosten als Pauschale (bis 100% der Personalkosten für Unternehmen). Das Gehalt pro Person ist auf 150.000 € pro Jahr gedeckelt.",
-  },
-  {
-    question: "Wie lange dauert die Bearbeitung eines ZIM-Antrags?",
-    answer:
-      "Von der Antragseinreichung bis zur Bewilligung vergehen in der Regel 3-6 Monate. Die Erstellung des Antrags mit unserer Unterstützung dauert typischerweise 4-8 Wochen. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden.",
-  },
-  {
-    question: "Was kostet die Beratung durch Förder-Kompass?",
-    answer:
-      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns.",
+      "Gefördert werden primär Personalkosten der am Projekt beteiligten Mitarbeiter (maximal 120.000 Euro Bruttojahresgehalt pro Person). Dazu kommen projektbezogene Kosten für Instrumente und Ausrüstung, Auftragsforschung und Beratung, Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug.",
   },
   {
     question: "Was sind die Voraussetzungen für eine ZIM Förderung?",
     answer:
-      "Ihr Projekt muss einen deutlichen Innovationsgrad über dem aktuellen Stand der Technik aufweisen, erhebliche technische Risiken beinhalten und eine wirtschaftliche Verwertung anstreben. Außerdem muss das Vorhaben ohne Förderung nicht realisierbar sein und Ihr Unternehmen muss eine Betriebsstätte in Deutschland haben.",
+      "Ihr Projekt muss einen deutlichen Innovationsgrad über dem aktuellen Stand der Technik aufweisen, erhebliche technische Risiken beinhalten und eine wirtschaftliche Verwertung anstreben. Außerdem muss das Vorhaben ohne Förderung nicht realisierbar sein. Sogenannte 'Unternehmen in Schwierigkeiten' gemäß EU-Verordnung sind von der Förderung ausgeschlossen.",
   },
   {
-    question: "Kann man ZIM mit anderen Förderprogrammen kombinieren?",
+    question: "Wann und wo kann ich einen ZIM-Antrag stellen?",
     answer:
-      "Eine Doppelförderung desselben Projekts ist nicht zulässig. Allerdings können verschiedene Projektphasen oder -teile durch unterschiedliche Programme gefördert werden. Wir beraten Sie zur optimalen Förderstrategie, beispielsweise in Kombination mit der Forschungszulage.",
+      "ZIM-Anträge können jederzeit über das Online-Portal der Förderzentrale Deutschland (FZD) volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden.",
+  },
+  {
+    question: "Wie lange dauert die Bearbeitung eines ZIM-Antrags?",
+    answer:
+      "Die Bearbeitungszeit beim Projektträger beträgt in der Regel rund drei Monate vom Antragseingang bis zur Förderentscheidung. Die Dauer hängt wesentlich davon ab, wie schnell Antragsteller angeforderte Ergänzungen nachreichen. Planen Sie inklusive interner Vorbereitung insgesamt mit circa drei bis sechs Monaten.",
+  },
+  {
+    question: "Was kostet die ZIM-Beratung durch Förder-Kompass?",
+    answer:
+      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns. Mit professioneller Unterstützung steigt die Bewilligungsquote auf über 85%.",
+  },
+  {
+    question: "Kann man ZIM mit der Forschungszulage kombinieren?",
+    answer:
+      "Ja, eine Kombination ist möglich und kann sehr attraktiv sein, solange eine klare Trennung der geförderten Kosten erfolgt. Eine doppelte Förderung derselben Kostenposition ist ausgeschlossen. Personalzeiten müssen sauber dokumentiert und den jeweiligen Programmen zugeordnet werden.",
   },
   {
     question: "Was ist ZIM International (IraSME)?",
     answer:
-      "ZIM International ermöglicht grenzüberschreitende FuE-Kooperationen mit Partnern aus über 30 Ländern, darunter Schweiz, Österreich, Frankreich und viele mehr. Die Förderquoten sind mit bis zu 60% besonders attraktiv. Besonders beliebt sind Kooperationen mit Schweizer Partnern.",
+      "ZIM International ermöglicht grenzüberschreitende FuE-Kooperationen mit Partnern aus über 30 Ländern, darunter Schweiz, Österreich, Frankreich und viele mehr. Die Förderquoten sind mit bis zu 60% besonders attraktiv. Besonders beliebt sind Kooperationen mit Schweizer Partnern über die Innosuisse-Förderung.",
   },
   {
     question: "Wie viele ZIM-Projekte kann ein Unternehmen gleichzeitig haben?",
     answer:
-      "Ein Unternehmen kann maximal 2 ZIM-Projekte innerhalb von 12 Monaten bewilligt bekommen. Dazu kommen bis zu 2 Durchführbarkeitsstudien im selben Zeitraum. Es ist also strategische Planung gefragt, welche Projekte priorisiert werden.",
+      "Für FuE-Projekte und Durchführbarkeitsstudien gilt jeweils eine Obergrenze von zwei Bewilligungen innerhalb von zwölf Monaten pro Unternehmen. Für Leistungen zur Markteinführung können maximal drei Anträge in Bezug auf ein zuvor bewilligtes FuE-Projekt gestellt werden.",
   },
   {
     question: "Was ist eine ZIM Durchführbarkeitsstudie?",
     answer:
-      "Eine Durchführbarkeitsstudie dient der Vorab-Prüfung, ob ein geplantes FuE-Projekt technisch machbar und wirtschaftlich sinnvoll ist. Sie wird mit bis zu 55% und maximal 125.000 € (Einzelstudien) bzw. 250.000 € (Kooperationsstudien) gefördert.",
+      "Durchführbarkeitsstudien werden mit einer Förderquote von 50 bis 70 Prozent bezuschusst, bei maximalen förderfähigen Kosten von 125.000 bis 250.000 Euro. Sie richten sich speziell an Kleinstunternehmen, junge Unternehmen (Gründung innerhalb der letzten zehn Jahre) sowie Unternehmen, die erstmals eine ZIM-Förderung erhalten.",
   },
   {
-    question: "Was passiert nach der ZIM-Bewilligung?",
+    question: "Werden auch Software-Projekte durch das ZIM gefördert?",
     answer:
-      "Nach der Bewilligung starten Sie Ihr FuE-Projekt. Sie müssen regelmäßige Zwischenberichte einreichen und Stundennachweise führen. Die Fördermittel werden nach Projektabschluss und Verwendungsnachweis ausgezahlt. Auch eine Markteinführungsförderung (bis 100.000 €) kann beantragt werden.",
+      "Ja, Software-Projekte sind grundsätzlich förderfähig. Entscheidend ist, dass die Software-Entwicklung ein echtes technisches Risiko aufweist und den Stand der Technik übertrifft. Reine Routineentwicklungen wie einfache Datenbanken, Webshops oder passive Systeme ohne innovative Softwarekonzepte sind nicht förderfähig.",
+  },
+  {
+    question: "Welcher Projektträger ist für meinen ZIM-Antrag zuständig?",
+    answer:
+      "Für FuE-Einzelprojekte, Innovationsnetzwerke und Durchführbarkeitsstudien ist die VDI/VDE Innovation + Technik GmbH zuständig. Für FuE-Kooperationsprojekte (außerhalb von Netzwerken) ist die AiF Projekt GmbH der richtige Ansprechpartner. Beide Projektträger beraten kostenlos bei Fragen zur Antragstellung.",
+  },
+  {
+    question: "Wie erfolgt die Auszahlung der ZIM-Förderung?",
+    answer:
+      "Die Zuwendung wird als nicht-rückzahlbarer Zuschuss in Form einer Anteilsfinanzierung gewährt. Nach Bewilligung und Projektstart müssen Sie alle drei Monate eine Zahlungsanforderung mit detaillierter Kostenauflistung und Nachweisen beim Projektträger einreichen. Die Förderung dient somit auch der Vorfinanzierung laufender Projektkosten.",
   },
   {
     question: "Welche Branchen werden durch ZIM gefördert?",
     answer:
-      "ZIM ist vollständig technologieoffen und branchenunabhängig. Ob Maschinenbau, IT, Medizintechnik, Biotechnologie, Umwelttechnik oder KI – jedes innovative FuE-Vorhaben kann gefördert werden. Besonders viele Projekte gibt es aktuell in den Bereichen KI, Digitalisierung und Nachhaltigkeit.",
+      "ZIM ist vollständig technologieoffen und branchenunabhängig. Ob Maschinenbau, IT, Medizintechnik, Biotechnologie, Umwelttechnik oder KI – jedes innovative FuE-Vorhaben kann gefördert werden. Besonders viele Projekte gibt es aktuell in den Bereichen Künstliche Intelligenz, Digitalisierung und Nachhaltigkeit.",
   },
   {
     question: "Wie hoch ist die Bewilligungsquote bei ZIM-Anträgen?",
     answer:
       "Die offizielle Bewilligungsquote liegt bei circa 50-60% aller eingereichten Anträge. Mit professioneller Beratung durch Förder-Kompass erreichen wir eine Quote von über 85%, da wir die Projektidee vorab auf Förderfähigkeit prüfen und den Antrag optimal aufbereiten.",
+  },
+  {
+    question: "Was unterscheidet das ZIM von der Forschungszulage?",
+    answer:
+      "Das ZIM richtet sich ausschließlich an KMU und erfordert die Antragstellung vor Projektbeginn, bietet dafür aber eine Vorfinanzierung per Zuschuss mit bis zu 3 Mio. Euro. Die Forschungszulage steht allen Unternehmensgrößen offen, kann rückwirkend beantragt werden, ist aber eine steuerliche Förderung mit nachträglicher Erstattung. Beide Programme lassen sich bei sauberer Kostentrennung kombinieren.",
   },
 ];
