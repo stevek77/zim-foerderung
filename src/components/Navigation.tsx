@@ -31,12 +31,12 @@ export default function Navigation() {
     >
       <div className="container-main">
         <div className="flex items-center justify-between h-[80px]">
-          {/* Logo - Förder-Kompass (Bild hat viel Whitespace, daher groß skaliert + Clip) */}
-          <Link href="/" className="flex items-center shrink-0 overflow-hidden">
+          {/* Logo - Förder-Kompass (geschnittene Version ohne Whitespace) */}
+          <Link href="/" className="flex items-center shrink-0">
             <img
-              src="/logo-foerder-kompass.jpeg"
+              src="/logo-foerder-kompass-cropped.jpeg"
               alt="Förder-Kompass – Ihr Navigator durch den deutschen Förderdschungel"
-              className="h-[100px] md:h-[120px] w-auto max-w-[220px] md:max-w-[280px] object-contain"
+              className="h-[42px] md:h-[52px] w-auto"
             />
           </Link>
 
