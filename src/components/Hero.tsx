@@ -1,12 +1,6 @@
 import { CheckCircle, ArrowRight } from "lucide-react";
 import Script from "next/script";
-
-const trustPoints = [
-  "bis zu 60% Zuschuss für FuE-Projekte",
-  "rein erfolgsbasierte Vergütung",
-  "kostenlose Erstberatung",
-  "Bewilligungsquote über 85%",
-];
+import content from "@/data/content-hero.json";
 
 export default function Hero() {
   return (
@@ -41,28 +35,27 @@ export default function Hero() {
             {/* Left: Text Content */}
             <div className="space-y-6">
               <p className="text-primary-DEFAULT font-semibold text-sm tracking-wide uppercase">
-                ZIM &middot; Innovationsförderung &middot; BMWK
+                {content.badge}
               </p>
 
               <h1 className="text-[2.25rem] md:text-[2.6rem] lg:text-[2.85rem] leading-[1.12] tracking-tight text-white">
-                Jetzt bis zu{" "}
+                {content.headline}{" "}
                 <span className="text-primary-DEFAULT">
-                  60% staatliche Förderung
+                  {content.headlineHighlight}
                 </span>{" "}
-                für Ihre FuE-Projekte sichern.
+                {content.headlineSuffix}
               </h1>
 
               <p className="text-white/80 text-[17px] leading-relaxed max-w-xl">
-                Unser Team vom{" "}
-                <strong className="text-white">Förder-Kompass</strong>{" "}
-                beantragt die ZIM Förderung für Sie{" "}
-                <strong className="text-white">auf Erfolgsbasis.</strong>{" "}
-                Erhalten Sie nicht-rückzahlbare Zuschüsse für Ihre
-                Innovationsprojekte.
+                {content.bodyPrefix}{" "}
+                <strong className="text-white">{content.bodyBrand}</strong>{" "}
+                {content.bodyMiddle}{" "}
+                <strong className="text-white">{content.bodyHighlight}</strong>{" "}
+                {content.bodySuffix}
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-                {trustPoints.map((point) => (
+                {content.trustPoints.map((point) => (
                   <div key={point} className="flex items-start gap-2.5">
                     <CheckCircle className="w-[18px] h-[18px] text-primary-DEFAULT shrink-0 mt-0.5" />
                     <span className="text-white/90 text-[15px] leading-snug">
@@ -79,14 +72,14 @@ export default function Hero() {
                   rel="noopener noreferrer"
                   className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark shadow-lg shadow-primary-DEFAULT/30"
                 >
-                  Termin vereinbaren
+                  {content.ctaPrimary}
                   <ArrowRight className="w-4 h-4" />
                 </a>
                 <a
                   href="#zim-foerderung"
                   className="btn-pill border-2 border-white/30 text-white hover:bg-white/10"
                 >
-                  Mehr erfahren
+                  {content.ctaSecondary}
                 </a>
               </div>
             </div>
@@ -110,7 +103,7 @@ export default function Hero() {
         <div className="relative z-10 border-t border-white/10 bg-black/30 backdrop-blur-sm">
           <div className="container-main py-4">
             <p className="text-center text-white/60 text-sm">
-              100+ innovative Partner vertrauen unserer Förderberatung
+              {content.trustBar}
             </p>
           </div>
         </div>

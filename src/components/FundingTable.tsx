@@ -1,50 +1,5 @@
 import { ArrowRight } from "lucide-react";
-
-const fundingRates = [
-  {
-    type: "Kleine U. (strukturschwach)",
-    einzelprojekt: "45%",
-    koopNational: "55%",
-    koopInternational: "60%",
-  },
-  {
-    type: "Kleine junge U.",
-    einzelprojekt: "45%",
-    koopNational: "50%",
-    koopInternational: "60%",
-  },
-  {
-    type: "Kleine Unternehmen",
-    einzelprojekt: "40%",
-    koopNational: "45%",
-    koopInternational: "55%",
-  },
-  {
-    type: "Mittlere Unternehmen",
-    einzelprojekt: "35%",
-    koopNational: "40%",
-    koopInternational: "50%",
-  },
-  {
-    type: "Unternehmen (§3.1.1b)",
-    einzelprojekt: "25%",
-    koopNational: "30%",
-    koopInternational: "40%",
-  },
-  {
-    type: "Forschungseinrichtung",
-    einzelprojekt: "–",
-    koopNational: "100%",
-    koopInternational: "–",
-  },
-];
-
-const costCaps = [
-  { label: "Einzelprojekt (Unternehmen)", value: "690.000 €" },
-  { label: "Kooperationsprojekt (pro Unternehmen)", value: "560.000 €" },
-  { label: "Forschungseinrichtung (pro Projekt)", value: "280.000 €" },
-  { label: "Gesamtprojekt max. Zuwendung", value: "3.000.000 €" },
-];
+import content from "@/data/content-funding.json";
 
 export default function FundingTable() {
   return (
@@ -52,15 +7,13 @@ export default function FundingTable() {
       <div className="container-main">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
-            Fördersätze & Konditionen
+            {content.label}
           </p>
           <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
-            ZIM Fördersätze 2025/2026
+            {content.heading}
           </h2>
           <p className="text-body text-[17px] leading-relaxed">
-            Die Höhe der ZIM-Förderung hängt von der Unternehmensgröße und der
-            Projektform ab. Hier finden Sie die aktuellen Fördersätze auf Basis
-            der ZIM-Richtlinie V5 vom November 2024.
+            {content.description}
           </p>
         </div>
 
@@ -70,21 +23,21 @@ export default function FundingTable() {
             <thead>
               <tr className="bg-surface-soft border-b-2 border-primary-DEFAULT/20">
                 <th className="text-left px-6 py-4 font-semibold text-heading text-sm">
-                  Unternehmenstyp
+                  {content.tableHeaders.type}
                 </th>
                 <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
-                  Einzelprojekt
+                  {content.tableHeaders.einzelprojekt}
                 </th>
                 <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
-                  Koop (national)
+                  {content.tableHeaders.koopNational}
                 </th>
                 <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
-                  Koop (international)
+                  {content.tableHeaders.koopInternational}
                 </th>
               </tr>
             </thead>
             <tbody>
-              {fundingRates.map((rate, i) => (
+              {content.fundingRates.map((rate, i) => (
                 <tr
                   key={rate.type}
                   className={`border-t border-border-DEFAULT ${
@@ -115,10 +68,10 @@ export default function FundingTable() {
 
         {/* Cost Caps */}
         <h3 className="text-[1.35rem] font-semibold text-center mb-7">
-          Maximale Zuwendungsbeträge
+          {content.costCapsHeading}
         </h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
-          {costCaps.map((cap) => (
+          {content.costCaps.map((cap) => (
             <div
               key={cap.label}
               className="bg-white rounded-lg p-6 border border-border-DEFAULT text-center"
@@ -133,14 +86,13 @@ export default function FundingTable() {
 
         <div className="text-center">
           <p className="text-body mb-5 text-[15px]">
-            Berechnen Sie Ihre individuelle Förderhöhe mit unserem kostenlosen
-            ZIM-Rechner.
+            {content.calculatorText}
           </p>
           <a
             href="/zim-rechner/"
             className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
           >
-            ZIM-Rechner starten
+            {content.calculatorCta}
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

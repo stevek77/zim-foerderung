@@ -3,14 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
-
-const navItems = [
-  { label: "ZIM Förderung", href: "#zim-foerderung" },
-  { label: "Leistungen", href: "#leistungen" },
-  { label: "ZIM-Rechner", href: "/zim-rechner/" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Über uns", href: "#ueber-uns" },
-];
+import content from "@/data/content-nav.json";
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -41,7 +34,7 @@ export default function Navigation() {
           </Link>
 
           <div className="hidden lg:flex items-center gap-7">
-            {navItems.map((item) => (
+            {content.items.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -57,7 +50,7 @@ export default function Navigation() {
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
             >
               <Phone className="w-4 h-4" />
-              Termin vereinbaren
+              {content.cta}
             </a>
           </div>
 
@@ -76,7 +69,7 @@ export default function Navigation() {
 
         {mobileOpen && (
           <div className="lg:hidden bg-white border-t border-border-DEFAULT py-4 space-y-1">
-            {navItems.map((item) => (
+            {content.items.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
@@ -93,7 +86,7 @@ export default function Navigation() {
                 rel="noopener noreferrer"
                 className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center"
               >
-                Termin vereinbaren
+                {content.cta}
               </a>
             </div>
           </div>

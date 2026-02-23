@@ -1,0 +1,28 @@
+{
+  "label": "F\u00f6rders\u00e4tze & Konditionen",
+  "heading": "ZIM F\u00f6rders\u00e4tze 2025/2026",
+  "description": "Die H\u00f6he der ZIM-F\u00f6rderung h\u00e4ngt von der Unternehmensgr\u00f6\u00dfe und der Projektform ab. Hier finden Sie die aktuellen F\u00f6rders\u00e4tze auf Basis der ZIM-Richtlinie V5 vom November 2024.",
+  "tableHeaders": {
+    "type": "Unternehmenstyp",
+    "einzelprojekt": "Einzelprojekt",
+    "koopNational": "Koop (national)",
+    "koopInternational": "Koop (international)"
+  },
+  "fundingRates": [
+    { "type": "Kleine U. (strukturschwach)", "einzelprojekt": "45%", "koopNational": "55%", "koopInternational": "60%" },
+    { "type": "Kleine junge U.", "einzelprojekt": "45%", "koopNational": "50%", "koopInternational": "60%" },
+    { "type": "Kleine Unternehmen", "einzelprojekt": "40%", "koopNational": "45%", "koopInternational": "55%" },
+    { "type": "Mittlere Unternehmen", "einzelprojekt": "35%", "koopNational": "40%", "koopInternational": "50%" },
+    { "type": "Unternehmen (\u00a73.1.1b)", "einzelprojekt": "25%", "koopNational": "30%", "koopInternational": "40%" },
+    { "type": "Forschungseinrichtung", "einzelprojekt": "\u2013", "koopNational": "100%", "koopInternational": "\u2013" }
+  ],
+  "costCapsHeading": "Maximale Zuwendungsbetr\u00e4ge",
+  "costCaps": [
+    { "label": "Einzelprojekt (Unternehmen)", "value": "690.000 \u20ac" },
+    { "label": "Kooperationsprojekt (pro Unternehmen)", "value": "560.000 \u20ac" },
+    { "label": "Forschungseinrichtung (pro Projekt)", "value": "280.000 \u20ac" },
+    { "label": "Gesamtprojekt max. Zuwendung", "value": "3.000.000 \u20ac" }
+  ],
+  "calculatorText": "Berechnen Sie Ihre individuelle F\u00f6rderh\u00f6he mit unserem kostenlosen ZIM-Rechner.",
+  "calculatorCta": "ZIM-Rechner starten"
+}

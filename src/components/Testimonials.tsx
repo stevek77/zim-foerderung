@@ -1,26 +1,4 @@
-const testimonials = [
-  {
-    initials: "KK",
-    name: "Klaus König",
-    company: "jetzt GmbH",
-    role: "Geschäftsführer",
-    text: "Als Innovationsunternehmen im Bereich Prototypenbau arbeiten wir bei der Förderung unserer F&E-Vorhaben eng mit Herrn Kovacs vom Förder-Kompass zusammen. Die strukturierte Vorgehensweise, das tiefe Fördermittel-Know-how und die praxisnahe Beratung unterstützen uns und unsere Partner dabei Entwicklungsprojekte erfolgreich fördern zu lassen.",
-  },
-  {
-    initials: "SE",
-    name: "Stephen John Evans",
-    company: "riidmii GmbH",
-    role: "Geschäftsführung",
-    text: "Mit Herrn Kovacs vom Förder-Kompass konnten wir unsere F&E-Arbeiten an unserer digitalen Kinderbuchplattform riidmii erfolgreich fördern lassen. Von der Antragstellung bis zur Bewilligung überzeugten uns die klare Struktur, die fachliche Tiefe und die sehr engagierte Begleitung.",
-  },
-  {
-    initials: "SR",
-    name: "Simon Rock",
-    company: "Rock Invest Beteiligungs-GmbH",
-    role: "Geschäftsführer",
-    text: "Dank der Unterstützung durch das Team des Förder-Kompass konnten wir uns Fördermittel für Digitalisierungs- und F&E-Projekte unserer Firmengruppe sichern und uns voll auf die inhaltliche Weiterentwicklung konzentrieren.",
-  },
-];
+import content from "@/data/content-testimonials.json";
 
 export default function Testimonials() {
   return (
@@ -28,15 +6,15 @@ export default function Testimonials() {
       <div className="container-main">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
-            Kundenstimmen
+            {content.label}
           </p>
           <h2 className="text-[2rem] md:text-[2.25rem]">
-            Was unsere Kunden sagen
+            {content.heading}
           </h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {testimonials.map((t) => (
+          {content.items.map((t) => (
             <div
               key={t.name}
               className="bg-surface-soft rounded-lg p-7 border border-border-DEFAULT"

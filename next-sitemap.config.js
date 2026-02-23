@@ -7,6 +7,7 @@ module.exports = {
   generateIndexSitemap: false,
   changefreq: "weekly",
   priority: 0.7,
+  exclude: ["/admin", "/admin/"],
   transform: async (config, path) => {
     // Higher priority for main pages
     const priorities = {

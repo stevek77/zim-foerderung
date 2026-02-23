@@ -7,52 +7,9 @@ import {
   TrendingUp,
   Euro,
 } from "lucide-react";
+import content from "@/data/content-overview.json";
 
-const projectTypes = [
-  {
-    icon: Lightbulb,
-    title: "ZIM Einzelprojekte",
-    description:
-      "Für einzelne KMU, die eigenständig ein FuE-Projekt durchführen. Ideal für Unternehmen mit eigener Entwicklungsabteilung.",
-    funding: "Bis zu 45% Förderquote",
-    maxAmount: "Max. 690.000 €",
-    highlight: false,
-  },
-  {
-    icon: Users,
-    title: "ZIM Kooperationsprojekte",
-    description:
-      "Für mindestens zwei KMU oder ein KMU mit einer Forschungseinrichtung. Die häufigste und erfolgreichste Projektform.",
-    funding: "Bis zu 55% Förderquote",
-    maxAmount: "Max. 560.000 € pro Partner",
-    highlight: true,
-  },
-  {
-    icon: Globe,
-    title: "ZIM International (IraSME)",
-    description:
-      "Für grenzüberschreitende FuE-Kooperationen, z.B. mit Partnern aus der Schweiz, Österreich oder weiteren Ländern.",
-    funding: "Bis zu 60% Förderquote",
-    maxAmount: "Max. 560.000 € pro Partner",
-    highlight: false,
-  },
-  {
-    icon: FileText,
-    title: "Durchführbarkeitsstudien",
-    description:
-      "Zur Prüfung der technischen Machbarkeit und wirtschaftlichen Erfolgsaussichten vor dem eigentlichen FuE-Projekt.",
-    funding: "Bis zu 55% Förderquote",
-    maxAmount: "Max. 125.000 € (Einzel)",
-    highlight: false,
-  },
-];
-
-const keyFacts = [
-  { icon: Euro, value: "Bis zu 60%", label: "Förderquote" },
-  { icon: TrendingUp, value: "3 Mio. €", label: "Max. Gesamtförderung" },
-  { icon: Users, value: "KMU", label: "Bis 499 Beschäftigte" },
-  { icon: FileText, value: "24 Monate", label: "Typische Projektlaufzeit" },
-];
+const iconMap: Record<string, any> = { Lightbulb, Users, Globe, FileText, Euro, TrendingUp };
 
 export default function ZimOverview() {
   return (
@@ -60,77 +17,79 @@ export default function ZimOverview() {
       <div className="container-main">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
-            Das Förderprogramm
+            {content.label}
           </p>
           <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
-            Was ist die ZIM Förderung?
+            {content.heading}
           </h2>
           <p className="text-body text-[17px] leading-relaxed">
-            Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das
-            wichtigste technologieoffene Förderprogramm des Bundesministeriums
-            für Wirtschaft und Klimaschutz (BMWK). Es unterstützt kleine und
-            mittlere Unternehmen bei der Durchführung innovativer Forschungs-
-            und Entwicklungsprojekte mit nicht-rückzahlbaren Zuschüssen.
+            {content.description}
           </p>
         </div>
 
         {/* Key Facts */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-14">
-          {keyFacts.map((fact) => (
-            <div
-              key={fact.label}
-              className="text-center p-6 rounded-lg bg-surface-soft border border-border-DEFAULT"
-            >
-              <fact.icon className="w-7 h-7 text-primary-DEFAULT mx-auto mb-3" />
-              <div className="text-2xl font-semibold text-heading">
-                {fact.value}
+          {content.keyFacts.map((fact) => {
+            const Icon = iconMap[fact.icon];
+            return (
+              <div
+                key={fact.label}
+                className="text-center p-6 rounded-lg bg-surface-soft border border-border-DEFAULT"
+              >
+                <Icon className="w-7 h-7 text-primary-DEFAULT mx-auto mb-3" />
+                <div className="text-2xl font-semibold text-heading">
+                  {fact.value}
+                </div>
+                <div className="text-body-light text-sm mt-1">{fact.label}</div>
               </div>
-              <div className="text-body-light text-sm mt-1">{fact.label}</div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Project Types */}
         <h3 className="text-[1.5rem] md:text-[1.75rem] text-center mb-8">
-          ZIM Projektformen im Überblick
+          {content.projectTypesHeading}
         </h3>
         <div className="grid md:grid-cols-2 gap-5">
-          {projectTypes.map((type) => (
-            <div
-              key={type.title}
-              className={`p-7 rounded-lg border transition-shadow hover:shadow-md ${
-                type.highlight
-                  ? "border-primary-DEFAULT/40 bg-primary-50"
-                  : "border-border-DEFAULT bg-surface-soft"
-              }`}
-            >
-              <div className="flex items-start gap-4">
-                <div
-                  className={`w-11 h-11 rounded-lg flex items-center justify-center shrink-0 ${
-                    type.highlight
-                      ? "bg-primary-DEFAULT text-white"
-                      : "bg-primary-light text-primary-DEFAULT"
-                  }`}
-                >
-                  <type.icon className="w-5 h-5" />
-                </div>
-                <div className="space-y-2.5">
-                  <h4 className="text-lg font-semibold">{type.title}</h4>
-                  <p className="text-body text-[15px] leading-relaxed">
-                    {type.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2.5">
-                    <span className="inline-flex items-center text-sm font-medium text-primary-DEFAULT bg-primary-light rounded-full px-3 py-1">
-                      {type.funding}
-                    </span>
-                    <span className="inline-flex items-center text-sm text-body-light bg-white rounded-full px-3 py-1 border border-border-DEFAULT">
-                      {type.maxAmount}
-                    </span>
+          {content.projectTypes.map((type) => {
+            const Icon = iconMap[type.icon];
+            return (
+              <div
+                key={type.title}
+                className={`p-7 rounded-lg border transition-shadow hover:shadow-md ${
+                  type.highlight
+                    ? "border-primary-DEFAULT/40 bg-primary-50"
+                    : "border-border-DEFAULT bg-surface-soft"
+                }`}
+              >
+                <div className="flex items-start gap-4">
+                  <div
+                    className={`w-11 h-11 rounded-lg flex items-center justify-center shrink-0 ${
+                      type.highlight
+                        ? "bg-primary-DEFAULT text-white"
+                        : "bg-primary-light text-primary-DEFAULT"
+                    }`}
+                  >
+                    <Icon className="w-5 h-5" />
+                  </div>
+                  <div className="space-y-2.5">
+                    <h4 className="text-lg font-semibold">{type.title}</h4>
+                    <p className="text-body text-[15px] leading-relaxed">
+                      {type.description}
+                    </p>
+                    <div className="flex flex-wrap gap-2.5">
+                      <span className="inline-flex items-center text-sm font-medium text-primary-DEFAULT bg-primary-light rounded-full px-3 py-1">
+                        {type.funding}
+                      </span>
+                      <span className="inline-flex items-center text-sm text-body-light bg-white rounded-full px-3 py-1 border border-border-DEFAULT">
+                        {type.maxAmount}
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="text-center mt-10">
@@ -140,7 +99,7 @@ export default function ZimOverview() {
             rel="noopener noreferrer"
             className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
           >
-            Jetzt ZIM-Potenzial prüfen lassen
+            {content.cta}
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>

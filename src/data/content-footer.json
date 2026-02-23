@@ -1,0 +1,30 @@
+{
+  "description": "Professionelle ZIM-F\u00f6rdermittelberatung f\u00fcr den Mittelstand. Von der Projektidee bis zur Bewilligung \u2013 rein erfolgsbasiert.",
+  "owner": {
+    "name": "Steve Kovacs",
+    "role": "Gesch\u00e4ftsf\u00fchrer, F\u00f6rder-Kompass"
+  },
+  "contact": {
+    "street": "Seestrasse 15c",
+    "city": "78333 Stockach",
+    "phone": "+49 7771 8988 861",
+    "email": "info@forschungszulagenantrag.de"
+  },
+  "quickLinks": [
+    { "label": "ZIM Einzelprojekte", "href": "#zim-foerderung" },
+    { "label": "ZIM Kooperationsprojekte", "href": "#zim-foerderung" },
+    { "label": "ZIM International", "href": "#zim-foerderung" },
+    { "label": "ZIM F\u00f6rders\u00e4tze", "href": "#zim-foerderung" },
+    { "label": "ZIM-Rechner", "href": "/zim-rechner/" },
+    { "label": "FAQ", "href": "#faq" }
+  ],
+  "legalLinks": [
+    { "label": "Impressum", "href": "/impressum/" },
+    { "label": "Datenschutz", "href": "/datenschutz/" }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/stevekovacs/",
+    "instagram": "https://instagram.com"
+  },
+  "copyright": "F\u00f6rder-Kompass. Alle Rechte vorbehalten."
+}

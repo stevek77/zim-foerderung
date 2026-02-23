@@ -1,0 +1,36 @@
+{
+  "label": "\u00dcber F\u00f6rder-Kompass",
+  "heading": "Ihr Partner f\u00fcr ZIM F\u00f6rdermittelberatung",
+  "paragraphs": [
+    "F\u00f6rder-Kompass ist eine spezialisierte F\u00f6rdermittelberatung mit Sitz am Bodensee. Unter der Leitung von Steve Kovacs unterst\u00fctzen wir kleine und mittlere Unternehmen dabei, ihre Innovationsprojekte durch \u00f6ffentliche F\u00f6rdermittel zu finanzieren.",
+    "Unser Schwerpunkt liegt auf dem ZIM-F\u00f6rderprogramm und der Forschungszulage. Mit einer Bewilligungsquote von \u00fcber 85% geh\u00f6ren wir zu den erfolgreichsten ZIM-Beratern in Deutschland.",
+    "Was uns auszeichnet: Wir arbeiten branchen\u00fcbergreifend und haben besondere Expertise in den Bereichen KI, Digitalisierung, Medizintechnik und Nachhaltigkeit. Viele unserer erfolgreichsten Projekte verbinden klassische Industrie mit modernster KI-Technologie."
+  ],
+  "highlights": [
+    {
+      "icon": "Award",
+      "title": "Erfahrene ZIM-Spezialisten",
+      "text": "\u00dcber 50 erfolgreich bewilligte ZIM-Projekte. Wir kennen die Bewertungskriterien der Gutachter und optimieren Ihren Antrag darauf."
+    },
+    {
+      "icon": "Brain",
+      "title": "KI-gest\u00fctzter Antragsprozess",
+      "text": "Unser propriet\u00e4rer ZIM-Antragsgenerator nutzt KI-Technologie, um den Erstellungsprozess zu beschleunigen und die Qualit\u00e4t zu maximieren."
+    },
+    {
+      "icon": "Target",
+      "title": "Rein erfolgsbasiert",
+      "text": "Sie zahlen nur bei erfolgreicher Bewilligung. Kein Risiko f\u00fcr Sie \u2013 unser Erfolg ist Ihr Erfolg."
+    },
+    {
+      "icon": "Clock",
+      "title": "Schneller Prozess",
+      "text": "Von der Erstberatung bis zur Antragseinreichung in 4-8 Wochen. Wir wissen, worauf es ankommt und arbeiten effizient."
+    }
+  ],
+  "partnerLabel": "Weitere Leistungen",
+  "partnerLinks": [
+    { "label": "Forschungszulage", "href": "https://forschungszulagenantrag.de" },
+    { "label": "Alle F\u00f6rdermittel", "href": "https://foerder-kompass.de" }
+  ]
+}

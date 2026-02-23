@@ -1,0 +1,52 @@
+{
+  "label": "Unser Prozess",
+  "heading": "So begleiten wir Ihren ZIM-Antrag",
+  "description": "Von der ersten Idee bis zur Bewilligung \u2013 unser bew\u00e4hrter 6-Schritte-Prozess maximiert Ihre Erfolgschancen bei der ZIM F\u00f6rderung.",
+  "steps": [
+    {
+      "number": "01",
+      "icon": "Search",
+      "title": "Kostenlose Erstberatung",
+      "description": "Wir pr\u00fcfen Ihre Projektidee auf ZIM-F\u00f6rderf\u00e4higkeit und identifizieren die optimale Projektform und F\u00f6rderquote."
+    },
+    {
+      "number": "02",
+      "icon": "FileCheck",
+      "title": "F\u00f6rderf\u00e4higkeitspr\u00fcfung",
+      "description": "Detaillierte Analyse Ihres Unternehmens, des Innovationsgrads und der technischen Risiken. Abgleich mit allen ZIM-Anforderungen."
+    },
+    {
+      "number": "03",
+      "icon": "PenTool",
+      "title": "Antragserstellung",
+      "description": "Professionelle Erstellung der Projektbeschreibung (Anh\u00e4nge 1-4), Kostenplanung und aller Antragsformulare nach ZIM-Richtlinie."
+    },
+    {
+      "number": "04",
+      "icon": "BarChart3",
+      "title": "Kalkulation & Compliance",
+      "description": "Optimierung der Kostenplanung innerhalb der ZIM-F\u00f6rdergrenzen. PM-Verteilung, Personalkostenkalkulation, Drittkosten-Optimierung."
+    },
+    {
+      "number": "05",
+      "icon": "Shield",
+      "title": "Qualit\u00e4tssicherung",
+      "description": "Gutachter-Simulation und Konsistenzpr\u00fcfung. Wir kennen die Bewertungskriterien und optimieren Ihren Antrag darauf."
+    },
+    {
+      "number": "06",
+      "icon": "Handshake",
+      "title": "Einreichung & Begleitung",
+      "description": "Einreichung beim Projekttr\u00e4ger, Begleitung bei R\u00fcckfragen und Unterst\u00fctzung bei der Zuwendungsvereinbarung."
+    }
+  ],
+  "uspHeading": "Warum F\u00f6rder-Kompass?",
+  "uspDescription": "Als spezialisierte ZIM-F\u00f6rdermittelberatung kombinieren wir tiefes Fachwissen mit modernster Technologie. Unser KI-gest\u00fctzter Antragsprozess reduziert den Aufwand f\u00fcr Sie erheblich.",
+  "stats": [
+    { "value": ">85%", "label": "Bewilligungsquote" },
+    { "value": "50+", "label": "Bewilligte Projekte" },
+    { "value": "100%", "label": "Erfolgsbasiert" },
+    { "value": "0 \u20ac", "label": "Bei Ablehnung" }
+  ],
+  "cta": "Jetzt kostenlos beraten lassen"
+}

@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqData } from "@/lib/faq-data";
+import content from "@/data/content-faq.json";
 
 export default function FAQ() {
   return (
@@ -15,20 +15,19 @@ export default function FAQ() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
-              Häufige Fragen
+              {content.label}
             </p>
             <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
-              ZIM Förderung – Häufig gestellte Fragen
+              {content.heading}
             </h2>
             <p className="text-body text-[17px] leading-relaxed max-w-2xl mx-auto">
-              Alles, was Sie über das ZIM-Förderprogramm wissen müssen. Finden
-              Sie hier Antworten auf die häufigsten Fragen zur ZIM Förderung.
+              {content.description}
             </p>
           </div>
 
           {/* FAQ Accordion */}
           <Accordion type="single" collapsible className="space-y-3">
-            {faqData.map((faq, index) => (
+            {content.items.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
@@ -47,11 +46,10 @@ export default function FAQ() {
           {/* Bottom CTA */}
           <div className="text-center mt-10 p-7 bg-primary-light rounded-lg">
             <h3 className="text-lg font-semibold mb-2">
-              Ihre Frage nicht dabei?
+              {content.ctaHeading}
             </h3>
             <p className="text-body text-[15px] mb-5">
-              Vereinbaren Sie eine kostenlose Erstberatung und wir beantworten
-              alle Ihre Fragen zur ZIM Förderung persönlich.
+              {content.ctaText}
             </p>
             <a
               href="https://calendly.com/kovacs-termin"
@@ -59,7 +57,7 @@ export default function FAQ() {
               rel="noopener noreferrer"
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
             >
-              Kostenlose Erstberatung buchen
+              {content.ctaButton}
             </a>
           </div>
         </div>

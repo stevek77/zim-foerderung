@@ -1,0 +1,27 @@
+{
+  "label": "Kundenstimmen",
+  "heading": "Was unsere Kunden sagen",
+  "items": [
+    {
+      "initials": "KK",
+      "name": "Klaus K\u00f6nig",
+      "company": "jetzt GmbH",
+      "role": "Gesch\u00e4ftsf\u00fchrer",
+      "text": "Als Innovationsunternehmen im Bereich Prototypenbau arbeiten wir bei der F\u00f6rderung unserer F&E-Vorhaben eng mit Herrn Kovacs vom F\u00f6rder-Kompass zusammen. Die strukturierte Vorgehensweise, das tiefe F\u00f6rdermittel-Know-how und die praxisnahe Beratung unterst\u00fctzen uns und unsere Partner dabei Entwicklungsprojekte erfolgreich f\u00f6rdern zu lassen."
+    },
+    {
+      "initials": "SE",
+      "name": "Stephen John Evans",
+      "company": "riidmii GmbH",
+      "role": "Gesch\u00e4ftsf\u00fchrung",
+      "text": "Mit Herrn Kovacs vom F\u00f6rder-Kompass konnten wir unsere F&E-Arbeiten an unserer digitalen Kinderbuchplattform riidmii erfolgreich f\u00f6rdern lassen. Von der Antragstellung bis zur Bewilligung \u00fcberzeugten uns die klare Struktur, die fachliche Tiefe und die sehr engagierte Begleitung."
+    },
+    {
+      "initials": "SR",
+      "name": "Simon Rock",
+      "company": "Rock Invest Beteiligungs-GmbH",
+      "role": "Gesch\u00e4ftsf\u00fchrer",
+      "text": "Dank der Unterst\u00fctzung durch das Team des F\u00f6rder-Kompass konnten wir uns F\u00f6rdermittel f\u00fcr Digitalisierungs- und F&E-Projekte unserer Firmengruppe sichern und uns voll auf die inhaltliche Weiterentwicklung konzentrieren."
+    }
+  ]
+}

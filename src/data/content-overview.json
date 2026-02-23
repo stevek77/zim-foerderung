@@ -1,0 +1,47 @@
+{
+  "label": "Das F\u00f6rderprogramm",
+  "heading": "Was ist die ZIM F\u00f6rderung?",
+  "description": "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das wichtigste technologieoffene F\u00f6rderprogramm des Bundesministeriums f\u00fcr Wirtschaft und Klimaschutz (BMWK). Es unterst\u00fctzt kleine und mittlere Unternehmen bei der Durchf\u00fchrung innovativer Forschungs- und Entwicklungsprojekte mit nicht-r\u00fcckzahlbaren Zusch\u00fcssen.",
+  "keyFacts": [
+    { "icon": "Euro", "value": "Bis zu 60%", "label": "F\u00f6rderquote" },
+    { "icon": "TrendingUp", "value": "3 Mio. \u20ac", "label": "Max. Gesamtf\u00f6rderung" },
+    { "icon": "Users", "value": "KMU", "label": "Bis 499 Besch\u00e4ftigte" },
+    { "icon": "FileText", "value": "24 Monate", "label": "Typische Projektlaufzeit" }
+  ],
+  "projectTypesHeading": "ZIM Projektformen im \u00dcberblick",
+  "projectTypes": [
+    {
+      "icon": "Lightbulb",
+      "title": "ZIM Einzelprojekte",
+      "description": "F\u00fcr einzelne KMU, die eigenst\u00e4ndig ein FuE-Projekt durchf\u00fchren. Ideal f\u00fcr Unternehmen mit eigener Entwicklungsabteilung.",
+      "funding": "Bis zu 45% F\u00f6rderquote",
+      "maxAmount": "Max. 690.000 \u20ac",
+      "highlight": false
+    },
+    {
+      "icon": "Users",
+      "title": "ZIM Kooperationsprojekte",
+      "description": "F\u00fcr mindestens zwei KMU oder ein KMU mit einer Forschungseinrichtung. Die h\u00e4ufigste und erfolgreichste Projektform.",
+      "funding": "Bis zu 55% F\u00f6rderquote",
+      "maxAmount": "Max. 560.000 \u20ac pro Partner",
+      "highlight": true
+    },
+    {
+      "icon": "Globe",
+      "title": "ZIM International (IraSME)",
+      "description": "F\u00fcr grenz\u00fcberschreitende FuE-Kooperationen, z.B. mit Partnern aus der Schweiz, \u00d6sterreich oder weiteren L\u00e4ndern.",
+      "funding": "Bis zu 60% F\u00f6rderquote",
+      "maxAmount": "Max. 560.000 \u20ac pro Partner",
+      "highlight": false
+    },
+    {
+      "icon": "FileText",
+      "title": "Durchf\u00fchrbarkeitsstudien",
+      "description": "Zur Pr\u00fcfung der technischen Machbarkeit und wirtschaftlichen Erfolgsaussichten vor dem eigentlichen FuE-Projekt.",
+      "funding": "Bis zu 55% F\u00f6rderquote",
+      "maxAmount": "Max. 125.000 \u20ac (Einzel)",
+      "highlight": false
+    }
+  ],
+  "cta": "Jetzt ZIM-Potenzial pr\u00fcfen lassen"
+}

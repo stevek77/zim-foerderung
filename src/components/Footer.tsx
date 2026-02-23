@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import content from "@/data/content-footer.json";
 
 export default function Footer() {
   return (
@@ -18,8 +19,7 @@ export default function Footer() {
             </div>
 
             <p className="text-white/55 text-[15px] leading-relaxed mb-8">
-              Professionelle ZIM-Fördermittelberatung für den Mittelstand.
-              Von der Projektidee bis zur Bewilligung – rein erfolgsbasiert.
+              {content.description}
             </p>
 
             {/* Steve Kovacs */}
@@ -30,9 +30,9 @@ export default function Footer() {
                 className="w-12 h-12 rounded-full object-cover border-2 border-primary-DEFAULT/40"
               />
               <div>
-                <p className="text-white text-sm font-semibold">Steve Kovacs</p>
+                <p className="text-white text-sm font-semibold">{content.owner.name}</p>
                 <p className="text-white/45 text-xs">
-                  Geschäftsführer, Förder-Kompass
+                  {content.owner.role}
                 </p>
               </div>
             </div>
@@ -44,14 +44,7 @@ export default function Footer() {
               ZIM Förderung
             </h4>
             <ul className="space-y-3.5 text-[15px]">
-              {[
-                { label: "ZIM Einzelprojekte", href: "#zim-foerderung" },
-                { label: "ZIM Kooperationsprojekte", href: "#zim-foerderung" },
-                { label: "ZIM International", href: "#zim-foerderung" },
-                { label: "ZIM Fördersätze", href: "#zim-foerderung" },
-                { label: "ZIM-Rechner", href: "/zim-rechner/" },
-                { label: "FAQ", href: "#faq" },
-              ].map((link) => (
+              {content.quickLinks.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -73,26 +66,26 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-primary-DEFAULT mt-1 shrink-0" />
                 <span className="text-white/50">
-                  Seestrasse 15c<br />
-                  78333 Stockach
+                  {content.contact.street}<br />
+                  {content.contact.city}
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary-DEFAULT shrink-0" />
                 <a
-                  href="tel:+4977718988861"
+                  href={`tel:${content.contact.phone.replace(/\s/g, "")}`}
                   className="text-white/50 hover:text-primary-DEFAULT transition-colors"
                 >
-                  +49 7771 8988 861
+                  {content.contact.phone}
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-DEFAULT shrink-0" />
                 <a
-                  href="mailto:info@forschungszulagenantrag.de"
+                  href={`mailto:${content.contact.email}`}
                   className="text-white/50 hover:text-primary-DEFAULT transition-colors"
                 >
-                  info@forschungszulagenantrag.de
+                  {content.contact.email}
                 </a>
               </div>
             </div>
@@ -104,10 +97,7 @@ export default function Footer() {
               Rechtliches
             </h4>
             <ul className="space-y-3.5 text-[15px] mb-8">
-              {[
-                { label: "Impressum", href: "/impressum/" },
-                { label: "Datenschutz", href: "/datenschutz/" },
-              ].map((link) => (
+              {content.legalLinks.map((link) => (
                 <li key={link.label}>
                   <Link
                     href={link.href}
@@ -124,7 +114,7 @@ export default function Footer() {
             </h4>
             <div className="flex gap-3">
               <a
-                href="https://www.linkedin.com/in/stevekovacs/"
+                href={content.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
@@ -133,7 +123,7 @@ export default function Footer() {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href={content.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
@@ -150,8 +140,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-main py-5 text-center text-sm text-white/35">
           <p>
-            &copy; {new Date().getFullYear()} Förder-Kompass. Alle Rechte
-            vorbehalten.
+            &copy; {new Date().getFullYear()} {content.copyright}
           </p>
         </div>
       </div>
