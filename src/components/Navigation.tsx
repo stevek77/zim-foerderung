@@ -36,7 +36,7 @@ export default function Navigation() {
             <img
               src="/logo-foerder-kompass.jpeg"
               alt="Förder-Kompass – Ihr Navigator durch den deutschen Förderdschungel"
-              className="h-auto w-[180px] md:w-[240px]"
+              className="h-[44px] md:h-[52px] w-auto"
             />
           </Link>
 

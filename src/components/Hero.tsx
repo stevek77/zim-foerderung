@@ -1,4 +1,4 @@
-import { CheckCircle, ArrowRight, TrendingUp, Shield, Award, Zap } from "lucide-react";
+import { CheckCircle, ArrowRight, Play } from "lucide-react";
 
 const trustPoints = [
   "bis zu 60% Zuschuss für FuE-Projekte",
@@ -78,54 +78,28 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: Animated Stats/Feature Display */}
+          {/* Right: Motion Video Placeholder */}
           <div className="relative">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-8 shadow-2xl">
-              {/* Main stat */}
-              <div className="text-center mb-8">
-                <div className="inline-flex items-center gap-2 bg-primary-DEFAULT/20 text-primary-DEFAULT px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
-                  <TrendingUp className="w-4 h-4" />
-                  ZIM Erfolgsquote
+            {/*
+              TODO: Motion Video hier einbetten.
+              Ersetze den Platzhalter mit dem fertigen Video-Embed (z.B. von Replit Animation).
+              Beispiel: <iframe src="VIDEO_URL" ... />
+            */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/15 aspect-video bg-black/20 backdrop-blur-sm">
+              {/* Video Platzhalter - wird durch echtes Motion Video ersetzt */}
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <div className="w-20 h-20 rounded-full bg-primary-DEFAULT/90 flex items-center justify-center mb-4 shadow-lg shadow-primary-DEFAULT/40 hover:scale-105 transition-transform cursor-pointer">
+                  <Play className="w-8 h-8 text-white ml-1" />
                 </div>
-                <div className="text-6xl md:text-7xl font-bold text-white mb-2">
-                  85<span className="text-primary-DEFAULT">%+</span>
-                </div>
-                <p className="text-white/60 text-sm">
-                  Bewilligungsquote unserer Anträge
+                <p className="text-white/70 text-sm font-medium">
+                  ZIM Förderung erklärt
+                </p>
+                <p className="text-white/40 text-xs mt-1">
+                  In 90 Sekunden alles Wichtige erfahren
                 </p>
               </div>
-
-              {/* Feature cards */}
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white/10 rounded-xl p-4 border border-white/10">
-                  <Shield className="w-8 h-8 text-primary-DEFAULT mb-2" />
-                  <p className="text-white font-semibold text-sm">Kein Risiko</p>
-                  <p className="text-white/50 text-xs mt-0.5">
-                    Erfolgsbasiert
-                  </p>
-                </div>
-                <div className="bg-white/10 rounded-xl p-4 border border-white/10">
-                  <Award className="w-8 h-8 text-primary-DEFAULT mb-2" />
-                  <p className="text-white font-semibold text-sm">50+ Projekte</p>
-                  <p className="text-white/50 text-xs mt-0.5">
-                    Erfolgreich bewilligt
-                  </p>
-                </div>
-                <div className="bg-white/10 rounded-xl p-4 border border-white/10">
-                  <Zap className="w-8 h-8 text-primary-DEFAULT mb-2" />
-                  <p className="text-white font-semibold text-sm">4-8 Wochen</p>
-                  <p className="text-white/50 text-xs mt-0.5">
-                    Bis zur Einreichung
-                  </p>
-                </div>
-                <div className="bg-white/10 rounded-xl p-4 border border-white/10">
-                  <TrendingUp className="w-8 h-8 text-primary-DEFAULT mb-2" />
-                  <p className="text-white font-semibold text-sm">Bis 60%</p>
-                  <p className="text-white/50 text-xs mt-0.5">
-                    Förderzuschuss
-                  </p>
-                </div>
-              </div>
+              {/* Decorative gradient */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary-DEFAULT/10 via-transparent to-primary-DEFAULT/5 pointer-events-none" />
             </div>
           </div>
         </div>
