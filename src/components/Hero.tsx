@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/60 to-black/40" />
 
-      <div className="container-main py-16 md:py-20 lg:py-24 relative z-10">
+      <div className="container-main py-20 md:py-28 lg:py-32 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left: Text Content */}
           <div className="space-y-6">
