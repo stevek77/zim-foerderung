@@ -31,12 +31,12 @@ export default function Navigation() {
     >
       <div className="container-main">
         <div className="flex items-center justify-between h-[80px]">
-          {/* Logo - matching forschungszulagenantrag.de size (300px wide) */}
+          {/* Logo - Förder-Kompass */}
           <Link href="/" className="flex items-center shrink-0">
             <img
-              src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/Logo_Header-1.png"
-              alt="Förder-Kompass Logo"
-              className="h-auto w-[200px] md:w-[260px]"
+              src="/logo-foerder-kompass.jpeg"
+              alt="Förder-Kompass – Ihr Navigator durch den deutschen Förderdschungel"
+              className="h-auto w-[180px] md:w-[240px]"
             />
           </Link>
 

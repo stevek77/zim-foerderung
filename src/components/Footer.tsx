@@ -10,8 +10,8 @@ export default function Footer() {
           <div className="md:col-span-5">
             <div className="mb-5">
               <img
-                src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/Logo_Header-1.png"
-                alt="Förder-Kompass Logo"
+                src="/logo-foerder-kompass.jpeg"
+                alt="Förder-Kompass – Ihr Navigator durch den deutschen Förderdschungel"
                 className="h-auto w-[200px] brightness-0 invert"
               />
             </div>

@@ -9,12 +9,19 @@ const benefits = [
 
 export default function CTASection() {
   return (
-    <section className="py-20 bg-primary-DEFAULT relative overflow-hidden">
-      {/* Subtle background pattern */}
-      <div className="absolute inset-0">
-        <div className="absolute top-0 right-0 w-80 h-80 bg-white/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-white/5 rounded-full blur-3xl" />
-      </div>
+    <section className="py-20 relative overflow-hidden">
+      {/* Dschungel Background */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: "url('/hintergrund-foerder-kompass.jpeg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      />
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/55 to-black/65" />
 
       <div className="container-main relative z-10">
         <div className="max-w-3xl mx-auto text-center">
@@ -46,7 +53,7 @@ export default function CTASection() {
               href="https://calendly.com/kovacs-termin"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-pill bg-white text-primary-DEFAULT hover:bg-white/90 font-semibold"
+              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark font-semibold shadow-lg shadow-primary-DEFAULT/30"
             >
               <Phone className="w-4 h-4" />
               Termin vereinbaren
