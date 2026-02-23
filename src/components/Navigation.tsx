@@ -30,12 +30,13 @@ export default function Navigation() {
       aria-label="Hauptnavigation"
     >
       <div className="container-main">
-        <div className="flex items-center justify-between h-[72px]">
-          <Link href="/" className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center justify-between h-[80px]">
+          {/* Logo - matching forschungszulagenantrag.de size (300px wide) */}
+          <Link href="/" className="flex items-center shrink-0">
             <img
-              src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/cropped-Logo_Forderkompass_m_Subline-320x107.png"
+              src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/Logo_Header-1.png"
               alt="Förder-Kompass Logo"
-              className="h-10 w-auto"
+              className="h-auto w-[200px] md:w-[260px]"
             />
           </Link>
 
@@ -65,7 +66,11 @@ export default function Navigation() {
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Menü öffnen"
           >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 

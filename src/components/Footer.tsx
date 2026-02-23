@@ -4,29 +4,33 @@ import { Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-heading text-white/80">
-      <div className="container-main py-14">
-        <div className="grid md:grid-cols-4 gap-10">
-          {/* Company Info */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
+      <div className="container-main py-16 lg:py-20">
+        <div className="grid md:grid-cols-12 gap-10 lg:gap-14">
+          {/* Company Info - wider column */}
+          <div className="md:col-span-5">
+            <div className="mb-5">
               <img
-                src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/cropped-Logo_Forderkompass_m_Subline-320x107.png"
+                src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/Logo_Header-1.png"
                 alt="Förder-Kompass Logo"
-                className="h-9 w-auto brightness-0 invert"
+                className="h-auto w-[200px] brightness-0 invert"
               />
             </div>
-            <p className="text-white/50 text-[15px] leading-relaxed mb-5 max-w-md">
+            <p className="text-white/60 text-[15px] leading-relaxed mb-6 max-w-sm">
               Professionelle ZIM-Fördermittelberatung für den Mittelstand. Wir
               begleiten Sie von der Projektidee bis zur Bewilligung – rein
               erfolgsbasiert.
             </p>
-            <div className="space-y-2 text-sm text-white/50">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-primary-DEFAULT" />
-                Seestrasse 15c, 78333 Stockach
+            <div className="space-y-3 text-[15px] text-white/60">
+              <div className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 text-primary-DEFAULT mt-0.5 shrink-0" />
+                <span>
+                  Seestrasse 15c
+                  <br />
+                  78333 Stockach
+                </span>
               </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary-DEFAULT" />
+              <div className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-primary-DEFAULT shrink-0" />
                 <a
                   href="tel:+4977718988861"
                   className="hover:text-primary-DEFAULT transition-colors"
@@ -34,8 +38,8 @@ export default function Footer() {
                   +49 7771 8988 861
                 </a>
               </div>
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary-DEFAULT" />
+              <div className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-primary-DEFAULT shrink-0" />
                 <a
                   href="mailto:info@forschungszulagenantrag.de"
                   className="hover:text-primary-DEFAULT transition-colors"
@@ -47,14 +51,17 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-white font-semibold text-sm mb-4">
+          <div className="md:col-span-3">
+            <h4 className="text-white font-semibold text-base mb-5">
               ZIM Förderung
             </h4>
-            <ul className="space-y-2 text-sm">
+            <ul className="space-y-3 text-[15px]">
               {[
                 { label: "ZIM Einzelprojekte", href: "#zim-foerderung" },
-                { label: "ZIM Kooperationsprojekte", href: "#zim-foerderung" },
+                {
+                  label: "ZIM Kooperationsprojekte",
+                  href: "#zim-foerderung",
+                },
                 { label: "ZIM International", href: "#zim-foerderung" },
                 { label: "ZIM Fördersätze", href: "#zim-foerderung" },
                 { label: "ZIM-Rechner", href: "/zim-rechner/" },
@@ -63,7 +70,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/50 hover:text-primary-DEFAULT transition-colors"
+                    className="text-white/55 hover:text-primary-DEFAULT transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -73,11 +80,11 @@ export default function Footer() {
           </div>
 
           {/* Legal & Social */}
-          <div>
-            <h4 className="text-white font-semibold text-sm mb-4">
+          <div className="md:col-span-4 lg:col-span-4">
+            <h4 className="text-white font-semibold text-base mb-5">
               Rechtliches
             </h4>
-            <ul className="space-y-2 text-sm mb-6">
+            <ul className="space-y-3 text-[15px] mb-8">
               {[
                 { label: "Impressum", href: "/impressum/" },
                 { label: "Datenschutz", href: "/datenschutz/" },
@@ -85,7 +92,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/50 hover:text-primary-DEFAULT transition-colors"
+                    className="text-white/55 hover:text-primary-DEFAULT transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -93,7 +100,7 @@ export default function Footer() {
               ))}
             </ul>
 
-            <h4 className="text-white font-semibold text-sm mb-3">
+            <h4 className="text-white font-semibold text-base mb-4">
               Folgen Sie uns
             </h4>
             <div className="flex gap-3">
@@ -101,7 +108,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/stevekovacs/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
@@ -110,11 +117,26 @@ export default function Footer() {
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
               </a>
+            </div>
+
+            {/* Steve Kovacs Portrait */}
+            <div className="mt-8 flex items-center gap-3">
+              <img
+                src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/cropped-stevecompass2.png"
+                alt="Steve Kovacs – Geschäftsführer Förder-Kompass"
+                className="w-12 h-12 rounded-full object-cover border-2 border-primary-DEFAULT/40"
+              />
+              <div>
+                <p className="text-white text-sm font-semibold">Steve Kovacs</p>
+                <p className="text-white/50 text-xs">
+                  Geschäftsführer, Förder-Kompass
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +144,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
-        <div className="container-main py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/35">
+        <div className="container-main py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-white/40">
           <p>
             &copy; {new Date().getFullYear()} Förder-Kompass. Alle Rechte
             vorbehalten.

@@ -25,7 +25,7 @@ const highlights = [
 
 export default function AboutSection() {
   return (
-    <section id="ueber-uns" className="py-20 bg-surface-soft">
+    <section id="ueber-uns" className="py-20 section-warm">
       <div className="container-main">
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Left: About Content */}
