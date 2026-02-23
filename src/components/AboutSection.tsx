@@ -27,16 +27,16 @@ export default function AboutSection() {
   return (
     <section id="ueber-uns" className="py-20 bg-surface-soft">
       <div className="container-main">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-14 items-center">
           {/* Left: About Content */}
           <div>
-            <span className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider">
+            <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
               Über Förder-Kompass
-            </span>
-            <h2 className="text-3xl md:text-[2.5rem] mt-3 mb-6">
+            </p>
+            <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
               Ihr Partner für ZIM Fördermittelberatung
             </h2>
-            <div className="space-y-4 text-body text-lg leading-relaxed">
+            <div className="space-y-4 text-body text-[17px] leading-relaxed">
               <p>
                 Förder-Kompass ist eine spezialisierte Fördermittelberatung mit
                 Sitz am Bodensee. Unter der Leitung von Steve Kovacs
@@ -60,16 +60,18 @@ export default function AboutSection() {
           </div>
 
           {/* Right: Highlights Grid */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-5">
             {highlights.map((item) => (
               <div
                 key={item.title}
-                className="bg-surface-DEFAULT rounded-2xl p-6 border border-border-DEFAULT"
+                className="bg-white rounded-lg p-6 border border-border-DEFAULT"
               >
-                <div className="w-12 h-12 rounded-xl bg-primary-light text-primary-DEFAULT flex items-center justify-center mb-4">
-                  <item.icon className="w-6 h-6" />
+                <div className="w-10 h-10 rounded-lg bg-primary-light text-primary-DEFAULT flex items-center justify-center mb-3">
+                  <item.icon className="w-5 h-5" />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                <h3 className="text-[15px] font-semibold mb-1.5">
+                  {item.title}
+                </h3>
                 <p className="text-body text-sm leading-relaxed">
                   {item.text}
                 </p>
@@ -78,9 +80,9 @@ export default function AboutSection() {
           </div>
         </div>
 
-        {/* Partner Logos / Trust */}
-        <div className="mt-16 text-center">
-          <p className="text-body-light text-sm mb-6 uppercase tracking-wider">
+        {/* Partner Links */}
+        <div className="mt-14 text-center">
+          <p className="text-body-light text-sm mb-5 uppercase tracking-wider">
             Weitere Leistungen
           </p>
           <div className="flex flex-wrap justify-center gap-8 items-center">
@@ -88,7 +90,7 @@ export default function AboutSection() {
               href="https://forschungszulagenantrag.de"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-body hover:text-primary-DEFAULT transition-colors font-medium"
+              className="text-body hover:text-primary-DEFAULT transition-colors font-medium text-[15px]"
             >
               Forschungszulage
             </a>
@@ -97,7 +99,7 @@ export default function AboutSection() {
               href="https://foerder-kompass.de"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-body hover:text-primary-DEFAULT transition-colors font-medium"
+              className="text-body hover:text-primary-DEFAULT transition-colors font-medium text-[15px]"
             >
               Alle Fördermittel
             </a>

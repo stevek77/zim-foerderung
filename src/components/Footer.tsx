@@ -3,39 +3,24 @@ import { Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-forest-darkest text-white/80">
-      <div className="container-main py-16">
+    <footer className="bg-heading text-white/80">
+      <div className="container-main py-14">
         <div className="grid md:grid-cols-4 gap-10">
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary-DEFAULT flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M12 2L12 12L17 7" />
-                </svg>
-              </div>
-              <div>
-                <div className="text-white font-semibold text-lg">
-                  Förder-Kompass
-                </div>
-                <div className="text-white/50 text-xs">
-                  ZIM Fördermittelberatung
-                </div>
-              </div>
+              <img
+                src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/cropped-Logo_Forderkompass_m_Subline-320x107.png"
+                alt="Förder-Kompass Logo"
+                className="h-9 w-auto brightness-0 invert"
+              />
             </div>
-            <p className="text-white/60 leading-relaxed mb-6 max-w-md">
+            <p className="text-white/50 text-[15px] leading-relaxed mb-5 max-w-md">
               Professionelle ZIM-Fördermittelberatung für den Mittelstand. Wir
               begleiten Sie von der Projektidee bis zur Bewilligung – rein
               erfolgsbasiert.
             </p>
-            <div className="space-y-2 text-sm text-white/60">
+            <div className="space-y-2 text-sm text-white/50">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary-DEFAULT" />
                 Seestrasse 15c, 78333 Stockach
@@ -63,14 +48,13 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-semibold mb-4">ZIM Förderung</h4>
+            <h4 className="text-white font-semibold text-sm mb-4">
+              ZIM Förderung
+            </h4>
             <ul className="space-y-2 text-sm">
               {[
                 { label: "ZIM Einzelprojekte", href: "#zim-foerderung" },
-                {
-                  label: "ZIM Kooperationsprojekte",
-                  href: "#zim-foerderung",
-                },
+                { label: "ZIM Kooperationsprojekte", href: "#zim-foerderung" },
                 { label: "ZIM International", href: "#zim-foerderung" },
                 { label: "ZIM Fördersätze", href: "#zim-foerderung" },
                 { label: "ZIM-Rechner", href: "/zim-rechner/" },
@@ -79,7 +63,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/60 hover:text-primary-DEFAULT transition-colors"
+                    className="text-white/50 hover:text-primary-DEFAULT transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -90,7 +74,9 @@ export default function Footer() {
 
           {/* Legal & Social */}
           <div>
-            <h4 className="text-white font-semibold mb-4">Rechtliches</h4>
+            <h4 className="text-white font-semibold text-sm mb-4">
+              Rechtliches
+            </h4>
             <ul className="space-y-2 text-sm mb-6">
               {[
                 { label: "Impressum", href: "/impressum/" },
@@ -99,7 +85,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-white/60 hover:text-primary-DEFAULT transition-colors"
+                    className="text-white/50 hover:text-primary-DEFAULT transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -107,25 +93,27 @@ export default function Footer() {
               ))}
             </ul>
 
-            <h4 className="text-white font-semibold mb-3">Folgen Sie uns</h4>
+            <h4 className="text-white font-semibold text-sm mb-3">
+              Folgen Sie uns
+            </h4>
             <div className="flex gap-3">
               <a
                 href="https://www.linkedin.com/in/stevekovacs/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
+                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-4 h-4" />
               </a>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
+                className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -134,8 +122,11 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
-        <div className="container-main py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
-          <p>&copy; {new Date().getFullYear()} Förder-Kompass. Alle Rechte vorbehalten.</p>
+        <div className="container-main py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/35">
+          <p>
+            &copy; {new Date().getFullYear()} Förder-Kompass. Alle Rechte
+            vorbehalten.
+          </p>
           <p>USt-ID: DE299573120</p>
         </div>
       </div>

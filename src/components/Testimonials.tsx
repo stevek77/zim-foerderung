@@ -1,83 +1,60 @@
-import { Star, Quote } from "lucide-react";
-
 const testimonials = [
   {
+    initials: "KK",
     name: "Klaus König",
     company: "jetzt GmbH",
     role: "Geschäftsführer",
-    text: "Die Zusammenarbeit mit Förder-Kompass war hervorragend. Der ZIM-Antrag wurde professionell erstellt und innerhalb kürzester Zeit bewilligt. Die erfolgsbasierte Vergütung hat uns besonders überzeugt.",
-    rating: 5,
-    projectType: "ZIM Kooperationsprojekt",
+    text: "Als Innovationsunternehmen im Bereich Prototypenbau arbeiten wir bei der Förderung unserer F&E-Vorhaben eng mit Herrn Kovacs vom Förder-Kompass zusammen. Die strukturierte Vorgehensweise, das tiefe Fördermittel-Know-how und die praxisnahe Beratung unterstützen uns und unsere Partner dabei Entwicklungsprojekte erfolgreich fördern zu lassen.",
   },
   {
-    name: "Mosaik Physiotherapie Köln",
-    company: "NESTling Projekt",
-    role: "Projektleitung",
-    text: "Das NESTling-Projekt – ein intelligenter Schnuller zur Gesundheitsüberwachung von Neugeborenen – wurde durch die ZIM-Förderung erst möglich. Förder-Kompass hat uns durch den gesamten Antragsprozess begleitet.",
-    rating: 5,
-    projectType: "ZIM Kooperationsprojekt",
+    initials: "SE",
+    name: "Stephen John Evans",
+    company: "riidmii GmbH",
+    role: "Geschäftsführung",
+    text: "Mit Herrn Kovacs vom Förder-Kompass konnten wir unsere F&E-Arbeiten an unserer digitalen Kinderbuchplattform riidmii erfolgreich fördern lassen. Von der Antragstellung bis zur Bewilligung überzeugten uns die klare Struktur, die fachliche Tiefe und die sehr engagierte Begleitung.",
   },
   {
-    name: "Dr. Thomas M.",
-    company: "MedTech Startup",
-    role: "CTO",
-    text: "Als junges Unternehmen war die ZIM-Förderung entscheidend für unsere FuE-Aktivitäten. Die Beratung war kompetent, effizient und hat unsere Erwartungen übertroffen.",
-    rating: 5,
-    projectType: "ZIM Einzelprojekt",
+    initials: "SR",
+    name: "Simon Rock",
+    company: "Rock Invest Beteiligungs-GmbH",
+    role: "Geschäftsführer",
+    text: "Dank der Unterstützung durch das Team des Förder-Kompass konnten wir uns Fördermittel für Digitalisierungs- und F&E-Projekte unserer Firmengruppe sichern und uns voll auf die inhaltliche Weiterentwicklung konzentrieren.",
   },
 ];
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-surface-DEFAULT">
+    <section className="py-20 bg-white">
       <div className="container-main">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider">
+        <div className="text-center max-w-2xl mx-auto mb-14">
+          <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
             Kundenstimmen
-          </span>
-          <h2 className="text-3xl md:text-[2.5rem] mt-3 mb-6">
-            Was unsere Kunden über die ZIM-Beratung sagen
+          </p>
+          <h2 className="text-[2rem] md:text-[2.25rem]">
+            Was unsere Kunden sagen
           </h2>
         </div>
 
-        {/* Testimonials Grid */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial) => (
+        <div className="grid md:grid-cols-3 gap-6">
+          {testimonials.map((t) => (
             <div
-              key={testimonial.name}
-              className="bg-surface-soft rounded-2xl p-8 border border-border-DEFAULT hover:shadow-lg transition-shadow"
+              key={t.name}
+              className="bg-surface-soft rounded-lg p-7 border border-border-DEFAULT"
             >
-              {/* Quote icon */}
-              <Quote className="w-8 h-8 text-primary-DEFAULT/30 mb-4" />
-
-              {/* Stars */}
-              <div className="flex gap-1 mb-4">
-                {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star
-                    key={i}
-                    className="w-4 h-4 text-yellow-500 fill-yellow-500"
-                  />
-                ))}
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-10 h-10 rounded-full bg-primary-DEFAULT/10 text-primary-DEFAULT font-semibold text-sm flex items-center justify-center shrink-0">
+                  {t.initials}
+                </div>
+                <div>
+                  <div className="font-semibold text-heading text-sm">{t.name}</div>
+                  <div className="text-body-light text-xs">
+                    {t.role}, {t.company}
+                  </div>
+                </div>
               </div>
-
-              {/* Text */}
-              <p className="text-body leading-relaxed mb-6">
-                &ldquo;{testimonial.text}&rdquo;
+              <p className="text-body text-[15px] leading-relaxed italic">
+                &ldquo;{t.text}&rdquo;
               </p>
-
-              {/* Author */}
-              <div className="border-t border-border-DEFAULT pt-4">
-                <div className="font-semibold text-heading">
-                  {testimonial.name}
-                </div>
-                <div className="text-body-light text-sm">
-                  {testimonial.role} · {testimonial.company}
-                </div>
-                <span className="inline-block mt-2 text-xs bg-primary-light text-primary-DEFAULT rounded-full px-3 py-1">
-                  {testimonial.projectType}
-                </span>
-              </div>
             </div>
           ))}
         </div>

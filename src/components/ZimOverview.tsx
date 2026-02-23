@@ -56,17 +56,16 @@ const keyFacts = [
 
 export default function ZimOverview() {
   return (
-    <section id="zim-foerderung" className="py-20 bg-surface-DEFAULT">
+    <section id="zim-foerderung" className="py-20 bg-white">
       <div className="container-main">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider">
+        <div className="text-center max-w-3xl mx-auto mb-14">
+          <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
             Das Förderprogramm
-          </span>
-          <h2 className="text-3xl md:text-[2.5rem] mt-3 mb-6">
+          </p>
+          <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
             Was ist die ZIM Förderung?
           </h2>
-          <p className="text-body text-lg leading-relaxed">
+          <p className="text-body text-[17px] leading-relaxed">
             Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das
             wichtigste technologieoffene Förderprogramm des Bundesministeriums
             für Wirtschaft und Klimaschutz (BMWK). Es unterstützt kleine und
@@ -76,13 +75,13 @@ export default function ZimOverview() {
         </div>
 
         {/* Key Facts */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mb-14">
           {keyFacts.map((fact) => (
             <div
               key={fact.label}
-              className="text-center p-6 rounded-2xl bg-surface-soft border border-border-DEFAULT"
+              className="text-center p-6 rounded-lg bg-surface-soft border border-border-DEFAULT"
             >
-              <fact.icon className="w-8 h-8 text-primary-DEFAULT mx-auto mb-3" />
+              <fact.icon className="w-7 h-7 text-primary-DEFAULT mx-auto mb-3" />
               <div className="text-2xl font-semibold text-heading">
                 {fact.value}
               </div>
@@ -92,39 +91,39 @@ export default function ZimOverview() {
         </div>
 
         {/* Project Types */}
-        <h3 className="text-2xl md:text-[2rem] text-center mb-10">
+        <h3 className="text-[1.5rem] md:text-[1.75rem] text-center mb-8">
           ZIM Projektformen im Überblick
         </h3>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-5">
           {projectTypes.map((type) => (
             <div
               key={type.title}
-              className={`p-8 rounded-2xl border transition-shadow hover:shadow-lg ${
+              className={`p-7 rounded-lg border transition-shadow hover:shadow-md ${
                 type.highlight
-                  ? "border-primary-DEFAULT bg-primary-light/30"
-                  : "border-border-DEFAULT bg-surface-DEFAULT"
+                  ? "border-primary-DEFAULT/40 bg-primary-50"
+                  : "border-border-DEFAULT bg-surface-soft"
               }`}
             >
               <div className="flex items-start gap-4">
                 <div
-                  className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${
+                  className={`w-11 h-11 rounded-lg flex items-center justify-center shrink-0 ${
                     type.highlight
                       ? "bg-primary-DEFAULT text-white"
                       : "bg-primary-light text-primary-DEFAULT"
                   }`}
                 >
-                  <type.icon className="w-6 h-6" />
+                  <type.icon className="w-5 h-5" />
                 </div>
-                <div className="space-y-3">
-                  <h4 className="text-xl font-semibold">{type.title}</h4>
-                  <p className="text-body leading-relaxed">
+                <div className="space-y-2.5">
+                  <h4 className="text-lg font-semibold">{type.title}</h4>
+                  <p className="text-body text-[15px] leading-relaxed">
                     {type.description}
                   </p>
-                  <div className="flex flex-wrap gap-3">
-                    <span className="inline-flex items-center gap-1 text-sm font-medium text-primary-DEFAULT bg-primary-light rounded-full px-3 py-1">
+                  <div className="flex flex-wrap gap-2.5">
+                    <span className="inline-flex items-center text-sm font-medium text-primary-DEFAULT bg-primary-light rounded-full px-3 py-1">
                       {type.funding}
                     </span>
-                    <span className="inline-flex items-center gap-1 text-sm text-body-light bg-surface-soft rounded-full px-3 py-1">
+                    <span className="inline-flex items-center text-sm text-body-light bg-white rounded-full px-3 py-1 border border-border-DEFAULT">
                       {type.maxAmount}
                     </span>
                   </div>
@@ -134,16 +133,15 @@ export default function ZimOverview() {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-10">
           <a
             href="https://calendly.com/kovacs-termin"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark inline-flex items-center gap-2 shadow-lg shadow-primary-DEFAULT/20"
+            className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
           >
             Jetzt ZIM-Potenzial prüfen lassen
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </a>
         </div>
       </div>

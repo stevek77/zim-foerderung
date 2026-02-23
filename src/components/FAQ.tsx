@@ -10,35 +10,34 @@ import { faqData } from "@/lib/faq-data";
 
 export default function FAQ() {
   return (
-    <section id="faq" className="py-20 bg-surface-DEFAULT">
+    <section id="faq" className="py-20 bg-white">
       <div className="container-main">
         <div className="max-w-4xl mx-auto">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <span className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider">
+          <div className="text-center mb-14">
+            <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
               Häufige Fragen
-            </span>
-            <h2 className="text-3xl md:text-[2.5rem] mt-3 mb-6">
+            </p>
+            <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
               ZIM Förderung – Häufig gestellte Fragen
             </h2>
-            <p className="text-body text-lg leading-relaxed max-w-2xl mx-auto">
+            <p className="text-body text-[17px] leading-relaxed max-w-2xl mx-auto">
               Alles, was Sie über das ZIM-Förderprogramm wissen müssen. Finden
               Sie hier Antworten auf die häufigsten Fragen zur ZIM Förderung.
             </p>
           </div>
 
           {/* FAQ Accordion */}
-          <Accordion type="single" collapsible className="space-y-4">
+          <Accordion type="single" collapsible className="space-y-3">
             {faqData.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-surface-soft rounded-xl border border-border-DEFAULT px-6 data-[state=open]:border-primary-DEFAULT/30"
+                className="bg-surface-soft rounded-lg border border-border-DEFAULT px-6 data-[state=open]:border-primary-DEFAULT/30"
               >
-                <AccordionTrigger className="text-left text-heading font-medium text-base hover:text-primary-DEFAULT py-5 [&[data-state=open]]:text-primary-DEFAULT">
+                <AccordionTrigger className="text-left text-heading font-medium text-[15px] hover:text-primary-DEFAULT py-4 [&[data-state=open]]:text-primary-DEFAULT">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-body leading-relaxed pb-5">
+                <AccordionContent className="text-body text-[15px] leading-relaxed pb-4">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -46,11 +45,11 @@ export default function FAQ() {
           </Accordion>
 
           {/* Bottom CTA */}
-          <div className="text-center mt-12 p-8 bg-primary-light/50 rounded-2xl">
-            <h3 className="text-xl font-semibold mb-3">
+          <div className="text-center mt-10 p-7 bg-primary-light rounded-lg">
+            <h3 className="text-lg font-semibold mb-2">
               Ihre Frage nicht dabei?
             </h3>
-            <p className="text-body mb-6">
+            <p className="text-body text-[15px] mb-5">
               Vereinbaren Sie eine kostenlose Erstberatung und wir beantworten
               alle Ihre Fragen zur ZIM Förderung persönlich.
             </p>
@@ -58,7 +57,7 @@ export default function FAQ() {
               href="https://calendly.com/kovacs-termin"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark inline-flex items-center gap-2"
+              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
             >
               Kostenlose Erstberatung buchen
             </a>

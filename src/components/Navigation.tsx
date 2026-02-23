@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 
@@ -14,36 +14,37 @@ const navItems = [
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50" aria-label="Hauptnavigation">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        scrolled ? "bg-white/95 backdrop-blur-md shadow-sm" : "bg-white"
+      }`}
+      aria-label="Hauptnavigation"
+    >
       <div className="container-main">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-[72px]">
           <Link href="/" className="flex items-center gap-3 shrink-0">
-            <div className="w-10 h-10 rounded-full bg-primary-DEFAULT flex items-center justify-center">
-              <svg viewBox="0 0 24 24" className="w-6 h-6 text-white" fill="none" stroke="currentColor" strokeWidth="2">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 2L12 12L17 7" />
-              </svg>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-white font-semibold text-lg leading-tight">
-                Förder-Kompass
-              </span>
-              <span className="text-white/70 text-xs leading-tight">
-                ZIM Fördermittelberatung
-              </span>
-            </div>
+            <img
+              src="https://forschungszulagenantrag.de/wp-content/uploads/2025/12/cropped-Logo_Forderkompass_m_Subline-320x107.png"
+              alt="Förder-Kompass Logo"
+              className="h-10 w-auto"
+            />
           </Link>
 
-          {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-7">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-white/90 hover:text-primary-DEFAULT text-base font-normal transition-colors"
+                className="text-body hover:text-primary-DEFAULT text-[15px] font-normal transition-colors"
               >
                 {item.label}
               </Link>
@@ -52,16 +53,15 @@ export default function Navigation() {
               href="https://calendly.com/kovacs-termin"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark inline-flex items-center gap-2"
+              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
             >
               <Phone className="w-4 h-4" />
-              Kostenlose Erstberatung
+              Termin vereinbaren
             </a>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-white p-2"
+            className="lg:hidden text-heading p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Menü öffnen"
           >
@@ -69,27 +69,28 @@ export default function Navigation() {
           </button>
         </div>
 
-        {/* Mobile Nav */}
         {mobileOpen && (
-          <div className="lg:hidden bg-forest-dark/95 backdrop-blur-sm rounded-2xl p-6 mt-2 space-y-4">
+          <div className="lg:hidden bg-white border-t border-border-DEFAULT py-4 space-y-1">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="block text-white/90 hover:text-primary-DEFAULT text-lg py-2"
+                className="block text-body hover:text-primary-DEFAULT text-base py-3 px-2"
                 onClick={() => setMobileOpen(false)}
               >
                 {item.label}
               </Link>
             ))}
-            <a
-              href="https://calendly.com/kovacs-termin"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center block mt-4"
-            >
-              Kostenlose Erstberatung
-            </a>
+            <div className="pt-3 px-2">
+              <a
+                href="https://calendly.com/kovacs-termin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center"
+              >
+                Termin vereinbaren
+              </a>
+            </div>
           </div>
         )}
       </div>

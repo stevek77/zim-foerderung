@@ -50,15 +50,14 @@ export default function FundingTable() {
   return (
     <section className="py-20 bg-surface-soft">
       <div className="container-main">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider">
+        <div className="text-center max-w-3xl mx-auto mb-14">
+          <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
             Fördersätze & Konditionen
-          </span>
-          <h2 className="text-3xl md:text-[2.5rem] mt-3 mb-6">
+          </p>
+          <h2 className="text-[2rem] md:text-[2.25rem] mb-5">
             ZIM Fördersätze 2025/2026
           </h2>
-          <p className="text-body text-lg leading-relaxed">
+          <p className="text-body text-[17px] leading-relaxed">
             Die Höhe der ZIM-Förderung hängt von der Unternehmensgröße und der
             Projektform ab. Hier finden Sie die aktuellen Fördersätze auf Basis
             der ZIM-Richtlinie V5 vom November 2024.
@@ -67,19 +66,19 @@ export default function FundingTable() {
 
         {/* Funding Rates Table */}
         <div className="overflow-x-auto mb-12">
-          <table className="w-full bg-surface-DEFAULT rounded-2xl overflow-hidden border border-border-DEFAULT">
+          <table className="w-full bg-white rounded-lg overflow-hidden border border-border-DEFAULT">
             <thead>
-              <tr className="bg-forest-dark text-white">
-                <th className="text-left px-6 py-4 font-semibold">
+              <tr className="bg-surface-soft border-b-2 border-primary-DEFAULT/20">
+                <th className="text-left px-6 py-4 font-semibold text-heading text-sm">
                   Unternehmenstyp
                 </th>
-                <th className="text-center px-6 py-4 font-semibold">
+                <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
                   Einzelprojekt
                 </th>
-                <th className="text-center px-6 py-4 font-semibold">
+                <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
                   Koop (national)
                 </th>
-                <th className="text-center px-6 py-4 font-semibold">
+                <th className="text-center px-6 py-4 font-semibold text-heading text-sm">
                   Koop (international)
                 </th>
               </tr>
@@ -89,22 +88,22 @@ export default function FundingTable() {
                 <tr
                   key={rate.type}
                   className={`border-t border-border-DEFAULT ${
-                    i % 2 === 0 ? "bg-surface-DEFAULT" : "bg-surface-soft"
+                    i % 2 === 0 ? "bg-white" : "bg-surface-soft/50"
                   }`}
                 >
-                  <td className="px-6 py-4 font-medium text-heading">
+                  <td className="px-6 py-3.5 font-medium text-heading text-[15px]">
                     {rate.type}
                   </td>
-                  <td className="text-center px-6 py-4 text-body">
+                  <td className="text-center px-6 py-3.5 text-body text-[15px]">
                     {rate.einzelprojekt}
                   </td>
-                  <td className="text-center px-6 py-4">
-                    <span className="font-semibold text-primary-DEFAULT">
+                  <td className="text-center px-6 py-3.5">
+                    <span className="font-semibold text-primary-DEFAULT text-[15px]">
                       {rate.koopNational}
                     </span>
                   </td>
-                  <td className="text-center px-6 py-4">
-                    <span className="font-semibold text-primary-DEFAULT">
+                  <td className="text-center px-6 py-3.5">
+                    <span className="font-semibold text-primary-DEFAULT text-[15px]">
                       {rate.koopInternational}
                     </span>
                   </td>
@@ -115,16 +114,16 @@ export default function FundingTable() {
         </div>
 
         {/* Cost Caps */}
-        <h3 className="text-2xl font-semibold text-center mb-8">
+        <h3 className="text-[1.35rem] font-semibold text-center mb-7">
           Maximale Zuwendungsbeträge
         </h3>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
           {costCaps.map((cap) => (
             <div
               key={cap.label}
-              className="bg-surface-DEFAULT rounded-2xl p-6 border border-border-DEFAULT text-center"
+              className="bg-white rounded-lg p-6 border border-border-DEFAULT text-center"
             >
-              <div className="text-2xl font-bold text-primary-DEFAULT mb-2">
+              <div className="text-2xl font-bold text-primary-DEFAULT mb-1.5">
                 {cap.value}
               </div>
               <div className="text-body text-sm">{cap.label}</div>
@@ -132,18 +131,17 @@ export default function FundingTable() {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="text-center">
-          <p className="text-body mb-6">
+          <p className="text-body mb-5 text-[15px]">
             Berechnen Sie Ihre individuelle Förderhöhe mit unserem kostenlosen
             ZIM-Rechner.
           </p>
           <a
             href="/zim-rechner/"
-            className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark inline-flex items-center gap-2 shadow-lg shadow-primary-DEFAULT/20"
+            className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
           >
             ZIM-Rechner starten
-            <ArrowRight className="w-5 h-5" />
+            <ArrowRight className="w-4 h-4" />
           </a>
         </div>
       </div>
