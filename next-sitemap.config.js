@@ -12,6 +12,7 @@ module.exports = {
     // Higher priority for main pages
     const priorities = {
       "/": 1.0,
+      "/hochschulen/": 0.8,
       "/zim-rechner/": 0.9,
     };
 
