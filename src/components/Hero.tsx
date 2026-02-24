@@ -98,15 +98,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-        {/* Trust bar */}
-        <div className="relative z-10 border-t border-white/10 bg-black/30 backdrop-blur-sm">
-          <div className="container-main py-4">
-            <p className="text-center text-white/60 text-sm">
-              {content.trustBar}
-            </p>
-          </div>
-        </div>
       </section>
     </>
   );
