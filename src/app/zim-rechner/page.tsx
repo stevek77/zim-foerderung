@@ -13,10 +13,10 @@ export const metadata: Metadata = generatePageMetadata(
 
 export default function ZimRechnerPage() {
   const breadcrumbs = [
-    { name: "Startseite", url: "https://xn--zim-frderung-beantragen-oec.de/" },
+    { name: "Startseite", url: "https://xn--zim-frderung-beantragen-clc.de/" },
     {
       name: "ZIM-Rechner",
-      url: "https://xn--zim-frderung-beantragen-oec.de/zim-rechner/",
+      url: "https://xn--zim-frderung-beantragen-clc.de/zim-rechner/",
     },
   ];
 

@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://xn--zim-frderung-beantragen-oec.de",
+  siteUrl: "https://xn--zim-frderung-beantragen-clc.de",
   generateRobotsTxt: false, // We have a static robots.txt
   outDir: "./out",
   trailingSlash: true,

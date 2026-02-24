@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://xn--zim-frderung-beantragen-oec.de";
+const siteUrl = "https://xn--zim-frderung-beantragen-clc.de";
 const siteName = "ZIM Förderung beantragen | Förder-Kompass";
 
 export const defaultMetadata: Metadata = {

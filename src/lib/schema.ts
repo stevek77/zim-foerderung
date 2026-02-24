@@ -4,8 +4,8 @@ export function getOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Förder-Kompass",
-    url: "https://xn--zim-frderung-beantragen-oec.de",
-    logo: "https://xn--zim-frderung-beantragen-oec.de/logo.png",
+    url: "https://xn--zim-frderung-beantragen-clc.de",
+    logo: "https://xn--zim-frderung-beantragen-clc.de/logo.png",
     description:
       "Professionelle ZIM-Fördermittelberatung für den Mittelstand. Bis zu 60% Zuschuss für Ihre Innovationsprojekte.",
     address: {
@@ -35,8 +35,8 @@ export function getLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Förder-Kompass – ZIM Fördermittelberatung",
-    image: "https://xn--zim-frderung-beantragen-oec.de/logo.png",
-    url: "https://xn--zim-frderung-beantragen-oec.de",
+    image: "https://xn--zim-frderung-beantragen-clc.de/logo.png",
+    url: "https://xn--zim-frderung-beantragen-clc.de",
     telephone: "+49-7771-8988-861",
     email: "info@forschungszulagenantrag.de",
     priceRange: "Erfolgsbasiert",
