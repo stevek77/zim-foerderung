@@ -117,7 +117,7 @@ export default function HochschulenContent() {
     data.set("_scraper_zusammenfassung", summary);
 
     try {
-      const res = await fetch("https://formspree.io/f/FORMSPREE_ID", {
+      const res = await fetch("https://formspree.io/f/xykdlyjw", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
