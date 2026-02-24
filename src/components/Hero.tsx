@@ -11,7 +11,7 @@ export default function Hero() {
         strategy="lazyOnload"
       />
       <Script
-        src="https://fast.wistia.com/embed/ctqaldos06.js"
+        src="https://fast.wistia.com/embed/1ayfjjajmu.js"
         strategy="lazyOnload"
         type="module"
       />
@@ -88,7 +88,7 @@ export default function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/15">
               {/* @ts-expect-error - wistia-player is a custom web component */}
               <wistia-player
-                media-id="ctqaldos06"
+                media-id="1ayfjjajmu"
                 aspect="1.7777777777777777"
                 style={{
                   display: "block",

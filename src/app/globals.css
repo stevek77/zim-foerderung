@@ -4,6 +4,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Wistia player swatch placeholder before web component loads */
+wistia-player[media-id="1ayfjjajmu"]:not(:defined) {
+  background: center / contain no-repeat
+    url("https://fast.wistia.com/embed/medias/1ayfjjajmu/swatch");
+  display: block;
+  filter: blur(5px);
+  padding-top: 56.25%;
+}
+
 /* Source Sans Pro - matching forschungszulagenantrag.de */
 @font-face {
   font-family: "Source Sans Pro";
