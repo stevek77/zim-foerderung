@@ -79,8 +79,7 @@ export const defaultMetadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    // TODO: Replace with your Google Search Console verification code
-    google: process.env.NEXT_PUBLIC_GSC_VERIFICATION || undefined,
+    google: "ESz1o0fi62MotxJ4g8_lCSqiTkUUDldl_aN5osO3isY",
   },
 };
 
