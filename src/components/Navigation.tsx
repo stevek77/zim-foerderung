@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import content from "@/data/content-nav.json";
+import { trackCalendlyClick } from "@/lib/analytics";
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -48,6 +49,7 @@ export default function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
+              onClick={() => trackCalendlyClick("navigation")}
             >
               <Phone className="w-4 h-4" />
               {content.cta}
@@ -85,6 +87,7 @@ export default function Navigation() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center"
+                onClick={() => trackCalendlyClick("navigation-mobile")}
               >
                 {content.cta}
               </a>

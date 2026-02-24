@@ -1,6 +1,7 @@
 import { CheckCircle, ArrowRight } from "lucide-react";
 import Script from "next/script";
 import content from "@/data/content-hero.json";
+import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 
 export default function Hero() {
   return (
@@ -66,15 +67,13 @@ export default function Hero() {
               </div>
 
               <div className="flex flex-wrap gap-4 pt-3">
-                <a
-                  href="https://calendly.com/kovacs-termin"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <TrackedCalendlyLink
+                  location="hero"
                   className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark shadow-lg shadow-primary-DEFAULT/30"
                 >
                   {content.ctaPrimary}
                   <ArrowRight className="w-4 h-4" />
-                </a>
+                </TrackedCalendlyLink>
                 <a
                   href="#zim-foerderung"
                   className="btn-pill border-2 border-white/30 text-white hover:bg-white/10"

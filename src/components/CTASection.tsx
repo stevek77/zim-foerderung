@@ -1,5 +1,6 @@
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import content from "@/data/content-cta.json";
+import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 
 export default function CTASection() {
   return (
@@ -41,15 +42,13 @@ export default function CTASection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://calendly.com/kovacs-termin"
-              target="_blank"
-              rel="noopener noreferrer"
+            <TrackedCalendlyLink
+              location="cta-section"
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark font-semibold shadow-lg shadow-primary-DEFAULT/30"
             >
               <Phone className="w-4 h-4" />
               {content.ctaPrimary}
-            </a>
+            </TrackedCalendlyLink>
             <a
               href="/zim-rechner/"
               className="btn-pill bg-white/15 text-white hover:bg-white/25 border border-white/25 backdrop-blur-sm"

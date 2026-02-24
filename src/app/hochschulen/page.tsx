@@ -3,6 +3,7 @@ import { generatePageMetadata } from "@/lib/metadata";
 import { getBreadcrumbSchema } from "@/lib/schema";
 import Navigation from "@/components/Navigation";
 import HochschulenContent from "@/components/HochschulenContent";
+import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = generatePageMetadata(
@@ -79,14 +80,12 @@ export default function HochschulenPage() {
                 >
                   Projektidee einreichen
                 </a>
-                <a
-                  href="https://calendly.com/kovacs-termin"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <TrackedCalendlyLink
+                  location="hochschulen-hero"
                   className="btn-pill border-2 border-white/30 text-white hover:bg-white/10"
                 >
                   Erstberatung buchen
-                </a>
+                </TrackedCalendlyLink>
               </div>
             </div>
           </div>

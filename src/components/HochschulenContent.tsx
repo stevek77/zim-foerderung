@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackCalendlyClick, trackFormSubmission } from "@/lib/analytics";
 import {
   GraduationCap,
   Handshake,
@@ -123,6 +124,7 @@ export default function HochschulenContent() {
         headers: { Accept: "application/json" },
       });
       if (res.ok) {
+        trackFormSubmission("hochschulen-projektskizze");
         setFormStatus("success");
         form.reset();
         setSelectedBranchen([]);
@@ -772,6 +774,7 @@ export default function HochschulenContent() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-pill bg-white/15 text-white hover:bg-white/25 border border-white/25 backdrop-blur-sm"
+                onClick={() => trackCalendlyClick("hochschulen-cta")}
               >
                 <Phone className="w-4 h-4" />
                 Erstberatung buchen

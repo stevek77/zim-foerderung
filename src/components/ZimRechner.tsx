@@ -7,6 +7,7 @@ import {
   Phone,
   AlertTriangle,
 } from "lucide-react";
+import { trackCalendlyClick, trackCalculation } from "@/lib/analytics";
 
 type ProjectType = "einzelprojekt" | "koop_national" | "koop_international";
 type CompanySize =
@@ -428,6 +429,7 @@ export default function ZimRechner() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center flex items-center justify-center gap-2"
+                onClick={() => trackCalendlyClick("zim-rechner")}
               >
                 <Phone className="w-4 h-4" />
                 Kostenlose Beratung

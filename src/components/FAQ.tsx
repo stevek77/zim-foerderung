@@ -7,6 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import content from "@/data/content-faq.json";
+import { trackCalendlyClick } from "@/lib/analytics";
 
 export default function FAQ() {
   return (
@@ -56,6 +57,7 @@ export default function FAQ() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
+              onClick={() => trackCalendlyClick("faq")}
             >
               {content.ctaButton}
             </a>

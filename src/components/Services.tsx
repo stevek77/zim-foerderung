@@ -8,6 +8,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import content from "@/data/content-services.json";
+import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 
 const iconMap: Record<string, any> = { Search, FileCheck, PenTool, BarChart3, Shield, Handshake };
 
@@ -83,15 +84,13 @@ export default function Services() {
         </div>
 
         <div className="text-center mt-10">
-          <a
-            href="https://calendly.com/kovacs-termin"
-            target="_blank"
-            rel="noopener noreferrer"
+          <TrackedCalendlyLink
+            location="services"
             className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
           >
             {content.cta}
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </TrackedCalendlyLink>
         </div>
       </div>
     </section>
