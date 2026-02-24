@@ -22,7 +22,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Wie hoch ist die ZIM Förderung bei Einzelprojekten?",
     answer:
-      "Bei FuE-Einzelprojekten können Unternehmen maximal bis zu 690.000 Euro als Zuschuss erhalten. Die Förderquote liegt je nach Unternehmensgröße und Standort zwischen 25 und 45 Prozent der zuwendungsfähigen Kosten. Kleine Unternehmen in strukturschwachen Regionen sowie junge Unternehmen erhalten die höchste Quote.",
+      "Bei FuE-Einzelprojekten beträgt die maximale Bemessungsgrundlage 690.000 Euro an zuwendungsfähigen Kosten. Der Zuschuss ergibt sich aus dem Fördersatz (25–45 %), d. h. der maximale Zuschuss liegt je nach Unternehmensgröße zwischen ca. 172.500 und 310.500 Euro. Die Förderquote hängt von der Unternehmensgröße und dem Standort ab. Kleine Unternehmen in strukturschwachen Regionen sowie junge Unternehmen erhalten die höchste Quote.",
   },
   {
     question: "Wie hoch ist die ZIM Förderung bei Kooperationsprojekten?",

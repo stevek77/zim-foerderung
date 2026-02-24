@@ -16,7 +16,7 @@
     { "type": "Unternehmen (\u00a73.1.1b)", "einzelprojekt": "25%", "koopNational": "30%", "koopInternational": "40%" },
     { "type": "Forschungseinrichtung", "einzelprojekt": "\u2013", "koopNational": "100%", "koopInternational": "\u2013" }
   ],
-  "costCapsHeading": "Maximale Zuwendungsbetr\u00e4ge",
+  "costCapsHeading": "Maximale zuwendungsf\u00e4hige Kosten",
   "costCaps": [
     { "label": "Einzelprojekt (Unternehmen)", "value": "690.000 \u20ac" },
     { "label": "Kooperationsprojekt (pro Unternehmen)", "value": "560.000 \u20ac" },
