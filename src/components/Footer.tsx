@@ -9,15 +9,6 @@ export default function Footer() {
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16">
           {/* Company Info */}
           <div className="md:col-span-4">
-            {/* Logo - invertiert für dunklen Hintergrund */}
-            <div className="mb-6">
-              <img
-                src="/logo-foerder-kompass.jpeg"
-                alt="Förder-Kompass – Ihr Navigator durch den deutschen Förderdschungel"
-                className="h-[48px] w-auto brightness-0 invert opacity-90"
-              />
-            </div>
-
             <p className="text-white/55 text-[15px] leading-relaxed mb-8">
               {content.description}
             </p>
