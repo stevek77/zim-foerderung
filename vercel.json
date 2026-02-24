@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "zim-foerderung.vercel.app"
+        }
+      ],
+      "destination": "https://xn--zim-frderung-beantragen-clc.de/:path",
+      "permanent": true
+    }
+  ]
+}
