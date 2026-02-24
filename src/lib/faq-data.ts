@@ -104,4 +104,15 @@ export const faqData: FAQItem[] = [
     answer:
       "Das ZIM richtet sich ausschließlich an KMU und erfordert die Antragstellung vor Projektbeginn, bietet dafür aber eine Vorfinanzierung per Zuschuss mit bis zu 3 Mio. Euro. Die Forschungszulage steht allen Unternehmensgrößen offen, kann rückwirkend beantragt werden, ist aber eine steuerliche Förderung mit nachträglicher Erstattung. Beide Programme lassen sich bei sauberer Kostentrennung kombinieren.",
   },
+  {
+    question:
+      "Können Personalkosten für Geschäftsführer gefördert werden, auch wenn diese kein Gehalt beziehen?",
+    answer:
+      "Ja, das ist möglich. Grundsätzlich sind Personalkosten für Geschäftsführer förderfähig, wenn diese nachweislich am FuE-Projekt mitarbeiten – allerdings maximal bis zu 50 % der Normalarbeitszeit. Beziehen Geschäftsführer oder Unternehmensinhaber kein festes Gehalt (z. B. bei Personengesellschaften oder Einzelunternehmen), kann im Ausnahmefall ein kalkulatorischer Unternehmerlohn nach Nr. 24 der Leitsätze für die Preisermittlung auf Grund von Selbstkosten (PreisLS) angesetzt werden. Die Gehaltskosten sind dabei auf maximal 150.000 Euro pro Person und Jahr begrenzt. Als Nachweis kann der Projektträger den GF-Vertrag, die letzte Einkommensteuererklärung oder bestätigte Gewinnentnahmen anfordern.",
+  },
+  {
+    question: "Können auch Startups die ZIM-Förderung beantragen?",
+    answer:
+      "Grundsätzlich ja, allerdings müssen einige Voraussetzungen erfüllt sein. Das Unternehmen muss seine Gründung abgeschlossen haben (z. B. Handelsregistereintrag) und bereits Umsätze mit einem regelmäßig produzierten Produkt erzielen, deren Erlöse zur Finanzierung des Eigenanteils eingesetzt werden können. ZIM ist kein Gründungsprogramm – es setzt eine laufende Geschäftstätigkeit voraus. Kann ein Startup noch keine ausreichenden Umsätze nachweisen, muss es zumindest plausibel darstellen, wie der Eigenanteil (je nach Förderquote 55–75 % der Projektkosten) finanziert wird. Junge Unternehmen (Gründung innerhalb der letzten 10 Jahre) profitieren von erhöhten Förderquoten von bis zu 45 % bei Einzelprojekten und haben zusätzlich Zugang zu Durchführbarkeitsstudien mit bis zu 70 % Förderquote.",
+  },
 ];

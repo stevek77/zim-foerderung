@@ -84,6 +84,14 @@
       "answer": "Das ZIM richtet sich ausschlie\u00dflich an KMU und erfordert die Antragstellung vor Projektbeginn, bietet daf\u00fcr aber eine Vorfinanzierung per Zuschuss mit bis zu 3 Mio. Euro. Die Forschungszulage steht allen Unternehmensgr\u00f6\u00dfen offen, kann r\u00fcckwirkend beantragt werden, ist aber eine steuerliche F\u00f6rderung mit nachtr\u00e4glicher Erstattung. Beide Programme lassen sich bei sauberer Kostentrennung kombinieren."
     },
     {
+      "question": "K\u00f6nnen Personalkosten f\u00fcr Gesch\u00e4ftsf\u00fchrer gef\u00f6rdert werden, auch wenn diese kein Gehalt beziehen?",
+      "answer": "Ja, das ist m\u00f6glich. Grunds\u00e4tzlich sind Personalkosten f\u00fcr Gesch\u00e4ftsf\u00fchrer förderfähig, wenn diese nachweislich am FuE-Projekt mitarbeiten \u2013 allerdings maximal bis zu 50\u00a0% der Normalarbeitszeit. Beziehen Gesch\u00e4ftsf\u00fchrer oder Unternehmensinhaber kein festes Gehalt (z.\u00a0B. bei Personengesellschaften oder Einzelunternehmen), kann im Ausnahmefall ein kalkulatorischer Unternehmerlohn nach Nr.\u00a024 der Leitsätze f\u00fcr die Preisermittlung auf Grund von Selbstkosten (PreisLS) angesetzt werden. Die Gehaltskosten sind dabei auf maximal 150.000\u00a0Euro pro Person und Jahr begrenzt. Als Nachweis kann der Projekttr\u00e4ger den GF-Vertrag, die letzte Einkommensteuererkl\u00e4rung oder best\u00e4tigte Gewinnentnahmen anfordern."
+    },
+    {
+      "question": "K\u00f6nnen auch Startups die ZIM-F\u00f6rderung beantragen?",
+      "answer": "Grunds\u00e4tzlich ja, allerdings m\u00fcssen einige Voraussetzungen erf\u00fcllt sein. Das Unternehmen muss seine Gr\u00fcndung abgeschlossen haben (z.\u00a0B. Handelsregistereintrag) und bereits Ums\u00e4tze mit einem regelm\u00e4\u00dfig produzierten Produkt erzielen, deren Erl\u00f6se zur Finanzierung des Eigenanteils eingesetzt werden k\u00f6nnen. ZIM ist kein Gr\u00fcndungsprogramm \u2013 es setzt eine laufende Gesch\u00e4ftst\u00e4tigkeit voraus. Kann ein Startup noch keine ausreichenden Ums\u00e4tze nachweisen, muss es zumindest plausibel darstellen, wie der Eigenanteil (je nach F\u00f6rderquote 55\u201375\u00a0% der Projektkosten) finanziert wird. Junge Unternehmen (Gr\u00fcndung innerhalb der letzten 10 Jahre) profitieren von erh\u00f6hten F\u00f6rderquoten von bis zu 45\u00a0% bei Einzelprojekten und haben zus\u00e4tzlich Zugang zu Durchf\u00fchrbarkeitsstudien mit bis zu 70\u00a0% F\u00f6rderquote."
+    },
+    {
       "question": "Unterst\u00fctzt F\u00f6rder-Kompass auch Hochschulen bei ZIM-Kooperationsprojekten?",
       "answer": "Ja! Viele ZIM-Projekte entstehen durch Forschungsideen an Hochschulen. F\u00f6rder-Kompass unterst\u00fctzt Forscher*innen und Transfer-/Forschungsstellen bei der Suche nach Unternehmenspartnern, der Antragstellung und Projektabwicklung \u2014 kostenfrei f\u00fcr die Hochschule. Mehr Informationen finden Sie auf unserer Seite f\u00fcr Hochschulen."
     }
