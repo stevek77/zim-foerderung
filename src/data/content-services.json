@@ -45,7 +45,7 @@
   "stats": [
     { "value": ">85%", "label": "Bewilligungsquote" },
     { "value": "50+", "label": "Bewilligte Projekte" },
-    { "value": "100%", "label": "Erfolgsbasiert" },
+    { "value": "100%", "label": "Erfolgsbasiert*" },
     { "value": "0 \u20ac", "label": "Bei Ablehnung" }
   ],
   "cta": "Jetzt kostenlos beraten lassen"

@@ -33,7 +33,7 @@ const hochschulFaq = [
     question:
       "Muss die Hochschule bei der Antragstellung etwas bezahlen?",
     answer:
-      "Nein, für die Hochschule entstehen keine Kosten. Die Vergütung erfolgt ausschließlich durch die am Projekt beteiligten Unternehmen (KMU) — rein erfolgsbasiert.",
+      "Nein, für die Hochschule entstehen keine Kosten. Die Vergütung erfolgt ausschließlich durch die am Projekt beteiligten Unternehmen (KMU) — rein erfolgsbasiert*.",
   },
   {
     question:
@@ -158,7 +158,7 @@ export default function HochschulenContent() {
               {
                 icon: GraduationCap,
                 title: "Kostenfrei für Hochschulen",
-                text: "Die Vergütung erfolgt ausschließlich durch die beteiligten KMU — rein erfolgsbasiert. Für Ihre Hochschule entstehen keine Kosten.",
+                text: "Die Vergütung erfolgt ausschließlich durch die beteiligten KMU — rein erfolgsbasiert*. Für Ihre Hochschule entstehen keine Kosten.",
               },
               {
                 icon: Search,

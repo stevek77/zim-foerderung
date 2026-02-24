@@ -52,7 +52,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Was kostet die ZIM-Beratung durch Förder-Kompass?",
     answer:
-      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns. Mit professioneller Unterstützung steigt die Bewilligungsquote auf über 85%.",
+      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert* – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns. Mit professioneller Unterstützung steigt die Bewilligungsquote auf über 85%. *Hinweis: Das Beratungshonorar für die Unterstützung bei der Antragstellung wird vom Antragsteller vollständig eigenfinanziert und nicht als zuwendungsfähige Kosten im ZIM-Projekt geltend gemacht. Eine etwaige erfolgsabhängige Vergütung ist Bestandteil des Beratungsvertrags zwischen Antragsteller und Förderberater und niemals Gegenstand der Projektkosten.",
   },
   {
     question: "Kann man ZIM mit der Forschungszulage kombinieren?",

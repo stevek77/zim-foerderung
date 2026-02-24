@@ -136,6 +136,19 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Disclaimer */}
+      <div className="border-t border-white/10">
+        <div className="container-main pt-5 pb-2">
+          <p className="text-white/35 text-xs leading-relaxed">
+            * Das Beratungshonorar für die Unterstützung bei der Antragstellung wird vom
+            Antragsteller vollständig eigenfinanziert und nicht als zuwendungsfähige Kosten
+            im ZIM-Projekt geltend gemacht. Eine etwaige erfolgsabhängige Vergütung ist
+            Bestandteil des Beratungsvertrags zwischen Antragsteller und Förderberater und
+            niemals Gegenstand der Projektkosten.
+          </p>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="container-main py-5 text-center text-sm text-white/35">

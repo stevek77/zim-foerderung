@@ -6,11 +6,11 @@
   "bodyPrefix": "Unser Team vom",
   "bodyBrand": "Förder-Kompass",
   "bodyMiddle": "beantragt die ZIM Förderung für Sie",
-  "bodyHighlight": "auf Erfolgsbasis.",
+  "bodyHighlight": "auf Erfolgsbasis.*",
   "bodySuffix": "Erhalten Sie nicht-rückzahlbare Zuschüsse für Ihre Innovationsprojekte.",
   "trustPoints": [
     "bis zu 60% Zuschuss für FuE-Projekte",
-    "rein erfolgsbasierte Vergütung",
+    "rein erfolgsbasierte Vergütung*",
     "kostenlose Erstberatung",
     "hohe Bewilligungsquote "
   ],
