@@ -324,7 +324,7 @@ export default function ZimRechner() {
           {/* Right: Results */}
           <div className="lg:col-span-2 space-y-6">
             {/* Main Result Card */}
-            <div className="bg-heading rounded-2xl p-8 text-white sticky top-8">
+            <div className="bg-heading rounded-2xl p-8 text-white">
               <h3 className="text-lg font-medium text-white/80 mb-2">
                 Ihre geschätzte ZIM-Förderung
               </h3>
