@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Linkedin, Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
 import content from "@/data/content-footer.json";
 
 export default function Footer() {
@@ -121,6 +121,15 @@ export default function Footer() {
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4" />
+              </a>
+              <a
+                href={content.social.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary-DEFAULT transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="w-4 h-4" />
               </a>
             </div>
           </div>
