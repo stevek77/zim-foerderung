@@ -138,7 +138,7 @@ export default function Footer() {
 
       {/* Disclaimer */}
       <div className="border-t border-white/10">
-        <div className="container-main pt-5 pb-2">
+        <div className="container-main pt-5 pb-6">
           <p className="text-white/35 text-xs leading-relaxed">
             * Das Beratungshonorar für die Unterstützung bei der Antragstellung wird vom
             Antragsteller vollständig eigenfinanziert und nicht als zuwendungsfähige Kosten
