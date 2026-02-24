@@ -5,7 +5,7 @@ import content from "@/data/content-footer.json";
 export default function Footer() {
   return (
     <footer className="bg-heading text-white/80">
-      <div className="container-main py-16 lg:py-20">
+      <div className="container-main" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
         <div className="grid md:grid-cols-12 gap-12 lg:gap-16">
           {/* Company Info */}
           <div className="md:col-span-4">
