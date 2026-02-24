@@ -112,6 +112,60 @@ export function getFAQSchema(
   };
 }
 
+export function getHowToSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: "ZIM Förderung beantragen – Schritt für Schritt",
+    description:
+      "So beantragen Sie ZIM-Fördermittel für Ihr Innovationsprojekt. Von der Erstberatung bis zur Bewilligung in 6 Schritten.",
+    totalTime: "P8W",
+    estimatedCost: {
+      "@type": "MonetaryAmount",
+      currency: "EUR",
+      value: "0",
+    },
+    step: [
+      {
+        "@type": "HowToStep",
+        position: 1,
+        name: "Kostenlose Erstberatung",
+        text: "Projektidee auf ZIM-Förderfähigkeit prüfen lassen. Förder-Kompass analysiert Innovationsgrad, Unternehmensgröße und optimale Projektform.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 2,
+        name: "Förderfähigkeitsprüfung",
+        text: "Detaillierte Analyse des Unternehmens, des Innovationsgrads und der technischen Risiken. Abgleich mit allen ZIM-Anforderungen der Richtlinie V5.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 3,
+        name: "Antragserstellung",
+        text: "Professionelle Erstellung der Projektbeschreibung (Anhänge 1-4), Kostenplanung und aller Antragsformulare nach ZIM-Richtlinie.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 4,
+        name: "Kalkulation & Compliance",
+        text: "Optimierung der Kostenplanung innerhalb der ZIM-Fördergrenzen. Personalkostenkalkulation und Drittkosten-Optimierung.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 5,
+        name: "Qualitätssicherung",
+        text: "Gutachter-Simulation und Konsistenzprüfung. Optimierung anhand der bekannten Bewertungskriterien der Projektträger.",
+      },
+      {
+        "@type": "HowToStep",
+        position: 6,
+        name: "Einreichung beim Projektträger",
+        text: "Digitale Einreichung über die Förderzentrale Deutschland (FZD). Begleitung bei Rückfragen und Unterstützung bis zur Zuwendungsvereinbarung.",
+      },
+    ],
+  };
+}
+
 export function getBreadcrumbSchema(
   items: Array<{ name: string; url: string }>
 ) {

@@ -6,9 +6,10 @@ import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import AboutSection from "@/components/AboutSection";
+import GeoContent from "@/components/GeoContent";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import { getFAQSchema } from "@/lib/schema";
+import { getFAQSchema, getHowToSchema } from "@/lib/schema";
 import { faqData } from "@/lib/faq-data";
 
 export default function Home() {
@@ -21,6 +22,13 @@ export default function Home() {
           __html: JSON.stringify(getFAQSchema(faqData)),
         }}
       />
+      {/* HowTo Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getHowToSchema()),
+        }}
+      />
 
       <Navigation />
       <main>
@@ -30,6 +38,7 @@ export default function Home() {
         <Services />
         <Testimonials />
         <FAQ />
+        <GeoContent />
         <AboutSection />
         <CTASection />
       </main>

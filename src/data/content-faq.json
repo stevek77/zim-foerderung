@@ -5,11 +5,11 @@
   "items": [
     {
       "question": "Was ist das ZIM-F\u00f6rderprogramm?",
-      "answer": "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein F\u00f6rderprogramm des Bundesministeriums f\u00fcr Wirtschaft und Klimaschutz (BMWK), das seit 2008 die Innovationskraft mittelst\u00e4ndischer Unternehmen st\u00e4rkt. Es f\u00f6rdert technologie- und branchenoffen Forschungs- und Entwicklungsprojekte (FuE) mit nicht-r\u00fcckzahlbaren Zusch\u00fcssen von bis zu 60% der Projektkosten. Mit einem j\u00e4hrlichen Budget von rund 630 Mio. Euro geh\u00f6rt es zu den wichtigsten Innovationsf\u00f6rderprogrammen in Deutschland."
+      "answer": "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein F\u00f6rderprogramm des Bundesministeriums f\u00fcr Wirtschaft und Klimaschutz (BMWK), das seit 2008 die Innovationskraft mittelst\u00e4ndischer Unternehmen st\u00e4rkt. Gem\u00e4\u00df der aktuellen ZIM-Richtlinie V5 (Bundesanzeiger, 01.11.2024, g\u00fcltig ab 01.01.2025) f\u00f6rdert es technologie- und branchenoffen Forschungs- und Entwicklungsprojekte (FuE) mit nicht-r\u00fcckzahlbaren Zusch\u00fcssen von bis zu 60\u00a0% der zuwendungsf\u00e4higen Kosten. Das j\u00e4hrliche Programmbudget betr\u00e4gt rund 630\u00a0Mio.\u00a0Euro, womit das ZIM zu den wichtigsten Innovationsf\u00f6rderprogrammen in Deutschland z\u00e4hlt."
     },
     {
       "question": "Wer kann ZIM F\u00f6rderung beantragen?",
-      "answer": "Antragsberechtigt sind kleine Unternehmen (unter 50 Mitarbeiter), mittlere Unternehmen (unter 250 Mitarbeiter) sowie weitere mittelst\u00e4ndische Unternehmen mit unter 500 bzw. unter 1.000 Besch\u00e4ftigten. Unternehmen mit bis zu 1.000 Mitarbeitern k\u00f6nnen gef\u00f6rdert werden, wenn sie mit einem KMU kooperieren. Auch Forschungseinrichtungen k\u00f6nnen als Kooperationspartner teilnehmen. Eine Betriebsst\u00e4tte in Deutschland ist zwingend erforderlich."
+      "answer": "Laut ZIM-Richtlinie V5 sind antragsberechtigt: kleine Unternehmen (unter 50 Mitarbeiter, unter 10\u00a0Mio.\u00a0\u20ac Umsatz), mittlere Unternehmen (unter 250 Mitarbeiter, unter 50\u00a0Mio.\u00a0\u20ac Umsatz) sowie weitere mittelst\u00e4ndische Unternehmen mit unter 500 bzw. unter 1.000 Besch\u00e4ftigten. Unternehmen mit bis zu 1.000 Mitarbeitern k\u00f6nnen gef\u00f6rdert werden, sofern sie mit einem KMU kooperieren. Auch Forschungseinrichtungen k\u00f6nnen als Kooperationspartner teilnehmen. Eine Betriebsst\u00e4tte in Deutschland ist zwingend erforderlich."
     },
     {
       "question": "Welche ZIM-Projektformen gibt es?",
@@ -25,7 +25,7 @@
     },
     {
       "question": "Welche Kosten werden durch ZIM gef\u00f6rdert?",
-      "answer": "Gef\u00f6rdert werden prim\u00e4r Personalkosten der am Projekt beteiligten Mitarbeiter (maximal 120.000 Euro Bruttojahresgehalt pro Person). Dazu kommen projektbezogene Kosten f\u00fcr Instrumente und Ausr\u00fcstung, Auftragsforschung und Beratung, Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug."
+      "answer": "Gem\u00e4\u00df ZIM-Richtlinie V5 werden prim\u00e4r Personalkosten der am Projekt beteiligten Mitarbeiter gef\u00f6rdert (maximal 120.000\u00a0Euro Bruttojahresgehalt je Person, bei Gesch\u00e4ftsf\u00fchrern bis zu 150.000\u00a0Euro). Dar\u00fcber hinaus sind projektbezogene Kosten f\u00fcr Instrumente und Ausr\u00fcstung, Auftragsforschung und Beratung (max. 25\u00a0% der Personalkosten), Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug zuwendungsf\u00e4hig."
     },
     {
       "question": "Was sind die Voraussetzungen f\u00fcr eine ZIM F\u00f6rderung?",
@@ -33,7 +33,7 @@
     },
     {
       "question": "Wann und wo kann ich einen ZIM-Antrag stellen?",
-      "answer": "ZIM-Antr\u00e4ge k\u00f6nnen jederzeit \u00fcber das Online-Portal der F\u00f6rderzentrale Deutschland (FZD) volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden."
+      "answer": "ZIM-Antr\u00e4ge k\u00f6nnen jederzeit \u00fcber das Online-Portal der F\u00f6rderzentrale Deutschland (FZD) unter foerderzentrale.de volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen \u2013 das ZIM ist ganzj\u00e4hrig ge\u00f6ffnet. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden (sogenannter vorzeitiger Ma\u00dfnahmenbeginn f\u00fchrt zum Ausschluss)."
     },
     {
       "question": "Wie lange dauert die Bearbeitung eines ZIM-Antrags?",

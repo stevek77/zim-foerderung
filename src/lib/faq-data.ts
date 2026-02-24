@@ -7,12 +7,12 @@ export const faqData: FAQItem[] = [
   {
     question: "Was ist das ZIM-Förderprogramm?",
     answer:
-      "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein Förderprogramm des Bundesministeriums für Wirtschaft und Klimaschutz (BMWK), das seit 2008 die Innovationskraft mittelständischer Unternehmen stärkt. Es fördert technologie- und branchenoffen Forschungs- und Entwicklungsprojekte (FuE) mit nicht-rückzahlbaren Zuschüssen von bis zu 60% der Projektkosten. Mit einem jährlichen Budget von rund 630 Mio. Euro gehört es zu den wichtigsten Innovationsförderprogrammen in Deutschland.",
+      "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist ein Förderprogramm des Bundesministeriums für Wirtschaft und Klimaschutz (BMWK), das seit 2008 die Innovationskraft mittelständischer Unternehmen stärkt. Gemäß der aktuellen ZIM-Richtlinie V5 (Bundesanzeiger, 01.11.2024, gültig ab 01.01.2025) fördert es technologie- und branchenoffen Forschungs- und Entwicklungsprojekte (FuE) mit nicht-rückzahlbaren Zuschüssen von bis zu 60 % der zuwendungsfähigen Kosten. Das jährliche Programmbudget beträgt rund 630 Mio. Euro, womit das ZIM zu den wichtigsten Innovationsförderprogrammen in Deutschland zählt.",
   },
   {
     question: "Wer kann ZIM Förderung beantragen?",
     answer:
-      "Antragsberechtigt sind kleine Unternehmen (unter 50 Mitarbeiter), mittlere Unternehmen (unter 250 Mitarbeiter) sowie weitere mittelständische Unternehmen mit unter 500 bzw. unter 1.000 Beschäftigten. Unternehmen mit bis zu 1.000 Mitarbeitern können gefördert werden, wenn sie mit einem KMU kooperieren. Auch Forschungseinrichtungen können als Kooperationspartner teilnehmen. Eine Betriebsstätte in Deutschland ist zwingend erforderlich.",
+      "Laut ZIM-Richtlinie V5 sind antragsberechtigt: kleine Unternehmen (unter 50 Mitarbeiter, unter 10 Mio. € Umsatz), mittlere Unternehmen (unter 250 Mitarbeiter, unter 50 Mio. € Umsatz) sowie weitere mittelständische Unternehmen mit unter 500 bzw. unter 1.000 Beschäftigten. Unternehmen mit bis zu 1.000 Mitarbeitern können gefördert werden, sofern sie mit einem KMU kooperieren. Auch Forschungseinrichtungen können als Kooperationspartner teilnehmen. Eine Betriebsstätte in Deutschland ist zwingend erforderlich.",
   },
   {
     question: "Welche ZIM-Projektformen gibt es?",
@@ -32,7 +32,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Welche Kosten werden durch ZIM gefördert?",
     answer:
-      "Gefördert werden primär Personalkosten der am Projekt beteiligten Mitarbeiter (maximal 120.000 Euro Bruttojahresgehalt pro Person). Dazu kommen projektbezogene Kosten für Instrumente und Ausrüstung, Auftragsforschung und Beratung, Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug.",
+      "Gemäß ZIM-Richtlinie V5 werden primär Personalkosten der am Projekt beteiligten Mitarbeiter gefördert (maximal 120.000 Euro Bruttojahresgehalt je Person, bei Geschäftsführern bis zu 150.000 Euro). Darüber hinaus sind projektbezogene Kosten für Instrumente und Ausrüstung, Auftragsforschung und Beratung (max. 25 % der Personalkosten), Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug zuwendungsfähig.",
   },
   {
     question: "Was sind die Voraussetzungen für eine ZIM Förderung?",
@@ -42,7 +42,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Wann und wo kann ich einen ZIM-Antrag stellen?",
     answer:
-      "ZIM-Anträge können jederzeit über das Online-Portal der Förderzentrale Deutschland (FZD) volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden.",
+      "ZIM-Anträge können jederzeit über das Online-Portal der Förderzentrale Deutschland (FZD) unter foerderzentrale.de volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen – das ZIM ist ganzjährig geöffnet. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden (sogenannter vorzeitiger Maßnahmenbeginn führt zum Ausschluss).",
   },
   {
     question: "Wie lange dauert die Bearbeitung eines ZIM-Antrags?",

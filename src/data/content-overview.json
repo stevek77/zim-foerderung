@@ -1,7 +1,7 @@
 {
   "label": "Das F\u00f6rderprogramm",
   "heading": "Was ist die ZIM F\u00f6rderung?",
-  "description": "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das wichtigste technologieoffene F\u00f6rderprogramm des Bundesministeriums f\u00fcr Wirtschaft und Klimaschutz (BMWK). Es unterst\u00fctzt kleine und mittlere Unternehmen bei der Durchf\u00fchrung innovativer Forschungs- und Entwicklungsprojekte mit nicht-r\u00fcckzahlbaren Zusch\u00fcssen.",
+  "description": "Das Zentrale Innovationsprogramm Mittelstand (ZIM) ist das wichtigste technologieoffene F\u00f6rderprogramm des Bundesministeriums f\u00fcr Wirtschaft und Klimaschutz (BMWK). Laut der aktuellen ZIM-Richtlinie V5 (November 2024) f\u00f6rdert es kleine und mittlere Unternehmen mit nicht-r\u00fcckzahlbaren Zusch\u00fcssen von bis zu 60\u00a0% der zuwendungsf\u00e4higen Kosten. Das j\u00e4hrliche Programmbudget betr\u00e4gt rund 630\u00a0Mio.\u00a0Euro.",
   "keyFacts": [
     { "icon": "Euro", "value": "Bis zu 60%", "label": "F\u00f6rderquote" },
     { "icon": "TrendingUp", "value": "3 Mio. \u20ac", "label": "Max. Gesamtf\u00f6rderung" },
@@ -13,7 +13,7 @@
     {
       "icon": "Lightbulb",
       "title": "ZIM Einzelprojekte",
-      "description": "F\u00fcr einzelne KMU, die eigenst\u00e4ndig ein FuE-Projekt durchf\u00fchren. Ideal f\u00fcr Unternehmen mit eigener Entwicklungsabteilung.",
+      "description": "F\u00fcr einzelne KMU, die eigenst\u00e4ndig ein FuE-Projekt durchf\u00fchren. Gem\u00e4\u00df ZIM-Richtlinie V5 betr\u00e4gt die max. Bemessungsgrundlage 690.000\u00a0\u20ac bei F\u00f6rders\u00e4tzen von 25\u201345\u00a0%.",
       "funding": "Bis zu 45% F\u00f6rderquote",
       "maxAmount": "Max. 690.000 \u20ac Kosten",
       "highlight": false
@@ -21,7 +21,7 @@
     {
       "icon": "Users",
       "title": "ZIM Kooperationsprojekte",
-      "description": "F\u00fcr mindestens zwei KMU oder ein KMU mit einer Forschungseinrichtung. Die h\u00e4ufigste und erfolgreichste Projektform.",
+      "description": "F\u00fcr mindestens zwei KMU oder ein KMU mit einer Forschungseinrichtung. Die h\u00e4ufigste Projektform mit F\u00f6rders\u00e4tzen von 30\u201355\u00a0% und bis zu 3\u00a0Mio.\u00a0\u20ac Gesamtf\u00f6rderung.",
       "funding": "Bis zu 55% F\u00f6rderquote",
       "maxAmount": "Max. 560.000 \u20ac pro Partner",
       "highlight": true
@@ -29,7 +29,7 @@
     {
       "icon": "Globe",
       "title": "ZIM International (IraSME)",
-      "description": "F\u00fcr grenz\u00fcberschreitende FuE-Kooperationen, z.B. mit Partnern aus der Schweiz, \u00d6sterreich oder weiteren L\u00e4ndern.",
+      "description": "F\u00fcr grenz\u00fcberschreitende FuE-Kooperationen mit Partnern aus \u00fcber 30 L\u00e4ndern (u.\u00a0a. Schweiz, \u00d6sterreich, Frankreich). H\u00f6chste F\u00f6rderquote im ZIM mit bis zu 60\u00a0%.",
       "funding": "Bis zu 60% F\u00f6rderquote",
       "maxAmount": "Max. 560.000 \u20ac pro Partner",
       "highlight": false
@@ -37,7 +37,7 @@
     {
       "icon": "FileText",
       "title": "Durchf\u00fchrbarkeitsstudien",
-      "description": "Zur Pr\u00fcfung der technischen Machbarkeit und wirtschaftlichen Erfolgsaussichten vor dem eigentlichen FuE-Projekt.",
+      "description": "Zur Pr\u00fcfung der technischen Machbarkeit vor dem eigentlichen FuE-Projekt. F\u00f6rderquoten von 50\u201370\u00a0% f\u00fcr junge Unternehmen und Erstantragsteller.",
       "funding": "Bis zu 55% F\u00f6rderquote",
       "maxAmount": "Max. 125.000 \u20ac (Einzel)",
       "highlight": false

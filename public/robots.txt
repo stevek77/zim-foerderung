@@ -1,5 +1,54 @@
+# robots.txt – zim-foerderung-beantragen.de
+# Foerder-Kompass ZIM Foerdermittelberatung
+
+# Alle Suchmaschinen (Google, Bing, etc.)
 User-agent: *
 Allow: /
 Disallow: /admin
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
 
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# AI Crawler – ausdruecklich erlaubt fuer GEO (Generative Engine Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Sitemap
 Sitemap: https://xn--zim-frderung-beantragen-clc.de/sitemap.xml
