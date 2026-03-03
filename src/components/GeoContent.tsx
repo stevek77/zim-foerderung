@@ -9,7 +9,7 @@ export default function GeoContent() {
       <div className="container-main">
         <article className="max-w-4xl mx-auto prose prose-lg prose-headings:text-heading prose-p:text-body prose-p:text-[15.5px] prose-p:leading-relaxed">
           <h2 className="text-[1.75rem] md:text-[2rem] text-center mb-8">
-            ZIM Förderung 2025 – Der vollständige Leitfaden
+            ZIM Förderung 2025/2026 – Der vollständige Leitfaden
           </h2>
 
           <p>
@@ -86,6 +86,41 @@ export default function GeoContent() {
             50 erfolgreich bewilligten Projekten gehört Förder-Kompass zu den
             erfahrensten ZIM-Beratern in Deutschland. Die Erstberatung ist kostenlos,
             die Vergütung erfolgt rein erfolgsbasiert*.
+          </p>
+
+          <h3 className="text-[1.25rem] font-semibold mt-8 mb-3">
+            ZIM Förderung in Baden-Württemberg
+          </h3>
+          <p>
+            Baden-Württemberg zählt zu den innovationsstärksten Regionen Europas
+            und bietet mit seiner hohen Dichte an kleinen und mittleren
+            Unternehmen sowie renommierten Forschungseinrichtungen ideale
+            Voraussetzungen für ZIM-geförderte Innovationsprojekte. Besonders
+            die Bodensee-Region, Oberschwaben, der Hochrhein, der Schwarzwald
+            und die Schwäbische Alb sind geprägt von einem starken
+            produzierenden Gewerbe mit hohem Innovationsbedarf. Unternehmen aus
+            Konstanz, Ravensburg, Friedrichshafen, Singen,
+            Villingen-Schwenningen, Freiburg, Reutlingen, Tübingen, Ulm und
+            Stuttgart nutzen die ZIM-Förderung, um Forschungs- und
+            Entwicklungsprojekte mit bis zu 60&nbsp;% Zuschuss umzusetzen.
+          </p>
+          <p>
+            Förder-Kompass berät Unternehmen in ganz Baden-Württemberg und
+            darüber hinaus bundesweit. Durch die Nähe zu den IHK-Bezirken
+            Hochrhein-Bodensee und Bodensee-Oberschwaben sowie zu zahlreichen
+            Hochschulen für Angewandte Wissenschaften (HAW) in der Region
+            entstehen starke Kooperationsnetzwerke zwischen Wirtschaft und
+            Forschung. Ob Einzelprojekt oder Kooperationsprojekt mit einer
+            Hochschule – eine kostenlose Erstberatung zeigt Ihnen in
+            30&nbsp;Minuten, ob Ihr Vorhaben förderfähig ist. Nutzen Sie auch
+            unseren{" "}
+            <a
+              href="/#schnellcheck"
+              className="text-primary-DEFAULT hover:underline font-medium"
+            >
+              kostenlosen ZIM Fördercheck
+            </a>
+            , um Ihre Förderperspektiven in 2&nbsp;Minuten zu prüfen.
           </p>
         </article>
       </div>

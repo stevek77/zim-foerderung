@@ -739,6 +739,85 @@ export default function HochschulenContent() {
         </div>
       </section>
 
+      {/* ─────────── SECTION: GEO-Content ─────────── */}
+      <section className="py-16 lg:py-20">
+        <div className="container-main">
+          <article className="max-w-4xl mx-auto prose prose-lg prose-headings:text-heading prose-p:text-body prose-p:text-[15.5px] prose-p:leading-relaxed">
+            <h2 className="text-[1.75rem] md:text-[2rem] text-center mb-8">
+              ZIM-Kooperationsprojekte: Leitfaden für Hochschulen und
+              Forschungseinrichtungen
+            </h2>
+
+            <p>
+              Das <strong>Zentrale Innovationsprogramm Mittelstand (ZIM)</strong>{" "}
+              fördert Kooperationsprojekte zwischen Unternehmen und
+              Forschungseinrichtungen mit besonders attraktiven Konditionen.
+              Forschungseinrichtungen — darunter staatliche und private
+              Hochschulen, Hochschulen für Angewandte Wissenschaften (HAW),
+              Duale Hochschulen (DHBW), Fachhochschulen sowie
+              außeruniversitäre Forschungseinrichtungen — erhalten bis zu{" "}
+              <strong>100&nbsp;% der zuwendungsfähigen Kosten</strong> als
+              nicht-rückzahlbaren Zuschuss. Die maximalen zuwendungsfähigen
+              Kosten betragen 220.000&nbsp;€ pro Forschungseinrichtung in
+              einem Kooperationsprojekt (gemäß ZIM-Richtlinie V5, Abschnitt
+              5.2).
+            </p>
+
+            <h3 className="text-[1.25rem] font-semibold mt-8 mb-3">
+              Die Herausforderung: Passende Unternehmenspartner finden
+            </h3>
+            <p>
+              In der Praxis gehen die meisten ZIM-Kooperationsprojekte von
+              Hochschulen aus. Forschungsreferate, Transferstellen, Institute
+              und Institutes for Applied Research (IAF) entwickeln
+              Projektideen, die anwendungsnahe Forschung mit industrieller
+              Umsetzung verbinden. Die zentrale Hürde: Für die Antragstellung
+              wird mindestens ein Unternehmenspartner (KMU) benötigt. Viele
+              Hochschulen — insbesondere HAWs, DHBWs und Fachhochschulen —
+              verfügen zwar über Kontakte zur Wirtschaft, diese sind jedoch
+              häufig nicht systematisch gepflegt. Die ad-hoc-Suche nach einem
+              passenden Unternehmenspartner für eine konkrete
+              Forschungsprojektidee gelingt daher oft nicht in der
+              erforderlichen Geschwindigkeit.
+            </p>
+
+            <h3 className="text-[1.25rem] font-semibold mt-8 mb-3">
+              Wie Förder-Kompass Hochschulen unterstützt
+            </h3>
+            <p>
+              Förder-Kompass übernimmt die vollständige Projektanbahnung und
+              Antragstellung — für Hochschulen <strong>kostenfrei</strong>. Die
+              Vergütung erfolgt ausschließlich durch die beteiligten
+              Unternehmen, rein erfolgsbasiert*. Unser Leistungsumfang umfasst:
+              KI-gestützte Suche nach passenden Unternehmenspartnern anhand von
+              Branchenfokus, Technologieprofil und Projektanforderungen;
+              Organisation von Kickoff-Meetings zwischen Forschenden und
+              vorselektierten Zielunternehmen; Koordination der vollständigen
+              Antragstellung inklusive aller Vorhabenbeschreibungen und Anlagen;
+              sowie Begleitung der Projektabwicklung bis zum Abschlussbericht.
+            </p>
+
+            <h3 className="text-[1.25rem] font-semibold mt-8 mb-3">
+              ZIM-Kooperationen in Baden-Württemberg
+            </h3>
+            <p>
+              Baden-Württemberg bietet mit seiner dichten Hochschullandschaft
+              und dem innovationsstarken Mittelstand ideale Voraussetzungen für
+              ZIM-Kooperationsprojekte. Förder-Kompass arbeitet mit Hochschulen
+              in der gesamten Region zusammen, darunter die HTWG Konstanz, die
+              Hochschule Ravensburg-Weingarten (RWU), die DHBW Ravensburg, die
+              Hochschule Albstadt-Sigmaringen, die Hochschule Furtwangen (HFU),
+              die Hochschule Offenburg, die Universität Konstanz, die
+              Universität Freiburg, die Hochschule Reutlingen und die Zeppelin
+              Universität Friedrichshafen. Ob Bodensee-Region, Schwarzwald oder
+              Schwäbische Alb — wir kennen die regionale Wirtschaftsstruktur
+              und finden gezielt Unternehmenspartner für Ihre
+              Forschungsprojektideen.
+            </p>
+          </article>
+        </div>
+      </section>
+
       {/* ─────────── SECTION: CTA ─────────── */}
       <section className="py-20 relative overflow-hidden">
         <div

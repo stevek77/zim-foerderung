@@ -1,16 +1,52 @@
 import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
-import { getBreadcrumbSchema } from "@/lib/schema";
+import { getBreadcrumbSchema, getFAQSchema } from "@/lib/schema";
 import Navigation from "@/components/Navigation";
 import HochschulenContent from "@/components/HochschulenContent";
 import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = generatePageMetadata(
-  "ZIM-Kooperationsprojekte für Hochschulen – Kostenfreie Partnersuche",
-  "Förder-Kompass unterstützt Hochschulen und Forschungseinrichtungen bei ZIM-Kooperationsprojekten: Kostenfreie Partnersuche, KI-gestütztes Matching mit KMU, professionelle Antragstellung.",
+  "ZIM Kooperationsprojekt Hochschule – Kostenfreie Partnersuche & Antragstellung",
+  "ZIM-Kooperationsprojekte für Hochschulen in Baden-Württemberg: Kostenfreie Partnersuche mit KI-Matching, professionelle Antragstellung, Projektbegleitung. Für HAW, DHBW, FH & Universitäten.",
   "/hochschulen/"
 );
+
+const hochschulFaqData = [
+  {
+    question: "Für welche Förderprogramme bietet Förder-Kompass Beratung an?",
+    answer:
+      "Wir sind mit unseren Fachberatern langjährig erfahren im deutschen Fördermittelbereich. Im Bereich der Innovationsförderberatung sind wir spezialisiert auf ZIM und die steuerliche Forschungszulage (FZulG). Bei Bedarf unterstützen wir Hochschulen auch bei fachbezogenen Förderlinien von Bund, Land und EU.",
+  },
+  {
+    question: "Muss die Hochschule bei der Antragstellung etwas bezahlen?",
+    answer:
+      "Nein, für die Hochschule entstehen keine Kosten. Die Vergütung erfolgt ausschließlich durch die am Projekt beteiligten Unternehmen (KMU) — rein erfolgsbasiert*.",
+  },
+  {
+    question:
+      "Unterstützt Förder-Kompass auch bei Verwendungsnachweisen oder Berichtspflichten?",
+    answer:
+      "Ja, insbesondere für die administrative und organisatorische Abwicklung sind wir Partner für die beteiligten Unternehmen. Wir fungieren als Brücke zu den Drittmittelstellen der Hochschulen und unterstützen z.\u202fB. bei Zwischen- und Abschlussberichten, Projekt-Kooperationsverträgen und der Verwertung von Erfindungen.",
+  },
+  {
+    question: "Wie entsteht ein ZIM-Antrag?",
+    answer:
+      "Wir beginnen in der Regel mit einer ZIM-Projektskizze, die wir mit dem Projektträger besprechen, um eine abgestimmte Roadmap für die Antragstellung zu erreichen. Förder-Kompass koordiniert dann die Antragstellung mit allen Vorhabenbeschreibungen und Anlagen.",
+  },
+  {
+    question:
+      "Kann Förder-Kompass Unternehmenspartner für ein Projekt suchen?",
+    answer:
+      "Ja! Wenn für eine Projektidee noch kein Unternehmen zur Verfügung steht, unterstützen wir bei der Suche. Nach Identifikation des Forschungsbereichs, der Branchenfoki und weiterer Suchparameter nutzen wir unsere Unternehmensdatenbank sowie KI-gestützte Agenten, um passende Partnerunternehmen zu finden und Kooperationsanfragen vorzubereiten. Dieser Service ist für die Hochschule kostenlos.",
+  },
+  {
+    question:
+      "Für welche Themenbereiche kann Förder-Kompass unterstützen?",
+    answer:
+      "Wir sind nicht auf bestimmte Themenbereiche festgelegt. Der Schwerpunkt unserer bisherigen Mandate liegt im produzierenden Gewerbe mit Innovationsprojekten aus den Bereichen Digitalisierung und Produktion — grundsätzlich sind wir aber offen für alle Forschungsfelder.",
+  },
+];
 
 export default function HochschulenPage() {
   const breadcrumbs = [
@@ -30,6 +66,12 @@ export default function HochschulenPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(getBreadcrumbSchema(breadcrumbs)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getFAQSchema(hochschulFaqData)),
         }}
       />
 

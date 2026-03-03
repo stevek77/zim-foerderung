@@ -26,6 +26,7 @@ export function getOrganizationSchema() {
       "https://www.linkedin.com/in/stevekovacs/",
       "https://foerder-kompass.de",
       "https://forschungszulagenantrag.de",
+      "https://claude.ai/public/artifacts/42798373-04d4-497a-9060-64c569717f2e",
     ],
   };
 }
@@ -53,10 +54,18 @@ export function getLocalBusinessSchema() {
       latitude: 47.8497,
       longitude: 9.0093,
     },
-    areaServed: {
-      "@type": "Country",
-      name: "Deutschland",
-    },
+    areaServed: [
+      { "@type": "Country", name: "Deutschland" },
+      { "@type": "State", name: "Baden-Württemberg" },
+      { "@type": "City", name: "Konstanz" },
+      { "@type": "City", name: "Ravensburg" },
+      { "@type": "City", name: "Friedrichshafen" },
+      { "@type": "City", name: "Singen" },
+      { "@type": "City", name: "Freiburg im Breisgau" },
+      { "@type": "City", name: "Villingen-Schwenningen" },
+      { "@type": "City", name: "Reutlingen" },
+      { "@type": "City", name: "Ulm" },
+    ],
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -163,6 +172,29 @@ export function getHowToSchema() {
         text: "Digitale Einreichung über die Förderzentrale Deutschland (FZD). Begleitung bei Rückfragen und Unterstützung bis zur Zuwendungsvereinbarung.",
       },
     ],
+  };
+}
+
+export function getWebApplicationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "ZIM Fördercheck 2025",
+    description:
+      "Kostenloser Schnellcheck: Prüfen Sie in 2 Minuten, ob Ihr Unternehmen Anspruch auf ZIM-Fördermittel hat. 6 Kriterien, sofortige Auswertung.",
+    url: "https://claude.ai/public/artifacts/42798373-04d4-497a-9060-64c569717f2e",
+    applicationCategory: "BusinessApplication",
+    operatingSystem: "Web",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "EUR",
+    },
+    provider: {
+      "@type": "Organization",
+      name: "Förder-Kompass",
+      url: "https://xn--zim-frderung-beantragen-clc.de",
+    },
   };
 }
 

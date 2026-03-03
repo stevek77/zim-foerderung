@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import ZimOverview from "@/components/ZimOverview";
 import FundingTable from "@/components/FundingTable";
+import Schnellcheck from "@/components/Schnellcheck";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -35,6 +36,7 @@ export default function Home() {
         <Hero />
         <ZimOverview />
         <FundingTable />
+        <Schnellcheck />
         <Services />
         <Testimonials />
         <FAQ />
