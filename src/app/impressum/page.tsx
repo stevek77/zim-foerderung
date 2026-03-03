@@ -43,7 +43,7 @@ export default function ImpressumPage() {
             <p>
               Telefon: +49 7771 8988 861
               <br />
-              E-Mail: info@forschungszulagenantrag.de
+              E-Mail: info@foerder-kompass.de
             </p>
 
             <h2>Umsatzsteuer-Identifikationsnummer</h2>

@@ -47,7 +47,7 @@ export default function DatenschutzPage() {
             <p>
               Die Datenverarbeitung auf dieser Website erfolgt durch den
               Websitebetreiber: Förder-Kompass, Steve Kovacs, Seestrasse 15c,
-              78333 Stockach. E-Mail: info@forschungszulagenantrag.de
+              78333 Stockach. E-Mail: info@foerder-kompass.de
             </p>
 
             <h2>2. Hosting</h2>
@@ -88,7 +88,7 @@ export default function DatenschutzPage() {
               <br />
               Telefon: +49 7771 8988 861
               <br />
-              E-Mail: info@forschungszulagenantrag.de
+              E-Mail: info@foerder-kompass.de
             </p>
 
             <h2>4. Datenerfassung auf dieser Website</h2>

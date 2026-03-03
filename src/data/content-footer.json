@@ -8,16 +8,16 @@
     "street": "Seestrasse 15c",
     "city": "78333 Stockach",
     "phone": "+49 7771 8988 861",
-    "email": "info@forschungszulagenantrag.de"
+    "email": "info@foerder-kompass.de"
   },
   "quickLinks": [
-    { "label": "ZIM Einzelprojekte", "href": "#zim-foerderung" },
-    { "label": "ZIM Kooperationsprojekte", "href": "#zim-foerderung" },
-    { "label": "ZIM International", "href": "#zim-foerderung" },
-    { "label": "ZIM F\u00f6rders\u00e4tze", "href": "#zim-foerderung" },
+    { "label": "ZIM Einzelprojekte", "href": "/#zim-foerderung" },
+    { "label": "ZIM Kooperationsprojekte", "href": "/#zim-foerderung" },
+    { "label": "ZIM International", "href": "/#zim-foerderung" },
+    { "label": "ZIM F\u00f6rders\u00e4tze", "href": "/#zim-foerderung" },
     { "label": "ZIM-Rechner", "href": "/zim-rechner/" },
     { "label": "Hochschulen", "href": "/hochschulen/" },
-    { "label": "FAQ", "href": "#faq" }
+    { "label": "FAQ", "href": "/#faq" }
   ],
   "legalLinks": [
     { "label": "Impressum", "href": "/impressum/" },

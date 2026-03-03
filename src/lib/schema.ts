@@ -38,7 +38,7 @@ export function getLocalBusinessSchema() {
     image: "https://xn--zim-frderung-beantragen-clc.de/logo.png",
     url: "https://xn--zim-frderung-beantragen-clc.de",
     telephone: "+49-7771-8988-861",
-    email: "info@forschungszulagenantrag.de",
+    email: "info@foerder-kompass.de",
     priceRange: "Erfolgsbasiert",
     address: {
       "@type": "PostalAddress",
