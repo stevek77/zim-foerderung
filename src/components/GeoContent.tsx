@@ -92,28 +92,40 @@ export default function GeoContent() {
             ZIM Förderung in Baden-Württemberg
           </h3>
           <p>
-            Baden-Württemberg zählt zu den innovationsstärksten Regionen Europas
-            und bietet mit seiner hohen Dichte an kleinen und mittleren
-            Unternehmen sowie renommierten Forschungseinrichtungen ideale
-            Voraussetzungen für ZIM-geförderte Innovationsprojekte. Besonders
-            die Bodensee-Region, Oberschwaben, der Hochrhein, der Schwarzwald
-            und die Schwäbische Alb sind geprägt von einem starken
-            produzierenden Gewerbe mit hohem Innovationsbedarf. Unternehmen aus
-            Konstanz, Ravensburg, Friedrichshafen, Singen,
-            Villingen-Schwenningen, Freiburg, Reutlingen, Tübingen, Ulm und
-            Stuttgart nutzen die ZIM-Förderung, um Forschungs- und
-            Entwicklungsprojekte mit bis zu 60&nbsp;% Zuschuss umzusetzen.
+            Baden-Württemberg zählt mit einer FuE-Quote von über 5&nbsp;% des
+            Bruttoinlandsprodukts zu den forschungsintensivsten Regionen
+            Europas. Während ein erheblicher Teil der FuE-Ausgaben auf
+            Großkonzerne entfällt, verfügt das Land über eine einzigartige
+            Dichte an innovativen kleinen und mittleren Unternehmen — die
+            sogenannten „Hidden Champions" — die ideale Voraussetzungen für
+            ZIM-Förderprojekte mitbringen. Besonders die IHK-Bezirke
+            Region Stuttgart (Böblingen, Esslingen, Ludwigsburg, Göppingen),
+            Reutlingen, Neckar-Alb und Bodensee-Oberschwaben weisen eine
+            überdurchschnittliche Innovationsaktivität im Mittelstand auf.
+          </p>
+          <p>
+            Im Großraum Stuttgart und Reutlingen konzentrieren sich
+            Maschinenbau, Automatisierungstechnik, Medizintechnik und
+            Softwareentwicklung — Branchen mit hohem ZIM-Potenzial. Die
+            Bodensee-Region, Oberschwaben, der Hochrhein, der Schwarzwald
+            und die Schwäbische Alb ergänzen dieses Bild mit einem starken
+            produzierenden Gewerbe und wachsenden Digitalisierungsprojekten.
+            Unternehmen aus Konstanz, Ravensburg, Friedrichshafen, Singen,
+            Villingen-Schwenningen, Freiburg, Reutlingen, Tübingen, Ulm,
+            Esslingen, Böblingen, Göppingen, Heilbronn und Stuttgart nutzen
+            die ZIM-Förderung, um Forschungs- und Entwicklungsprojekte mit
+            bis zu 60&nbsp;% Zuschuss umzusetzen.
           </p>
           <p>
             Förder-Kompass berät Unternehmen in ganz Baden-Württemberg und
-            darüber hinaus bundesweit. Durch die Nähe zu den IHK-Bezirken
-            Hochrhein-Bodensee und Bodensee-Oberschwaben sowie zu zahlreichen
-            Hochschulen für Angewandte Wissenschaften (HAW) in der Region
-            entstehen starke Kooperationsnetzwerke zwischen Wirtschaft und
-            Forschung. Ob Einzelprojekt oder Kooperationsprojekt mit einer
-            Hochschule – eine kostenlose Erstberatung zeigt Ihnen in
-            30&nbsp;Minuten, ob Ihr Vorhaben förderfähig ist. Nutzen Sie auch
-            unseren{" "}
+            darüber hinaus bundesweit. Durch die Zusammenarbeit mit den
+            IHK-Bezirken Hochrhein-Bodensee, Bodensee-Oberschwaben, Reutlingen
+            und Region Stuttgart sowie mit zahlreichen Hochschulen für
+            Angewandte Wissenschaften (HAW) in der Region entstehen starke
+            Kooperationsnetzwerke zwischen Wirtschaft und Forschung. Ob
+            Einzelprojekt oder Kooperationsprojekt mit einer Hochschule —
+            eine kostenlose Erstberatung zeigt Ihnen in 30&nbsp;Minuten,
+            ob Ihr Vorhaben förderfähig ist. Nutzen Sie auch unseren{" "}
             <a
               href="/#schnellcheck"
               className="text-primary-DEFAULT hover:underline font-medium"
