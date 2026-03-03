@@ -332,7 +332,7 @@ export default function HochschulenContent() {
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-body-light">Fördervolumen:</span>
+                    <span className="text-body-light">Gesamtfördervolumen:</span>
                     <span className="text-heading font-medium">
                       {beispiel.foerdervolumen}
                     </span>
@@ -347,6 +347,11 @@ export default function HochschulenContent() {
               </div>
             ))}
           </div>
+          <p className="text-body-light text-[13px] text-center mt-5 max-w-3xl mx-auto">
+            * Gesamtfördervolumen = Summe aller Projektpartner (Hochschule + KMU).
+            Der Förderanteil pro Forschungseinrichtung ist auf max. 280.000&nbsp;€
+            (bei max. 36 Monaten Laufzeit, inkl. Projektpauschale) begrenzt.
+          </p>
         </div>
       </section>
 
