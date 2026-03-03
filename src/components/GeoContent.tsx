@@ -15,10 +15,26 @@ export default function GeoContent() {
           <p>
             Das <strong>Zentrale Innovationsprogramm Mittelstand (ZIM)</strong> ist das
             bedeutendste technologieoffene Förderprogramm für den deutschen Mittelstand.
-            Herausgegeben vom Bundesministerium für Wirtschaft und Klimaschutz (BMWK),
+            Herausgegeben vom{" "}
+            <a
+              href="https://www.bmwk.de"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-DEFAULT hover:underline"
+            >
+              Bundesministerium für Wirtschaft und Klimaschutz (BMWK)
+            </a>,
             stellt es jährlich rund 630&nbsp;Mio.&nbsp;Euro für Forschungs- und
             Entwicklungsprojekte (FuE) kleiner und mittlerer Unternehmen bereit. Die
-            aktuelle Rechtsgrundlage ist die <strong>ZIM-Richtlinie V5</strong>, die am
+            aktuelle Rechtsgrundlage ist die{" "}
+            <a
+              href="https://www.zim.de/ZIM/Navigation/DE/Programminfos/WasistdasZIM/was-ist-das-zim.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-DEFAULT hover:underline"
+            >
+              ZIM-Richtlinie V5
+            </a>, die am
             01.11.2024 im Bundesanzeiger veröffentlicht wurde und seit dem 01.01.2025
             gilt.
           </p>
@@ -66,8 +82,16 @@ export default function GeoContent() {
             Antragstellung und Bearbeitungsdauer
           </h3>
           <p>
-            ZIM-Anträge werden ganzjährig und ohne Stichtage über das Online-Portal der
-            Förderzentrale Deutschland (FZD) eingereicht. Die Bearbeitungsdauer beim
+            ZIM-Anträge werden ganzjährig und ohne Stichtage über das{" "}
+            <a
+              href="https://www.foerderzentrale.de"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-DEFAULT hover:underline"
+            >
+              Online-Portal der Förderzentrale Deutschland (FZD)
+            </a>{" "}
+            eingereicht. Die Bearbeitungsdauer beim
             zuständigen Projektträger – VDI/VDE Innovation + Technik GmbH
             (Einzelprojekte) bzw. AiF Projekt GmbH (Kooperationsprojekte) – beträgt in
             der Regel rund drei Monate. Vom internen Projektstart bis zur

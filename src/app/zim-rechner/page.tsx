@@ -49,7 +49,16 @@ export default function ZimRechnerPage() {
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
               Ermitteln Sie in wenigen Schritten, wie viel Zuschuss Ihr
               Unternehmen für ein ZIM-Forschungsprojekt erhalten kann. Basierend
-              auf der aktuellen ZIM-Richtlinie V5 (November 2024).
+              auf der aktuellen{" "}
+              <a
+                href="https://www.zim.de/ZIM/Navigation/DE/Programminfos/WasistdasZIM/was-ist-das-zim.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/90 underline hover:text-white"
+              >
+                ZIM-Richtlinie V5
+              </a>{" "}
+              (November 2024).
             </p>
           </div>
         </section>

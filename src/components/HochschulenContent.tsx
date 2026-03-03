@@ -749,7 +749,15 @@ export default function HochschulenContent() {
             </h2>
 
             <p>
-              Das <strong>Zentrale Innovationsprogramm Mittelstand (ZIM)</strong>{" "}
+              Das{" "}
+              <a
+                href="https://www.zim.de/ZIM/Navigation/DE/Programminfos/WasistdasZIM/was-ist-das-zim.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-DEFAULT hover:underline"
+              >
+                Zentrale Innovationsprogramm Mittelstand (ZIM)
+              </a>{" "}
               fördert Kooperationsprojekte zwischen Unternehmen und
               Forschungseinrichtungen mit besonders attraktiven Konditionen.
               Forschungseinrichtungen — darunter staatliche und private
@@ -759,7 +767,15 @@ export default function HochschulenContent() {
               <strong>100&nbsp;% der zuwendungsfähigen Kosten</strong> als
               nicht-rückzahlbaren Zuschuss. Die maximalen zuwendungsfähigen
               Kosten betragen 220.000&nbsp;€ pro Forschungseinrichtung in
-              einem Kooperationsprojekt (gemäß ZIM-Richtlinie V5, Abschnitt
+              einem Kooperationsprojekt (gemäß{" "}
+              <a
+                href="https://www.zim.de/ZIM/Navigation/DE/Programminfos/WasistdasZIM/was-ist-das-zim.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-DEFAULT hover:underline"
+              >
+                ZIM-Richtlinie V5
+              </a>, Abschnitt
               5.2).
             </p>
 
