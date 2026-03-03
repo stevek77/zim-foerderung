@@ -19,6 +19,9 @@ import {
   Building2,
   FlaskConical,
   Globe,
+  Shield,
+  TrendingUp,
+  Calendar,
 } from "lucide-react";
 
 /* ──────────────────────────── FAQ Accordion ──────────────────────────── */
@@ -112,6 +115,8 @@ export default function HochschulenContent() {
       `Gewünschte Kompetenzen: ${data.get("kompetenzen")}`,
       `Arbeitstitel: ${data.get("arbeitstitel")}`,
       `Motivation: ${data.get("motivation")}`,
+      `Stand der Vorarbeiten: ${data.get("vorarbeiten")}`,
+      `Zeithorizont: ${data.get("zeithorizont")}`,
     ]
       .filter(Boolean)
       .join("\n");
@@ -160,7 +165,7 @@ export default function HochschulenContent() {
               {
                 icon: GraduationCap,
                 title: "Kostenfrei für Hochschulen",
-                text: "Die Vergütung erfolgt ausschließlich durch die beteiligten KMU — rein erfolgsbasiert*. Für Ihre Hochschule entstehen keine Kosten.",
+                text: "Für Ihre Hochschule entstehen keine Rechnungen und keine Vertragskosten. Vertragspartner für das Beratungshonorar ist ausschließlich das beteiligte Unternehmen — rein erfolgsbasiert*.",
               },
               {
                 icon: Search,
@@ -216,7 +221,7 @@ export default function HochschulenContent() {
                 icon: FileCheck,
                 step: "02",
                 title: "Förderfähigkeit prüfen",
-                text: "Wir prüfen die Förderfähigkeit Ihrer Idee und erstellen gemeinsam mit Ihnen eine erste Projektskizze für die Abstimmung mit dem Projektträger.",
+                text: "Wir prüfen die Förderfähigkeit Ihrer Idee und erstellen gemeinsam eine erste Projektskizze. Auf Wunsch binden wir Ihre Drittmittelstelle bereits in dieser Phase ein.",
               },
               {
                 icon: Search,
@@ -265,8 +270,88 @@ export default function HochschulenContent() {
         </div>
       </section>
 
-      {/* ─────────── SECTION: Leistungen ─────────── */}
+      {/* ─────────── SECTION: Praxisbeispiele ─────────── */}
       <section className="py-16 lg:py-20 section-warm">
+        <div className="container-main">
+          <div className="text-center mb-14">
+            <p className="text-primary-DEFAULT font-semibold text-sm tracking-wide uppercase mb-3">
+              Aus der Praxis
+            </p>
+            <h2 className="text-[1.85rem] md:text-[2.1rem] text-heading mb-4">
+              So sieht ein typischer Projektablauf aus
+            </h2>
+            <p className="text-body-light text-[17px] max-w-2xl mx-auto leading-relaxed">
+              Anonymisierte Beispiele aus unserer bisherigen Zusammenarbeit mit
+              Hochschulen und KMU in Baden-Württemberg.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              {
+                branche: "Maschinenbau / Digitalisierung",
+                hochschule: "HAW in Süddeutschland",
+                foerdervolumen: "ca. 380.000 €",
+                zeitraum: "6 Wochen bis Skizze, 4 Monate bis Bewilligung",
+                beschreibung:
+                  "Forschungsinstitut hatte Projektidee im Bereich intelligente Produktionssysteme — KMU-Partner fehlte. Förder-Kompass identifizierte innerhalb von 3 Wochen zwei passende Unternehmen aus dem Maschinenbau.",
+              },
+              {
+                branche: "Medizintechnik / Sensorik",
+                hochschule: "Fachhochschule in BW",
+                foerdervolumen: "ca. 290.000 €",
+                zeitraum: "4 Wochen bis Skizze, 3 Monate bis Bewilligung",
+                beschreibung:
+                  "Professorin mit Forschungsschwerpunkt Sensorik suchte Unternehmenspartner für ein ZIM-Kooperationsprojekt. Kick-off mit vorselektiertem KMU nach 2 Wochen. Drittmittelstelle wurde ab Tag 1 eingebunden.",
+              },
+              {
+                branche: "Software / KI",
+                hochschule: "DHBW-Standort in BW",
+                foerdervolumen: "ca. 250.000 €",
+                zeitraum: "8 Wochen bis Skizze, 5 Monate bis Bewilligung",
+                beschreibung:
+                  "Forschungsgruppe mit KI-Expertise suchte Anwendungspartner aus der Industrie. Partnersuche über KI-gestützte Agenten, Kooperationsvertrag und IP-Regelung gemeinsam mit Transferstelle erarbeitet.",
+              },
+            ].map((beispiel) => (
+              <div
+                key={beispiel.branche}
+                className="bg-white rounded-xl border border-border-DEFAULT p-6 hover:shadow-md transition-shadow"
+              >
+                <TrendingUp className="w-6 h-6 text-primary-DEFAULT mb-3" />
+                <div className="text-xs text-primary-DEFAULT font-semibold uppercase tracking-wide mb-2">
+                  {beispiel.branche}
+                </div>
+                <p className="text-body-light text-[14px] leading-relaxed mb-4">
+                  {beispiel.beschreibung}
+                </p>
+                <div className="space-y-1.5 text-[13px] border-t border-border-DEFAULT pt-3">
+                  <div className="flex justify-between">
+                    <span className="text-body-light">Hochschultyp:</span>
+                    <span className="text-heading font-medium">
+                      {beispiel.hochschule}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-body-light">Fördervolumen:</span>
+                    <span className="text-heading font-medium">
+                      {beispiel.foerdervolumen}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-body-light">Zeitraum:</span>
+                    <span className="text-heading font-medium text-right max-w-[55%]">
+                      {beispiel.zeitraum}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─────────── SECTION: Leistungen ─────────── */}
+      <section className="py-16 lg:py-20">
         <div className="container-main">
           <div className="text-center mb-14">
             <p className="text-primary-DEFAULT font-semibold text-sm tracking-wide uppercase mb-3">
@@ -287,7 +372,7 @@ export default function HochschulenContent() {
               {
                 icon: Search,
                 title: "KI-gestützte Partnersuche",
-                text: "Identifikation passender KMU aus unserer Datenbank und per KI-Agenten — inkl. Kooperationsanfragen und Vorselektion.",
+                text: "Identifikation passender KMU aus unserer Datenbank und per KI-Agenten — inkl. Kooperationsanfragen und Vorselektion. Projektideen behandeln wir streng vertraulich; Details geben wir erst nach Abstimmung mit Ihnen weiter.",
               },
               {
                 icon: FileCheck,
@@ -297,7 +382,7 @@ export default function HochschulenContent() {
               {
                 icon: Handshake,
                 title: "Brücke zu Drittmittelstellen",
-                text: "Abstimmung mit Ihren Transfer- und Forschungsstellen — für reibungslose Prozesse auf allen Seiten.",
+                text: "Wir stimmen uns auf Wunsch frühzeitig mit Ihrer Drittmittel- und Transferstelle ab — für reibungslose interne Prüfpfade, Unterschriften und Kooperationsverträge.",
               },
               {
                 icon: BookOpen,
@@ -515,6 +600,47 @@ export default function HochschulenContent() {
                         className="w-full border border-border-DEFAULT rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary-DEFAULT/30 focus:border-primary-DEFAULT resize-y"
                       />
                     </div>
+                    <div className="grid sm:grid-cols-2 gap-4">
+                      <div>
+                        <label className="block text-sm font-medium text-heading mb-1.5">
+                          Stand der Vorarbeiten
+                        </label>
+                        <select
+                          name="vorarbeiten"
+                          className="w-full border border-border-DEFAULT rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary-DEFAULT/30 focus:border-primary-DEFAULT bg-white"
+                        >
+                          <option value="idee">Erste Idee / Konzeptphase</option>
+                          <option value="vorarbeiten">
+                            Vorarbeiten vorhanden (Daten, Paper, Vorversuche)
+                          </option>
+                          <option value="partner_vorhanden">
+                            Bereits Unternehmensgespräche geführt
+                          </option>
+                          <option value="patent">
+                            Patent / Schutzrecht vorhanden
+                          </option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-heading mb-1.5">
+                          Gewünschter Zeithorizont
+                        </label>
+                        <select
+                          name="zeithorizont"
+                          className="w-full border border-border-DEFAULT rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary-DEFAULT/30 focus:border-primary-DEFAULT bg-white"
+                        >
+                          <option value="schnell">
+                            Schnell (Skizze in 4–8 Wochen)
+                          </option>
+                          <option value="normal">
+                            Normal (Skizze in 2–3 Monaten)
+                          </option>
+                          <option value="offen">
+                            Offen / keine Eile
+                          </option>
+                        </select>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
@@ -636,8 +762,19 @@ export default function HochschulenContent() {
                   </div>
                 </div>
 
-                {/* ── Datenschutz & Submit ── */}
+                {/* ── Vertraulichkeit & Datenschutz & Submit ── */}
                 <div className="border-t border-border-DEFAULT pt-6">
+                  <div className="flex items-start gap-3 bg-primary-DEFAULT/5 border border-primary-DEFAULT/15 rounded-lg p-4 mb-6">
+                    <Shield className="w-5 h-5 text-primary-DEFAULT shrink-0 mt-0.5" />
+                    <p className="text-sm text-body-light leading-relaxed">
+                      <strong className="text-heading">Vertraulichkeit:</strong>{" "}
+                      Ihre Projektideen behandeln wir streng vertraulich.
+                      Details zu Ihrem Forschungsvorhaben geben wir erst nach
+                      ausdrücklicher Abstimmung mit Ihnen an potenzielle
+                      Unternehmenspartner weiter.
+                    </p>
+                  </div>
+
                   <label className="flex items-start gap-3 mb-6 cursor-pointer">
                     <input
                       type="checkbox"
