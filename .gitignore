@@ -41,3 +41,13 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# Claude Code config
+.claude/
+
+# Build artifacts
+artifacts/
+
+# Windows nul artifacts
+nul
+**/nul
