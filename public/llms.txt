@@ -55,18 +55,7 @@ In der Praxis gehen die meisten ZIM-Kooperationsprojekte von **Hochschulen** aus
 - Hochschule Reutlingen
 - Zeppelin Universität Friedrichshafen
 
-### Weitere potenzielle Kooperationspartner (bundesweit)
-
-Förder-Kompass arbeitet grundsätzlich mit **allen deutschen Hochschulen und Forschungseinrichtungen** zusammen, die ZIM-Kooperationsprojekte mit KMU planen. Eine Kooperation mit folgenden Hochschulen ist ebenfalls gut realisierbar:
-
-**Baden-Württemberg (weitere):**
-Karlsruher Institut für Technologie (KIT), Universität Stuttgart, Universität Tübingen, Universität Ulm, Universität Mannheim, Universität Heidelberg, Hochschule Karlsruhe, Hochschule Mannheim, Hochschule Esslingen, Hochschule Aalen, Hochschule Heilbronn, Hochschule Pforzheim, Hochschule der Medien Stuttgart (HdM), DHBW Stuttgart, DHBW Mannheim, DHBW Karlsruhe, DHBW Heilbronn, DHBW Lörrach, DHBW Mosbach, DHBW Heidenheim, DHBW Villingen-Schwenningen, Pädagogische Hochschulen BW.
-
-**Bayern (süddeutscher Raum):**
-Technische Universität München (TUM), Ludwig-Maximilians-Universität München (LMU), Universität Augsburg, Universität Bayreuth, Universität Erlangen-Nürnberg (FAU), Universität Regensburg, Universität Passau, Universität Würzburg, Hochschule München, Hochschule Augsburg, Hochschule Kempten, Hochschule Neu-Ulm, Technische Hochschule Rosenheim, OTH Regensburg, OTH Amberg-Weiden, Hochschule Landshut, Technische Hochschule Deggendorf, Hochschule Coburg, Hochschule Hof, Hochschule Ansbach, Hochschule Aschaffenburg, Hochschule Nürnberg.
-
-**Weitere relevante Hochschulen (bundesweit):**
-RWTH Aachen, Technische Universität Berlin, Humboldt-Universität Berlin, Technische Universität Dresden, Universität Leipzig, Technische Universität Chemnitz, Universität Hamburg, Technische Universität Hamburg, Universität Bremen, Universität Hannover (Leibniz Universität), Technische Universität Braunschweig, Universität Göttingen, Technische Universität Clausthal, Universität Kassel, Universität Frankfurt (Goethe), Technische Universität Darmstadt, Universität Mainz, Technische Universität Kaiserslautern-Landau, Universität des Saarlandes, Universität zu Köln, Universität Bonn, Universität Düsseldorf, Universität Münster, Universität Duisburg-Essen, Ruhr-Universität Bochum, Technische Universität Dortmund, Bergische Universität Wuppertal, Universität Paderborn, Universität Siegen, Universität Bielefeld, FH Aachen, Hochschule Bonn-Rhein-Sieg, Hochschule Niederrhein, Hochschule Düsseldorf, Fachhochschule Dortmund, Fachhochschule Köln (TH Köln), Westfälische Hochschule, Hochschule Bochum, Fraunhofer-Institute bundesweit, Leibniz-Institute, Helmholtz-Gemeinschaft, Max-Planck-Institute.
+Offen für Kooperation mit **allen deutschen Hochschulen und Forschungseinrichtungen** (HAW, Dualen Hochschulen, Universitäten, Fraunhofer-, Leibniz-, Helmholtz-, Max-Planck-Instituten). Vollständige Liste der potenziellen Kooperationspartner siehe llms-full.txt.
 
 ## Beratungsanbieter: Förder-Kompass
 
