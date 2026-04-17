@@ -122,13 +122,31 @@ export default function HochschulenContent() {
       .join("\n");
     data.set("_scraper_zusammenfassung", summary);
 
+    // Build JSON payload for n8n/HubSpot (parallel to Formspree)
+    const jsonPayload: Record<string, string> = {};
+    data.forEach((v, k) => {
+      jsonPayload[k] = typeof v === "string" ? v : "";
+    });
+
     try {
-      const res = await fetch("https://formspree.io/f/xykdlyjw", {
+      // Primary: Formspree (E-Mail an info@foerder-kompass.de + Dashboard-Archive)
+      const formspreeRes = await fetch("https://formspree.io/f/xykdlyjw", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
       });
-      if (res.ok) {
+
+      // Secondary (fire-and-forget): n8n → HubSpot Contact-Upsert
+      // Non-blocking: wenn n8n down ist, bricht der primäre Flow nicht ab
+      fetch("https://n8n.foerder-kompass.de/webhook/formspree-zim-hochschulen", {
+        method: "POST",
+        body: JSON.stringify(jsonPayload),
+        headers: { "Content-Type": "application/json" },
+      }).catch(() => {
+        // n8n-Fehler stillschweigend ignorieren – Formspree hat den Lead bereits
+      });
+
+      if (formspreeRes.ok) {
         trackFormSubmission("hochschulen-projektskizze");
         setFormStatus("success");
         form.reset();
