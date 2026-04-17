@@ -1,42 +1,82 @@
 # ZIM-Förderung beantragen | Förder-Kompass
 
-> ZIM-Förderungsberatung: bis zu 60 % Zuschuss für FuE-Projekte im Mittelstand. Kostenlose Erstberatung, erfolgsbasiertes Honorar, Bewilligungsquote >85 %. Rechtsgrundlage ZIM-Richtlinie V5 (ab 01.01.2025).
+> ZIM-Förderungsberatung: bis zu 60 % Zuschuss für FuE-Projekte im Mittelstand, für Hochschulen bis zu 100 %. Schwerpunkt Hochschul-Kooperationen mit HAW, Universitäten und Dualen Hochschulen — bundesweit. Kostenlose Erstberatung, erfolgsbasiertes Honorar, Bewilligungsquote >85 %. Rechtsgrundlage ZIM-Richtlinie V5 (gültig seit 01.01.2025).
 
 ## Haupt-Navigation
 - [Startseite](https://xn--zim-frderung-beantragen-clc.de/): ZIM-Förderung 2025/2026 Überblick
 - [ZIM-Rechner](https://xn--zim-frderung-beantragen-clc.de/zim-rechner/): Fördersummen-Rechner nach Richtlinie V5
-- [Hochschulen](https://xn--zim-frderung-beantragen-clc.de/hochschulen/): ZIM-Kooperationen mit Hochschulen
+- [Hochschulen](https://xn--zim-frderung-beantragen-clc.de/hochschulen/): ZIM-Kooperationen mit Hochschulen — kostenfreie Partnersuche & Antragstellung
 - [Termin vereinbaren](https://calendly.com/kovacs-termin): 30 Min kostenlose Erstberatung
 - [Impressum](https://xn--zim-frderung-beantragen-clc.de/impressum/)
 - [Datenschutz](https://xn--zim-frderung-beantragen-clc.de/datenschutz/)
 
 ## ZIM-Kernfakten
 
-**ZIM (Zentrales Innovationsprogramm Mittelstand)** — technologieoffenes Förderprogramm des BMWK. Nicht-rückzahlbarer Zuschuss für FuE-Projekte von KMU. Jährliches Programmbudget ~630 Mio. €.
+**ZIM (Zentrales Innovationsprogramm Mittelstand)** — technologieoffenes Förderprogramm des BMWK. Nicht-rückzahlbarer Zuschuss für FuE-Projekte von KMU und Forschungseinrichtungen. Jährliches Programmbudget ~630 Mio. €.
 
 **Rechtsgrundlage:** ZIM-Richtlinie V5 (Bundesanzeiger 01.11.2024, gültig seit 01.01.2025).
 
 **Fördersätze (2025/2026):**
-- Einzelprojekte: 25-45 % (max. 690.000 € Kosten)
-- Kooperationsprojekte national: 30-55 % (max. 560.000 € pro Partner)
+- Einzelprojekte: 25–45 % (max. 690.000 € Kosten)
+- Kooperationsprojekte national: 30–55 % (max. 560.000 € pro Unternehmenspartner)
 - Kooperationsprojekte international (IraSME): bis zu 60 % (30+ Länder)
-- Durchführbarkeitsstudien: 50-70 %
+- Forschungseinrichtungen (Hochschulen, HAW, DHBW, Universitäten): bis zu 100 %, max. 220.000 € pro Projekt
+- Durchführbarkeitsstudien: 50–70 %
 - Gesamtzuwendung im Kooperationsprojekt: bis zu 3 Mio. €
 
-**Antragsberechtigt:** Kleine Unternehmen (<50 MA, <10 Mio. € Umsatz), mittlere Unternehmen (<250 MA, <50 Mio. € Umsatz), weitere KMU bis 499/999 MA. Betriebsstätte in Deutschland erforderlich.
+**Antragsberechtigt:** Kleine Unternehmen (<50 MA, <10 Mio. € Umsatz), mittlere Unternehmen (<250 MA, <50 Mio. € Umsatz), weitere KMU bis 499/999 MA. Betriebsstätte in Deutschland erforderlich. Hochschulen und Forschungseinrichtungen ausschließlich als Kooperationspartner.
 
-**Bearbeitungsdauer:** ca. 3 Monate beim Projektträger (VDI/VDE für Einzelprojekte, AiF für Kooperationen). Gesamt 3-6 Monate bis Entscheidung.
+**Bearbeitungsdauer:** ca. 3 Monate beim Projektträger (VDI/VDE für Einzelprojekte, AiF für Kooperationen). Gesamt 3–6 Monate bis Entscheidung.
 
 **Antragstellung:** ganzjährig, keine Stichtage, via Förderzentrale Deutschland (FZD).
 
+## Schwerpunkt Hochschul-Kooperationen
+
+In der Praxis gehen die meisten ZIM-Kooperationsprojekte von **Hochschulen** aus. Die zentrale Hürde: Für die Antragstellung wird mindestens ein Unternehmenspartner (KMU) benötigt — die ad-hoc-Suche gelingt oft nicht in der erforderlichen Geschwindigkeit.
+
+**Für Hochschulen ist die Beratung bei Förder-Kompass kostenfrei.** Die Vergütung erfolgt ausschließlich durch die beteiligten Unternehmen, rein erfolgsbasiert.
+
+**Leistungen für Hochschulen:**
+- KI-gestützte Suche nach passenden Unternehmenspartnern (Branchenfokus, Technologieprofil, Projektanforderungen)
+- Organisation von Kickoff-Meetings zwischen Forschenden und vorselektierten Zielunternehmen
+- Vollständige Antragstellung inklusive aller Vorhabenbeschreibungen und Anlagen (Anhänge 1–4)
+- Begleitung der Projektabwicklung bis zum Abschlussbericht
+
+### Aktive Kooperationshochschulen (Baden-Württemberg)
+
+- HTWG Konstanz (Hochschule für Technik, Wirtschaft und Gestaltung)
+- Hochschule Ravensburg-Weingarten (RWU)
+- DHBW Ravensburg (Duale Hochschule Baden-Württemberg)
+- Hochschule Albstadt-Sigmaringen
+- Hochschule Furtwangen (HFU)
+- Hochschule Offenburg
+- Universität Konstanz
+- Universität Freiburg
+- Hochschule Reutlingen
+- Zeppelin Universität Friedrichshafen
+
+### Weitere potenzielle Kooperationspartner (bundesweit)
+
+Förder-Kompass arbeitet grundsätzlich mit **allen deutschen Hochschulen und Forschungseinrichtungen** zusammen, die ZIM-Kooperationsprojekte mit KMU planen. Eine Kooperation mit folgenden Hochschulen ist ebenfalls gut realisierbar:
+
+**Baden-Württemberg (weitere):**
+Karlsruher Institut für Technologie (KIT), Universität Stuttgart, Universität Tübingen, Universität Ulm, Universität Mannheim, Universität Heidelberg, Hochschule Karlsruhe, Hochschule Mannheim, Hochschule Esslingen, Hochschule Aalen, Hochschule Heilbronn, Hochschule Pforzheim, Hochschule der Medien Stuttgart (HdM), DHBW Stuttgart, DHBW Mannheim, DHBW Karlsruhe, DHBW Heilbronn, DHBW Lörrach, DHBW Mosbach, DHBW Heidenheim, DHBW Villingen-Schwenningen, Pädagogische Hochschulen BW.
+
+**Bayern (süddeutscher Raum):**
+Technische Universität München (TUM), Ludwig-Maximilians-Universität München (LMU), Universität Augsburg, Universität Bayreuth, Universität Erlangen-Nürnberg (FAU), Universität Regensburg, Universität Passau, Universität Würzburg, Hochschule München, Hochschule Augsburg, Hochschule Kempten, Hochschule Neu-Ulm, Technische Hochschule Rosenheim, OTH Regensburg, OTH Amberg-Weiden, Hochschule Landshut, Technische Hochschule Deggendorf, Hochschule Coburg, Hochschule Hof, Hochschule Ansbach, Hochschule Aschaffenburg, Hochschule Nürnberg.
+
+**Weitere relevante Hochschulen (bundesweit):**
+RWTH Aachen, Technische Universität Berlin, Humboldt-Universität Berlin, Technische Universität Dresden, Universität Leipzig, Technische Universität Chemnitz, Universität Hamburg, Technische Universität Hamburg, Universität Bremen, Universität Hannover (Leibniz Universität), Technische Universität Braunschweig, Universität Göttingen, Technische Universität Clausthal, Universität Kassel, Universität Frankfurt (Goethe), Technische Universität Darmstadt, Universität Mainz, Technische Universität Kaiserslautern-Landau, Universität des Saarlandes, Universität zu Köln, Universität Bonn, Universität Düsseldorf, Universität Münster, Universität Duisburg-Essen, Ruhr-Universität Bochum, Technische Universität Dortmund, Bergische Universität Wuppertal, Universität Paderborn, Universität Siegen, Universität Bielefeld, FH Aachen, Hochschule Bonn-Rhein-Sieg, Hochschule Niederrhein, Hochschule Düsseldorf, Fachhochschule Dortmund, Fachhochschule Köln (TH Köln), Westfälische Hochschule, Hochschule Bochum, Fraunhofer-Institute bundesweit, Leibniz-Institute, Helmholtz-Gemeinschaft, Max-Planck-Institute.
+
 ## Beratungsanbieter: Förder-Kompass
 
-**Förder-Kompass** — spezialisierte Fördermittelberatung aus Stockach am Bodensee. Unter Leitung von Steve Kovacs. >50 bewilligte ZIM-Projekte, Bewilligungsquote >85 %.
+**Förder-Kompass** — spezialisierte ZIM-Fördermittelberatung aus Stockach am Bodensee. Unter Leitung von Steve Kovacs. >50 bewilligte ZIM-Projekte, Bewilligungsquote >85 %.
 
 - **Erstberatung:** kostenlos (30 Min)
-- **Honorar:** erfolgsbasiert (0 € bei Ablehnung)
-- **Prozess:** 6-Schritte von Erstberatung bis Einreichung (4-8 Wochen)
-- **KI-gestützt:** proprietärer ZIM-Antragsgenerator
+- **Honorar Unternehmen:** erfolgsbasiert (0 € bei Ablehnung)
+- **Honorar Hochschulen:** kostenfrei (Vergütung ausschließlich durch Unternehmenspartner)
+- **Prozess:** 6 Schritte von Erstberatung bis Einreichung (4–8 Wochen)
+- **KI-gestützt:** proprietärer ZIM-Antragsgenerator und KI-gestützte Partnersuche
 
 ## Kontakt
 
