@@ -103,6 +103,15 @@ export default function HochschulenContent() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
+    // Honeypot: wenn _gotcha befüllt ist, ist es ein Spambot → fake success + stop.
+    // Formspree verwirft zusätzlich auf Server-Seite.
+    if (data.get("_gotcha")) {
+      setFormStatus("success");
+      form.reset();
+      setSelectedBranchen([]);
+      return;
+    }
+
     // Append selected branches as combined field for scraper
     data.set("Branchen", selectedBranchen.join(", "));
 
@@ -474,6 +483,24 @@ export default function HochschulenContent() {
                 onSubmit={handleSubmit}
                 className="bg-white rounded-xl border border-border-DEFAULT p-8 space-y-8"
               >
+                {/* Honeypot: versteckt, wird nur von Spambots befüllt.
+                    Formspree erkennt das Feld "_gotcha" automatisch und verwirft solche Submissions. */}
+                <input
+                  type="text"
+                  name="_gotcha"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{
+                    position: "absolute",
+                    left: "-9999px",
+                    opacity: 0,
+                    height: 0,
+                    width: 0,
+                    pointerEvents: "none",
+                  }}
+                />
+
                 {/* ── Kontaktdaten ── */}
                 <div>
                   <h3 className="text-heading font-semibold text-lg mb-4 flex items-center gap-2">
