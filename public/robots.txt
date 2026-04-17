@@ -1,15 +1,21 @@
-# robots.txt – zim-foerderung-beantragen.de
-# Foerder-Kompass ZIM Foerdermittelberatung
+# robots.txt fuer zim-foerderung-beantragen.de (ZIM-Fokusseite, Next.js/Vercel)
+# Stand: 2026-04-17 | Strategie: ZIM-Sichtbarkeit + LLM/AI-Crawler
+# Deployment: public/robots.txt im Next.js-Projekt-Repo
+# Canonical Punycode: xn--zim-frderung-beantragen-clc.de
+# ---------------------------------------------------------------
 
-# Alle Suchmaschinen (Google, Bing, etc.)
+# Standard Search Engines
 User-agent: *
 Allow: /
 Disallow: /admin
 Disallow: /admin/
 Disallow: /_next/
 Disallow: /api/
+Disallow: /*?utm_
+Disallow: /*?gclid=
+Disallow: /*?fbclid=
 
-# Google
+# Google (Standard)
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -19,36 +25,74 @@ User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-# AI Crawler – ausdruecklich erlaubt fuer GEO (Generative Engine Optimization)
+# -------- AI / LLM Crawler: EXPLIZIT ERLAUBT --------
+# Ziel: In LLM-Antworten ueber ZIM-Foerderung sichtbar sein.
+
+# OpenAI (ChatGPT Browsing, Search, Training)
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Anthropic
+# Anthropic (Claude Search, Training)
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
 Allow: /
 
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity (Search + Answer Engine)
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Cohere-ai
+User-agent: Perplexity-User
 Allow: /
 
+# Google Gemini / Bard
+User-agent: Google-Extended
+Allow: /
+
+# Meta (Llama Training)
 User-agent: Meta-ExternalAgent
 Allow: /
 
+User-agent: FacebookBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# Apple Intelligence
 User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Common Crawl
+User-agent: CCBot
+Allow: /
+
+# Andere AI-Search-Engines
+User-agent: YouBot
+Allow: /
+
+User-agent: Diffbot
 Allow: /
 
 User-agent: Bytespider
 Allow: /
 
-# Sitemap
+User-agent: Amazonbot
+Allow: /
+
+# -------- Sitemap --------
 Sitemap: https://xn--zim-frderung-beantragen-clc.de/sitemap.xml

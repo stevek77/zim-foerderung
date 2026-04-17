@@ -23,10 +23,14 @@ export function getOrganizationSchema() {
       availableLanguage: ["German", "English"],
     },
     sameAs: [
-      "https://www.linkedin.com/in/stevekovacs/",
-      "https://foerder-kompass.de",
-      "https://forschungszulagenantrag.de",
-      "https://claude.ai/public/artifacts/42798373-04d4-497a-9060-64c569717f2e",
+      "https://foerder-kompass.de/",
+      "https://forschungszulagenantrag.de/",
+      "https://www.facebook.com/foerderkompass/",
+      "https://www.instagram.com/foerderkompassde/",
+      "https://www.linkedin.com/company/foerderkompass/",
+      "https://www.linkedin.com/in/steve-kovacs-4b949854/",
+      "https://chat.openai.com/g/g-E0yh1EewP-fordermittelkompass",
+      "https://www.google.com/maps/place/F%C3%B6rder-Kompass/",
     ],
   };
 }

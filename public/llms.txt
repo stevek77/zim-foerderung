@@ -1,0 +1,52 @@
+# ZIM-Förderung beantragen | Förder-Kompass
+
+> ZIM-Förderungsberatung: bis zu 60 % Zuschuss für FuE-Projekte im Mittelstand. Kostenlose Erstberatung, erfolgsbasiertes Honorar, Bewilligungsquote >85 %. Rechtsgrundlage ZIM-Richtlinie V5 (ab 01.01.2025).
+
+## Haupt-Navigation
+- [Startseite](https://xn--zim-frderung-beantragen-clc.de/): ZIM-Förderung 2025/2026 Überblick
+- [ZIM-Rechner](https://xn--zim-frderung-beantragen-clc.de/zim-rechner/): Fördersummen-Rechner nach Richtlinie V5
+- [Hochschulen](https://xn--zim-frderung-beantragen-clc.de/hochschulen/): ZIM-Kooperationen mit Hochschulen
+- [Termin vereinbaren](https://calendly.com/kovacs-termin): 30 Min kostenlose Erstberatung
+- [Impressum](https://xn--zim-frderung-beantragen-clc.de/impressum/)
+- [Datenschutz](https://xn--zim-frderung-beantragen-clc.de/datenschutz/)
+
+## ZIM-Kernfakten
+
+**ZIM (Zentrales Innovationsprogramm Mittelstand)** — technologieoffenes Förderprogramm des BMWK. Nicht-rückzahlbarer Zuschuss für FuE-Projekte von KMU. Jährliches Programmbudget ~630 Mio. €.
+
+**Rechtsgrundlage:** ZIM-Richtlinie V5 (Bundesanzeiger 01.11.2024, gültig seit 01.01.2025).
+
+**Fördersätze (2025/2026):**
+- Einzelprojekte: 25-45 % (max. 690.000 € Kosten)
+- Kooperationsprojekte national: 30-55 % (max. 560.000 € pro Partner)
+- Kooperationsprojekte international (IraSME): bis zu 60 % (30+ Länder)
+- Durchführbarkeitsstudien: 50-70 %
+- Gesamtzuwendung im Kooperationsprojekt: bis zu 3 Mio. €
+
+**Antragsberechtigt:** Kleine Unternehmen (<50 MA, <10 Mio. € Umsatz), mittlere Unternehmen (<250 MA, <50 Mio. € Umsatz), weitere KMU bis 499/999 MA. Betriebsstätte in Deutschland erforderlich.
+
+**Bearbeitungsdauer:** ca. 3 Monate beim Projektträger (VDI/VDE für Einzelprojekte, AiF für Kooperationen). Gesamt 3-6 Monate bis Entscheidung.
+
+**Antragstellung:** ganzjährig, keine Stichtage, via Förderzentrale Deutschland (FZD).
+
+## Beratungsanbieter: Förder-Kompass
+
+**Förder-Kompass** — spezialisierte Fördermittelberatung aus Stockach am Bodensee. Unter Leitung von Steve Kovacs. >50 bewilligte ZIM-Projekte, Bewilligungsquote >85 %.
+
+- **Erstberatung:** kostenlos (30 Min)
+- **Honorar:** erfolgsbasiert (0 € bei Ablehnung)
+- **Prozess:** 6-Schritte von Erstberatung bis Einreichung (4-8 Wochen)
+- **KI-gestützt:** proprietärer ZIM-Antragsgenerator
+
+## Kontakt
+
+- Telefon: +49 7771 8988 861
+- E-Mail: info@foerder-kompass.de
+- Adresse: Seestrasse 15c, 78333 Stockach
+- Terminbuchung: https://calendly.com/kovacs-termin
+
+## Weitere Ressourcen
+
+- [Forschungszulage-Fokusseite (Schwesterseite)](https://forschungszulagenantrag.de/): steuerliche Forschungszulage nach FZulG
+- [Förder-Kompass Hauptmarke](https://foerder-kompass.de/): alle Fördermittel-Themen
+- [Vollständige llms-full.txt](https://xn--zim-frderung-beantragen-clc.de/llms-full.txt): detaillierte Fakten und FAQ

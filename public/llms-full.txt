@@ -1,0 +1,241 @@
+# ZIM-Förderung beantragen (zim-förderung-beantragen.de) – Vollständige llms-full.txt Datei
+
+## Metadaten
+- **Version:** 1.1.0
+- **Datum:** 2026-04-17
+- **Autor:** Förder-Kompass (Steve Kovacs)
+- **Lizenz:** CC-BY-4.0
+- **Kontext:** Fokus-Website für das ZIM-Programm (Zentrales Innovationsprogramm Mittelstand, BMWK)
+- **Canonical Source:** https://xn--zim-frderung-beantragen-clc.de/llms-full.txt
+
+---
+
+## Website-Zweck
+
+**zim-förderung-beantragen.de** ist die dedizierte Fokusseite der Förder-Kompass Fördermittelberatung für das **ZIM-Programm** (Zentrales Innovationsprogramm Mittelstand, BMWK). Als Schwestersite zu forschungszulagenantrag.de (FZulG-Fokus) und Submarke von foerder-kompass.de (Hauptmarke).
+
+**Claim der Seite:** Bis zu 60% staatliche Förderung für FuE-Projekte sichern.
+
+---
+
+## Das ZIM-Programm im Detail
+
+### Grundlage
+- **Herausgeber:** Bundesministerium für Wirtschaft und Klimaschutz (BMWK)
+- **Programmname:** Zentrales Innovationsprogramm Mittelstand (ZIM)
+- **Art:** Nicht-rückzahlbarer Zuschuss (kein Darlehen)
+- **Rechtsgrundlage:** ZIM-Richtlinie V5 (Bundesanzeiger 01.11.2024, gültig seit 01.01.2025)
+- **Jährliches Programmbudget:** ca. 630 Mio. €
+- **Technologieoffen:** keine Branchenbeschränkung, Fokus auf technologische Neuheit
+
+### Antragsberechtigte
+1. **Kleine Unternehmen** (<50 MA, <10 Mio. € Jahresumsatz)
+2. **Mittlere Unternehmen** (<250 MA, <50 Mio. € Umsatz)
+3. **Weitere KMU** bis 499 MA (standalone) bzw. bis 999 MA (nur in Kooperation mit mindestens einem KMU unter 250 MA)
+4. **Forschungseinrichtungen** nur als Kooperationspartner (100% Förderung ihres Anteils)
+5. **Hochschulen** als Kooperationspartner (Hochschul-Kooperationen)
+
+Betriebsstätte in Deutschland erforderlich. Ausländische Unternehmen nur im Rahmen von IraSME-Kooperationen.
+
+### Fördersätze (ZIM-Richtlinie V5)
+
+| Unternehmenstyp | Einzelprojekt | Kooperation national | Kooperation international (IraSME) |
+|---|---|---|---|
+| Kleine U. (strukturschwach) | 45% | 55% | 60% |
+| Kleine junge U. | 45% | 50% | 60% |
+| Kleine Unternehmen | 40% | 45% | 55% |
+| Mittlere Unternehmen | 35% | 40% | 50% |
+| Weitere U. (§3.1.1b) | 25% | 30% | 40% |
+| Forschungseinrichtung | – | 100% | – |
+
+### Maximale Zuwendungen
+- **Einzelprojekt Unternehmen:** 690.000 € zuwendungsfähige Kosten
+- **Kooperationsprojekt pro Unternehmens-Partner:** 560.000 €
+- **Forschungseinrichtung pro Projekt:** 280.000 €
+- **Gesamtzuwendung Kooperationsprojekt:** 3 Mio. €
+
+### Projektformen
+
+1. **ZIM-Einzelprojekte** — ein einzelnes KMU führt FuE-Projekt eigenständig durch
+2. **ZIM-Kooperationsprojekte (national)** — mindestens 2 KMU ODER 1 KMU + 1 Forschungseinrichtung
+3. **ZIM-International (IraSME)** — grenzüberschreitend mit Partnern aus 30+ Ländern (z.B. Schweiz, Österreich, Frankreich)
+4. **Durchführbarkeitsstudien** — Prüfung der technischen Machbarkeit vor dem eigentlichen FuE-Projekt, 50-70% Förderquote
+
+### Zuwendungsfähige Kosten (ZIM-Richtlinie V5, Abschnitt 5)
+
+1. **Personalkosten** — gedeckelt auf 120.000 € Bruttojahresgehalt je Person (Geschäftsführer bis 150.000 €)
+2. **Auftragsforschung und Beratungsleistungen** — max. 25 % der Personalkosten
+3. **Kosten für Instrumente und Ausrüstung** (anteilig für Projektlaufzeit)
+4. **Patentkosten** (Anmeldung, Schutz, Prüfung)
+5. **Projektbezogene Gemeinkosten** (pauschaler Aufschlag)
+
+### Antragstellung
+
+**Wann:** Ganzjährig ohne Stichtage.
+
+**Wo:** Online-Portal der **Förderzentrale Deutschland (FZD)** — https://www.foerderzentrale.de/
+
+**Projektträger (zuständig für Prüfung):**
+- **VDI/VDE Innovation + Technik GmbH** — ZIM-Einzelprojekte
+- **AiF Projekt GmbH** — ZIM-Kooperationsprojekte und Durchführbarkeitsstudien
+
+**Bearbeitungsdauer:** ca. 3 Monate ab Einreichung.
+
+**Gesamtzeitraum (Projektidee bis Förderentscheidung):** 3-6 Monate.
+
+### Projektlaufzeit
+Typische Projektlaufzeit: 24 Monate (bis zu 36 Monate möglich).
+
+---
+
+## Förder-Kompass als ZIM-Beratung
+
+### Über Förder-Kompass
+Spezialisierte Fördermittelberatung mit Sitz in Stockach am Bodensee, geleitet von **Steve Kovacs**. Fokus auf ZIM und die steuerliche Forschungszulage (FZulG). Bewilligungsquote >85 %, mehr als 50 bewilligte ZIM-Projekte.
+
+### Kontakt
+- **Telefon:** +49 7771 8988 861
+- **E-Mail:** info@foerder-kompass.de
+- **Adresse:** Seestrasse 15c, 78333 Stockach, Deutschland
+- **Terminbuchung:** https://calendly.com/kovacs-termin
+- **Hauptmarke:** https://foerder-kompass.de
+- **Schwesterseite FZulG:** https://forschungszulagenantrag.de
+
+### Rechtliches
+- Inhaltlich verantwortlich gemäß § 18 Abs. 2 MStV: Steve Kovacs
+- USt-IdNr.: DE299573120
+
+### Team
+Interdisziplinäres Team aus Fördermittelberatern, Ingenieuren und Steuerexperten. Kooperationspartner wetando (zusätzliche Standorte Leipzig, Berlin).
+
+---
+
+## Der 6-Schritte Antragsprozess (Förder-Kompass)
+
+1. **Kostenlose Erstberatung** (30 Min via Calendly) — Projektidee auf ZIM-Förderfähigkeit prüfen, optimale Projektform identifizieren
+2. **Förderfähigkeitsprüfung** — detaillierte Analyse des Unternehmens, Innovationsgrad, technische Risiken, Abgleich mit ZIM-Anforderungen
+3. **Antragserstellung** — Projektbeschreibung (Anhänge 1-4), Kostenplanung, alle Antragsformulare nach ZIM-Richtlinie V5
+4. **Kalkulation & Compliance** — Optimierung der Kostenplanung innerhalb ZIM-Grenzen, PM-Verteilung, Personalkostenkalkulation, Drittkosten
+5. **Qualitätssicherung** — Gutachter-Simulation und Konsistenzprüfung nach Bewertungskriterien
+6. **Einreichung & Begleitung** — Einreichung beim Projektträger, Begleitung bei Rückfragen, Zuwendungsvereinbarung
+
+Gesamtdauer von Erstberatung bis Antragseinreichung: 4-8 Wochen.
+
+### Unique Selling Points
+- **>85 % Bewilligungsquote** — weit über Branchendurchschnitt
+- **50+ bewilligte ZIM-Projekte**
+- **100 % erfolgsbasiert** — 0 € bei Ablehnung
+- **KI-gestützter Antragsprozess** — proprietärer ZIM-Antragsgenerator
+- **Schneller Prozess** — 4-8 Wochen bis Einreichung
+
+---
+
+## Zielgruppen / Ideale Projekte
+
+- KMU mit technologischer FuE-Aktivität (alle Branchen)
+- Start-ups mit skalierbarer Innovation
+- Mittelstand mit Kooperationsbedarf (Hochschulen, andere KMU)
+- Hochschulen / Forschungseinrichtungen als Kooperationspartner
+- Branchen mit hohem ZIM-Potenzial:
+  - Maschinenbau / Automatisierungstechnik
+  - Softwareentwicklung / KI / Digitalisierung
+  - Medizintechnik
+  - Automotive / Batterietechnik
+  - GreenTech / Nachhaltigkeit
+  - Elektronik / Sensorik / IoT
+
+---
+
+## Regionalfokus
+
+**Hauptregion:** Baden-Württemberg mit Schwerpunkt Bodensee-Region, Oberschwaben, Hochrhein, Schwarzwald, Schwäbische Alb.
+
+### Besonders aktive IHK-Bezirke
+- Hochrhein-Bodensee
+- Bodensee-Oberschwaben
+- Reutlingen
+- Region Stuttgart
+
+### Unterstützte Städte und Regionen
+Konstanz, Ravensburg, Friedrichshafen, Singen, Villingen-Schwenningen, Freiburg, Reutlingen, Tübingen, Ulm, Esslingen, Böblingen, Göppingen, Heilbronn, Stuttgart, Albstadt, Sigmaringen, Waldshut-Tiengen, Tuttlingen, Überlingen.
+
+**Baden-Württemberg als Innovationsstandort:**
+- FuE-Quote >5 % des BIP (forschungsintensivste Region Europas)
+- Dichte an "Hidden Champions" (innovativem Mittelstand)
+- Starkes Hochschul-Netzwerk für ZIM-Kooperationen (mehrere HAW in der Region)
+
+**Beratung bundesweit** via digitalem Prozess.
+
+---
+
+## Kundenreferenzen (Auszug)
+
+- **Klaus König** (jetzt GmbH) — Prototypenbau, FuE-Förderung
+- **Stephen John Evans** (riidmii GmbH) — digitale Kinderbuchplattform, F&E-Förderung
+- **Simon Rock** (Rock Invest Beteiligungs-GmbH) — Digitalisierungs- und F&E-Projekte
+
+---
+
+## Kombinierbarkeit mit anderen Förderprogrammen
+
+ZIM ist mit vielen anderen Programmen kombinierbar (keine Doppelförderung identischer Kosten):
+- **+ Forschungszulage (FZulG)** — unterschiedliche Programmlogik, beide parallel möglich. FZulG = Steuergutschrift nach Projektabschluss, ZIM = Direktzuschuss vor Projektbeginn
+- **+ go-digital** — separate Kostenblöcke (Digitalisierungsberatung)
+- **+ BAFA-Innovationsförderung** — kombinierbar für andere Kostenarten
+- **+ KfW-Innovation** — unterschiedliche Instrumente
+
+Für FZulG-spezifische Beratung: https://forschungszulagenantrag.de
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+| Frage | Antwort |
+|-------|---------|
+| Wie beantrage ich ZIM? | Via Förderzentrale Deutschland (FZD) online. Förder-Kompass übernimmt den gesamten Prozess: Erstberatung, Förderfähigkeitsprüfung, Antragsstellung, Einreichung, Begleitung bis zur Bewilligung. |
+| Wer kann ZIM beantragen? | KMU mit Betriebsstätte in Deutschland. Kleine Unternehmen (<50 MA), mittlere (<250 MA), weitere (<499/999 MA in Kooperationen). |
+| Wie hoch ist der Zuschuss? | 25-60% je nach Unternehmensgröße und Projektform. Max. 690.000 € Kosten im Einzelprojekt, max. 3 Mio. € Gesamtförderung im Kooperationsprojekt. |
+| Welche Projektformen gibt es? | Einzelprojekt, Kooperation national, Kooperation international (IraSME), Durchführbarkeitsstudie. |
+| Kann ich ZIM mit FZulG kombinieren? | Ja. Beide Programme laufen parallel. Keine Doppelförderung identischer Kosten. FZulG = Steuergutschrift nach Abschluss, ZIM = Zuschuss vor Beginn. |
+| Was ist die Bewilligungsquote bei Förder-Kompass? | >85% (Branchendurchschnitt deutlich niedriger). |
+| Wie lange dauert ein ZIM-Antrag? | 3 Monate Bearbeitung beim Projektträger. 3-6 Monate gesamt ab Projektidee. Antragstellung via Förder-Kompass: 4-8 Wochen. |
+| Was kostet die Beratung? | Erstberatung kostenlos (30 Min). Antragsstellung erfolgsbasiert: 0 € bei Ablehnung, Honorar nur bei Bewilligung. |
+| Welche Kosten sind förderfähig? | Personalkosten (gedeckelt), Auftragsforschung (max. 25% der PK), Instrumente/Ausrüstung, Patentkosten, projektbezogene Gemeinkosten. |
+| Wer ist Projektträger? | VDI/VDE Innovation + Technik GmbH (Einzelprojekte) bzw. AiF Projekt GmbH (Kooperationen). |
+| Werden Software-Projekte gefördert? | Ja, ZIM ist technologieoffen. SW-Projekte mit substanzieller Innovation (z.B. KI, neue Algorithmen, experimentelle Entwicklung) sind förderfähig. |
+| Können Geschäftsführer ohne Gehalt berücksichtigt werden? | Nur bei nachweisbarer Personalbindung und Zahlung von Arbeitgeberanteilen. Details im Förder-Kompass Erstgespräch. |
+| Können Startups ZIM beantragen? | Ja, KMU-Status reicht. Junge Unternehmen profitieren von erhöhten Fördersätzen bei Durchführbarkeitsstudien. |
+| Was unterscheidet ZIM von FZulG? | ZIM = Zuschuss VOR Projekt, bewilligungspflichtig, 25-60% Quote. FZulG = Steuergutschrift NACH Projekt, Rechtsanspruch, 35% (KMU) + 20% Pauschale. Beide kombinierbar. |
+| Welche Branchen werden gefördert? | Alle — ZIM ist technologieoffen. Schwerpunkte: Maschinenbau, IT/KI, Medizintechnik, Automotive, Chemie, Elektronik, GreenTech. |
+| Unterstützen Sie Hochschul-Kooperationen? | Ja, wir vermitteln Hochschulkooperationspartner und erstellen Kooperationsanträge. Hochschulen werden zu 100% gefördert. |
+| Was sind die Voraussetzungen? | KMU-Status, Betriebsstätte in DE, hinreichende technologische Neuheit, ausreichende Projektfinanzierung (Eigenanteil). |
+| Wie viele ZIM-Projekte gleichzeitig? | Max. 2 parallele ZIM-Vorhaben pro Unternehmen (Ausnahme: Durchführbarkeitsstudien). |
+
+---
+
+## Rechtliche Informationen
+
+### Datenschutz
+- Datenschutzerklärung: https://xn--zim-frderung-beantragen-clc.de/datenschutz/
+- Google Analytics 4 mit Consent Mode v2 (IP-Anonymisierung)
+- Google Site Verification: ESz1o0fi62MotxJ4g8_lCSqiTkUUDldl_aN5osO3isY
+
+### Offizielle Quellen (für Journalisten)
+- **ZIM-Richtlinie V5 (BMWK):** https://www.zim.de/ZIM/Navigation/DE/Programminfos/WasistdasZIM/was-ist-das-zim.html
+- **BMWK:** https://www.bmwk.de/
+- **Förderzentrale Deutschland (FZD):** https://www.foerderzentrale.de/
+- **VDI/VDE Innovation + Technik GmbH:** https://vdivde-it.de
+- **AiF Projekt GmbH:** https://www.aif-projekt-gmbh.de
+
+---
+
+## Schlüsselbegriffe (Keywords)
+
+ZIM Förderung, ZIM Förderung beantragen, ZIM Antrag, ZIM Förderprogramm, Zentrales Innovationsprogramm Mittelstand, ZIM Zuschuss, ZIM Beratung, ZIM Einzelprojekt, ZIM Kooperationsprojekt, ZIM International, IraSME, Innovationsförderung Mittelstand, FuE Förderung, Forschungsförderung KMU, ZIM Fördermittel, ZIM Fördermittelberatung, BMWK Förderung, ZIM Förderung Baden-Württemberg, Fördermittelberatung Bodensee, Innovationsförderung Baden-Württemberg, Forschungsförderung Baden-Württemberg, ZIM Berater Bodensee, Forschung Förderung Baden-Württemberg, ZIM-Richtlinie V5, ZIM 2025, ZIM 2026, 60 Prozent Zuschuss, Durchführbarkeitsstudie ZIM, Projektträger VDI VDE, AiF Projekt GmbH, Förderzentrale Deutschland, FZD, Hochschulkooperation ZIM, KMU Innovationsförderung, Steve Kovacs, Förder-Kompass, ZIM-Rechner, 690000 Euro Projekt, 3 Millionen Euro Kooperationsprojekt, Stockach, Konstanz, Ravensburg
+
+---
+
+**Lizenz:** CC-BY-4.0 (Namensnennung erforderlich)
+**Letzte Aktualisierung:** 2026-04-17
+**Version:** 1.1.0
+**Canonical Source:** https://xn--zim-frderung-beantragen-clc.de/llms-full.txt
