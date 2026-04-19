@@ -6,8 +6,10 @@ import {
   Info,
   Phone,
   AlertTriangle,
+  FileDown,
 } from "lucide-react";
 import { trackCalendlyClick, trackCalculation } from "@/lib/analytics";
+import PDFRequestModal, { CalculationSnapshot } from "@/components/PDFRequestModal";
 
 type ProjectType = "einzelprojekt" | "koop_national" | "koop_international";
 type CompanySize =
@@ -119,6 +121,7 @@ export default function ZimRechner() {
   const [materialkosten, setMaterialkosten] = useState(20000);
   const [geraeteAbschreibung, setGeraeteAbschreibung] = useState(10000);
   const [laufzeitMonate, setLaufzeitMonate] = useState(24);
+  const [pdfModalOpen, setPdfModalOpen] = useState(false);
 
   const formatCurrency = (value: number) =>
     new Intl.NumberFormat("de-DE", {
@@ -425,6 +428,16 @@ export default function ZimRechner() {
               </div>
             </div>
 
+            {/* PDF Anfordern */}
+            <button
+              type="button"
+              onClick={() => setPdfModalOpen(true)}
+              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center flex items-center justify-center gap-2"
+            >
+              <FileDown className="w-4 h-4" />
+              PDF anfordern &amp; per E-Mail erhalten
+            </button>
+
             {/* CTA */}
             <div className="bg-surface-DEFAULT rounded-2xl p-6 border border-border-DEFAULT space-y-4">
               <h3 className="text-lg font-semibold">
@@ -438,7 +451,7 @@ export default function ZimRechner() {
                 href="https://calendly.com/kovacs-termin"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark w-full text-center flex items-center justify-center gap-2"
+                className="btn-pill bg-white text-primary-DEFAULT border border-primary-DEFAULT hover:bg-primary-DEFAULT hover:text-white w-full text-center flex items-center justify-center gap-2 transition-colors"
                 onClick={() => trackCalendlyClick("zim-rechner")}
               >
                 <Phone className="w-4 h-4" />
@@ -448,6 +461,32 @@ export default function ZimRechner() {
           </div>
         </div>
       </div>
+
+      {/* PDF Request Modal */}
+      <PDFRequestModal
+        open={pdfModalOpen}
+        onClose={() => setPdfModalOpen(false)}
+        snapshot={{
+          projectType,
+          projectTypeLabel: projectTypeLabels[projectType],
+          companySize,
+          companySizeLabel: companySizeLabels[companySize],
+          personalkosten,
+          auftraegeDritte,
+          materialkosten,
+          geraeteAbschreibung,
+          laufzeitMonate,
+          foerderquote: result.foerderquote,
+          direkteKosten: result.direkteKosten,
+          gemeinkosten: result.gemeinkosten,
+          zuwendungsfaehigeKosten: result.zuwendungsfaehigeKosten,
+          gedeckelteKosten: result.gedeckelteKosten,
+          zuwendung: result.zuwendung,
+          eigenanteil: result.eigenanteil,
+          cap: result.cap,
+          isCapped: result.isCapped,
+        }}
+      />
     </section>
   );
 }
