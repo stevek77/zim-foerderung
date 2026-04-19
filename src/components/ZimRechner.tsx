@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Calculator,
   Info,
@@ -185,6 +185,16 @@ export default function ZimRechner() {
     geraeteAbschreibung,
     laufzeitMonate,
   ]);
+
+  // GA4-Event: trackCalculation debounced (2 Sek nach letzter Änderung), um
+  // Event-Spam bei Slider-Movement zu vermeiden. So sehen wir in GA4 nur
+  // "finale" Berechnungen mit denen der User tatsächlich gearbeitet hat.
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      trackCalculation(projectType, result.zuwendung);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, [projectType, result.zuwendung]);
 
   return (
     <section className="py-16 bg-surface-soft">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { trackCalendlyClick, trackFormSubmission } from "@/lib/analytics";
+import { trackCalendlyClick, trackFormSubmission, trackPhoneClick } from "@/lib/analytics";
 import {
   GraduationCap,
   Handshake,
@@ -471,6 +471,7 @@ export default function HochschulenContent() {
                   Werktagen bei Ihnen. Bei Rückfragen erreichen Sie uns unter{" "}
                   <a
                     href="tel:+4977718988861"
+                    onClick={() => trackPhoneClick("hochschulen-contact-info")}
                     className="text-primary-DEFAULT hover:underline"
                   >
                     +49 7771 8988 861
@@ -865,7 +866,11 @@ export default function HochschulenContent() {
                     <p className="text-red-500 text-sm mt-3">
                       Beim Senden ist ein Fehler aufgetreten. Bitte versuchen
                       Sie es erneut oder kontaktieren Sie uns direkt unter{" "}
-                      <a href="tel:+4977718988861" className="underline">
+                      <a
+                        href="tel:+4977718988861"
+                        onClick={() => trackPhoneClick("hochschulen-form-error")}
+                        className="underline"
+                      >
                         +49 7771 8988 861
                       </a>
                       .

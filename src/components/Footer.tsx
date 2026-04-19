@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Linkedin, Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
 import content from "@/data/content-footer.json";
+import TrackedPhoneLink from "@/components/TrackedPhoneLink";
 
 export default function Footer() {
   return (
@@ -63,12 +64,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary-DEFAULT shrink-0" />
-                <a
-                  href={`tel:${content.contact.phone.replace(/\s/g, "")}`}
+                <TrackedPhoneLink
+                  location="footer"
+                  phone={content.contact.phone.replace(/\s/g, "")}
                   className="text-white/50 hover:text-primary-DEFAULT transition-colors"
                 >
                   {content.contact.phone}
-                </a>
+                </TrackedPhoneLink>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-primary-DEFAULT shrink-0" />

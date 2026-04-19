@@ -1,6 +1,7 @@
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import content from "@/data/content-cta.json";
 import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
+import TrackedPhoneLink from "@/components/TrackedPhoneLink";
 
 export default function CTASection() {
   return (
@@ -62,12 +63,12 @@ export default function CTASection() {
           <div className="mt-8 text-white/60 text-sm">
             <p>
               {content.contactPrefix}{" "}
-              <a
-                href="tel:+4977718988861"
+              <TrackedPhoneLink
+                location="cta-section"
                 className="text-white/80 hover:text-white transition-colors"
               >
                 {content.phone}
-              </a>
+              </TrackedPhoneLink>
             </p>
           </div>
         </div>

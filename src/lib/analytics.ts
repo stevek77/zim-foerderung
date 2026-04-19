@@ -57,3 +57,19 @@ export function trackCTAClick(buttonText: string, location: string) {
     event_label: `${buttonText} – ${location}`,
   });
 }
+
+// PDF-Anforderung aus Rechner (z.B. ZIM-Rechner → "PDF per E-Mail erhalten")
+// Feuert wenn der User das DSGVO-Einwilligungsformular abschickt.
+// fundingAmount = kalkulierte Förderhöhe in EUR (für value-based conversion tracking)
+export function trackPDFRequest(
+  source: string,
+  fundingAmount: number,
+  projectType?: string,
+) {
+  sendEvent("pdf_request", {
+    event_category: "conversion",
+    event_label: source,
+    value: fundingAmount,
+    project_type: projectType || "",
+  });
+}
