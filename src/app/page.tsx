@@ -5,25 +5,19 @@ import FundingTable from "@/components/FundingTable";
 import Schnellcheck from "@/components/Schnellcheck";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import FAQ from "@/components/FAQ";
-import AboutSection from "@/components/AboutSection";
 import GeoContent from "@/components/GeoContent";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import { getFAQSchema, getHowToSchema } from "@/lib/schema";
-import { faqData } from "@/lib/faq-data";
+import { getHowToSchema } from "@/lib/schema";
+
+// FAQ & AboutSection sind jetzt dedizierte Seiten (/faq/, /ueber-uns/)
+// FAQPage-Schema wandert entsprechend mit, damit Google Rich Snippets nur
+// der /faq/-URL zuordnet (saubere Attribution).
 
 export default function Home() {
   return (
     <>
-      {/* FAQ Schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(getFAQSchema(faqData)),
-        }}
-      />
-      {/* HowTo Schema */}
+      {/* HowTo Schema (bleibt auf Homepage, da die Schritte hier beschrieben werden) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -39,9 +33,7 @@ export default function Home() {
         <Schnellcheck />
         <Services />
         <Testimonials />
-        <FAQ />
         <GeoContent />
-        <AboutSection />
         <CTASection />
       </main>
       <Footer />

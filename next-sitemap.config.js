@@ -14,6 +14,8 @@ module.exports = {
       "/": 1.0,
       "/hochschulen/": 0.8,
       "/zim-rechner/": 0.9,
+      "/faq/": 0.8,
+      "/ueber-uns/": 0.6,
     };
 
     return {
