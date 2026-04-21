@@ -51,3 +51,6 @@ artifacts/
 # Windows nul artifacts
 nul
 **/nul
+
+# SEO-Optimizer Run-Reports (lokal, in GH-Actions als Artifact gespeichert)
+scripts/seo-optimizer/reports/

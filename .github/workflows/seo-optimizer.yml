@@ -1,0 +1,68 @@
+name: SEO/GEO Self-Optimizer
+
+on:
+  schedule:
+    # Jeden Montag 05:00 UTC (07:00 Europe/Berlin im Sommer, 06:00 im Winter)
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Override OPTIMIZER_MODE (disabled|dry-run|suggest|auto-low|auto-high)"
+        required: false
+        default: ""
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      has_changes: ${{ steps.run.outputs.has_changes }}
+      run_id: ${{ steps.run.outputs.run_id }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run optimizer
+        id: run
+        env:
+          OPTIMIZER_MODE: ${{ github.event.inputs.mode != '' && github.event.inputs.mode || vars.OPTIMIZER_MODE || 'disabled' }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: npx tsx scripts/seo-optimizer/run.ts
+
+      - name: Upload run artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: optimizer-run-${{ steps.run.outputs.run_id }}
+          path: scripts/seo-optimizer/reports/
+          retention-days: 30
+
+      - name: Create PR if changes
+        if: steps.run.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="seo-optimizer/run-${{ steps.run.outputs.run_id }}"
+          git config user.name "seo-optimizer-bot"
+          git config user.email "seo-optimizer-bot@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add -A
+          git commit -m "SEO-Optimizer: automatisierte Änderungen (run ${{ steps.run.outputs.run_id }})"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "SEO-Optimizer: Run ${{ steps.run.outputs.run_id }}" \
+            --body-file scripts/seo-optimizer/reports/run-${{ steps.run.outputs.run_id }}.md \
+            --label "seo-optimizer"
