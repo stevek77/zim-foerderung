@@ -31,8 +31,8 @@ export default function Hero() {
         {/* Dark overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/60 to-black/40" />
 
-        <div className="container-main relative z-10" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="relative z-10 mx-auto px-6 max-w-[1200px] xl:max-w-[1320px] 2xl:max-w-[1400px]" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
+          <div className="grid gap-10 lg:grid-cols-[45fr_55fr] lg:gap-12 xl:grid-cols-[42fr_58fr] 2xl:grid-cols-[40fr_60fr] items-center">
             {/* Left: Text Content */}
             <div className="space-y-6">
               <p className="text-gold-DEFAULT font-semibold text-sm tracking-wide uppercase">
