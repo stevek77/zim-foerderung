@@ -17,7 +17,7 @@ export default function Hero() {
         type="module"
       />
 
-      <section className="pt-[80px] relative overflow-hidden">
+      <section className="pt-[80px] lg:pt-[116px] relative overflow-hidden">
         {/* Dschungel Background */}
         <div
           className="absolute inset-0"

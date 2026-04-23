@@ -30,6 +30,26 @@ export default function Navigation() {
       }`}
       aria-label="Hauptnavigation"
     >
+      {/* Top Utility Bar - only on lg+, shows social icons */}
+      <div className="hidden lg:block bg-primary-deepest/95 text-white/70">
+        <div className="container-main">
+          <div className="flex items-center justify-end h-9 gap-1">
+            {socialLinks.map(({ href, label, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="w-8 h-8 rounded-full flex items-center justify-center hover:text-gold-DEFAULT transition-colors"
+              >
+                <Icon className="w-[15px] h-[15px]" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="container-main">
         <div className="flex items-center justify-between h-[80px]">
           {/* Logo - Förder-Kompass (geschnittene Version ohne Whitespace) */}
@@ -41,35 +61,21 @@ export default function Navigation() {
             />
           </Link>
 
-          <div className="hidden lg:flex items-center gap-7">
+          <div className="hidden lg:flex items-center gap-6 xl:gap-7">
             {content.items.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-body hover:text-primary-DEFAULT text-[15px] font-normal transition-colors"
+                className="text-body hover:text-primary-DEFAULT text-[15px] font-normal transition-colors whitespace-nowrap"
               >
                 {item.label}
               </Link>
             ))}
-            <div className="flex items-center gap-2 pl-1 border-l border-border-DEFAULT/60 ml-1">
-              {socialLinks.map(({ href, label, Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={label}
-                  className="w-8 h-8 rounded-full flex items-center justify-center text-body-light hover:text-primary-DEFAULT hover:bg-primary-light transition-colors"
-                >
-                  <Icon className="w-[16px] h-[16px]" />
-                </a>
-              ))}
-            </div>
             <a
               href="https://calendly.com/kovacs-termin"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark"
+              className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark whitespace-nowrap"
               onClick={() => trackCalendlyClick("navigation")}
             >
               <Phone className="w-4 h-4" />

@@ -78,7 +78,7 @@ export default function HochschulenPage() {
       <Navigation />
       <main>
         {/* Hero */}
-        <section className="pt-[80px] relative overflow-hidden">
+        <section className="pt-[80px] lg:pt-[116px] relative overflow-hidden">
           <div
             className="absolute inset-0"
             style={{

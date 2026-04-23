@@ -176,7 +176,7 @@ export default function ToolsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
       <Navigation />
-      <main className="min-h-screen bg-gradient-to-b from-white to-slate-50 pt-24">
+      <main className="min-h-screen bg-gradient-to-b from-white to-slate-50 pt-24 lg:pt-[124px]">
         <section className="mx-auto max-w-5xl px-6 py-12 md:py-16">
           <header className="mb-10 text-center md:text-left">
             <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-emerald-700">

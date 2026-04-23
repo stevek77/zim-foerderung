@@ -73,7 +73,7 @@ export default function UeberUnsPage() {
       <Navigation />
       <main>
         {/* Page-Hero */}
-        <section className="py-20 bg-surface-soft">
+        <section className="pt-20 lg:pt-[116px] pb-20 bg-surface-soft">
           <div className="container-main">
             <div className="max-w-3xl mx-auto text-center">
               <p className="text-primary-DEFAULT font-medium text-sm uppercase tracking-wider mb-3">
