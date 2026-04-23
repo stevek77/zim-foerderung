@@ -35,13 +35,13 @@ export default function Hero() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Left: Text Content */}
             <div className="space-y-6">
-              <p className="text-primary-DEFAULT font-semibold text-sm tracking-wide uppercase">
+              <p className="text-gold-DEFAULT font-semibold text-sm tracking-wide uppercase">
                 {content.badge}
               </p>
 
               <h1 className="text-[2.25rem] md:text-[2.6rem] lg:text-[2.85rem] leading-[1.12] tracking-tight text-white">
                 {content.headline}{" "}
-                <span className="text-primary-DEFAULT">
+                <span className="text-gold-DEFAULT">
                   {content.headlineHighlight}
                 </span>{" "}
                 {content.headlineSuffix}
@@ -58,7 +58,7 @@ export default function Hero() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                 {content.trustPoints.map((point) => (
                   <div key={point} className="flex items-start gap-2.5">
-                    <CheckCircle className="w-[18px] h-[18px] text-primary-DEFAULT shrink-0 mt-0.5" />
+                    <CheckCircle className="w-[18px] h-[18px] text-gold-DEFAULT shrink-0 mt-0.5" />
                     <span className="text-white/90 text-[15px] leading-snug">
                       {point}
                     </span>

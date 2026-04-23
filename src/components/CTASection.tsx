@@ -35,7 +35,7 @@ export default function CTASection() {
                 key={benefit}
                 className="flex items-center gap-2 text-white/90"
               >
-                <CheckCircle className="w-4 h-4 text-white/70 shrink-0" />
+                <CheckCircle className="w-4 h-4 text-gold-DEFAULT shrink-0" />
                 <span className="text-sm">{benefit}</span>
               </div>
             ))}

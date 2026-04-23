@@ -56,10 +56,17 @@ wistia-player[media-id="1ayfjjajmu"]:not(:defined) {
   --font-sans: "Source Sans Pro", "Source Sans 3", system-ui, -apple-system, sans-serif;
   --font-mono: var(--font-geist-mono);
 
-  --color-primary-DEFAULT: #1B9C85;
-  --color-primary-dark: #178E79;
-  --color-primary-light: #E8F5F1;
-  --color-primary-50: #F0FAF7;
+  /* Foerder-Kompass Brand: Dschungel-Gruen */
+  --color-primary-DEFAULT: #2B8C5A;
+  --color-primary-dark: #1F6944;
+  --color-primary-deepest: #0B1F14;
+  --color-primary-light: #E6F3EB;
+  --color-primary-50: #F0F7F3;
+
+  /* Foerder-Kompass Brand: Kompass-Gold (Akzent) */
+  --color-gold-DEFAULT: #C9A84C;
+  --color-gold-dark: #AD8E36;
+  --color-gold-light: #F5EDD3;
 
   --color-heading: #0F172A;
   --color-body: #454F5E;
@@ -119,31 +126,31 @@ wistia-player[media-id="1ayfjjajmu"]:not(:defined) {
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #1B9C85;
+  --primary: #2B8C5A;
   --primary-foreground: #FFFFFF;
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: #818A91;
-  --accent: #E8F5F1;
-  --accent-foreground: #0F172A;
+  --accent: #E6F3EB;
+  --accent-foreground: #0B1F14;
   --destructive: oklch(0.577 0.245 27.325);
   --border: #E5E7EB;
   --input: #E5E7EB;
-  --ring: #1B9C85;
-  --chart-1: #1B9C85;
-  --chart-2: #2B634B;
-  --chart-3: #0F3D34;
-  --chart-4: #178E79;
-  --chart-5: #071B14;
+  --ring: #2B8C5A;
+  --chart-1: #2B8C5A;
+  --chart-2: #1F6944;
+  --chart-3: #0B1F14;
+  --chart-4: #52B788;
+  --chart-5: #C9A84C;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: #1B9C85;
+  --sidebar-primary: #2B8C5A;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #E8F5F1;
-  --sidebar-accent-foreground: #0F172A;
+  --sidebar-accent: #E6F3EB;
+  --sidebar-accent-foreground: #0B1F14;
   --sidebar-border: #E5E7EB;
-  --sidebar-ring: #1B9C85;
+  --sidebar-ring: #2B8C5A;
 }
 
 @layer base {
