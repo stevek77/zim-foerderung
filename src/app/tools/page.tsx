@@ -63,7 +63,7 @@ const resources: ResourceItem[] = [
     title: "ZIM-Fördercheck 2025",
     description:
       "Interaktiver Eligibility-Check: Prüfen Sie in wenigen Fragen, ob Ihr Projekt grundsätzlich ZIM-förderfähig ist, bevor Sie Zeit in die Antragsstellung investieren.",
-    url: "https://claude.ai/public/artifacts/42798373-04d4-497a-9060-64c569717f2e",
+    url: "https://claude.ai/public/artifacts/fd1f3225-6900-4255-8e46-6f24219bf5e6",
     category: "ZIM",
     icon: FileSearch,
   },

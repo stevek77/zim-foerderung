@@ -4,7 +4,7 @@ import { ArrowRight, ClipboardCheck, Clock, Zap } from "lucide-react";
 import { trackCTAClick } from "@/lib/analytics";
 
 const ARTIFACT_URL =
-  "https://claude.ai/public/artifacts/42798373-04d4-497a-9060-64c569717f2e";
+  "https://claude.ai/public/artifacts/fd1f3225-6900-4255-8e46-6f24219bf5e6";
 
 export default function Schnellcheck() {
   return (
