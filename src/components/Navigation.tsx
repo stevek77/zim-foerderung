@@ -2,9 +2,16 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Linkedin, Instagram, Facebook } from "lucide-react";
 import content from "@/data/content-nav.json";
+import footerContent from "@/data/content-footer.json";
 import { trackCalendlyClick } from "@/lib/analytics";
+
+const socialLinks = [
+  { href: footerContent.social.linkedin, label: "LinkedIn", Icon: Linkedin },
+  { href: footerContent.social.instagram, label: "Instagram", Icon: Instagram },
+  { href: footerContent.social.facebook, label: "Facebook", Icon: Facebook },
+];
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -44,6 +51,20 @@ export default function Navigation() {
                 {item.label}
               </Link>
             ))}
+            <div className="flex items-center gap-2 pl-1 border-l border-border-DEFAULT/60 ml-1">
+              {socialLinks.map(({ href, label, Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-8 h-8 rounded-full flex items-center justify-center text-body-light hover:text-primary-DEFAULT hover:bg-primary-light transition-colors"
+                >
+                  <Icon className="w-[16px] h-[16px]" />
+                </a>
+              ))}
+            </div>
             <a
               href="https://calendly.com/kovacs-termin"
               target="_blank"
@@ -91,6 +112,21 @@ export default function Navigation() {
               >
                 {content.cta}
               </a>
+            </div>
+            <div className="flex items-center justify-center gap-3 pt-5 pb-1">
+              {socialLinks.map(({ href, label, Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-10 h-10 rounded-full bg-surface-soft flex items-center justify-center text-body-light hover:text-primary-DEFAULT hover:bg-primary-light transition-colors"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  <Icon className="w-[18px] h-[18px]" />
+                </a>
+              ))}
             </div>
           </div>
         )}
