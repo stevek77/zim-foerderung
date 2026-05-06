@@ -35,6 +35,11 @@ export const faqData: FAQItem[] = [
       "Gemäß ZIM-Richtlinie V5 werden primär Personalkosten der am Projekt beteiligten Mitarbeiter gefördert (maximal 120.000 Euro Bruttojahresgehalt je Person, bei Geschäftsführern bis zu 150.000 Euro). Darüber hinaus sind projektbezogene Kosten für Instrumente und Ausrüstung, Auftragsforschung und Beratung (max. 25 % der Personalkosten), Patentkosten sowie Gemeinkosten und sonstige Betriebskosten mit direktem Projektbezug zuwendungsfähig.",
   },
   {
+    question: "Was sind FuE-Projekte und wie fördert ZIM diese?",
+    answer:
+      "FuE-Projekte (Forschung und Entwicklung) entwickeln neue Produkte, Verfahren oder Dienstleistungen mit echtem technischen Risiko über dem Stand der Technik. ZIM fördert FuE-Projekte von KMU technologie- und branchenoffen: Einzelprojekte mit 25–45 % Zuschuss auf eine Bemessungsgrundlage von max. 690.000 € (= max. ca. 310.500 € Zuschuss), Kooperationsprojekte mit 30–60 % auf bis zu 3 Mio € Gesamtsumme. Routine-Entwicklungen ohne technisches Risiko sind nicht förderfähig.",
+  },
+  {
     question: "Was sind die Voraussetzungen für eine ZIM Förderung?",
     answer:
       "Ihr Projekt muss einen deutlichen Innovationsgrad über dem aktuellen Stand der Technik aufweisen, erhebliche technische Risiken beinhalten und eine wirtschaftliche Verwertung anstreben. Außerdem muss das Vorhaben ohne Förderung nicht realisierbar sein. Sogenannte 'Unternehmen in Schwierigkeiten' gemäß EU-Verordnung sind von der Förderung ausgeschlossen.",
@@ -43,6 +48,11 @@ export const faqData: FAQItem[] = [
     question: "Wann und wo kann ich einen ZIM-Antrag stellen?",
     answer:
       "ZIM-Anträge können jederzeit über das Online-Portal der Förderzentrale Deutschland (FZD) unter foerderzentrale.de volldigitalisiert eingereicht werden. Es gibt keine festen Stichtage oder Einreichungsfristen – das ZIM ist ganzjährig geöffnet. Wichtig: Das Projekt darf nicht vor Antragseingang begonnen werden (sogenannter vorzeitiger Maßnahmenbeginn führt zum Ausschluss).",
+  },
+  {
+    question: "Wo finde ich das ZIM-Formularcenter?",
+    answer:
+      "Das ZIM-Formularcenter ist Teil der Förderzentrale Deutschland und unter foerderzentrale.de erreichbar. Dort reichen Sie Ihren Antrag, Zwischennachweise und den Verwendungsnachweis volldigitalisiert ein. Eine vorherige Registrierung ist erforderlich. Förder-Kompass übernimmt für Sie die komplette Antragstellung über das Formularcenter und begleitet alle Berichtspflichten bis zum Schlussabschluss.",
   },
   {
     question: "Wie lange dauert die Bearbeitung eines ZIM-Antrags?",
@@ -85,6 +95,11 @@ export const faqData: FAQItem[] = [
       "Für FuE-Einzelprojekte, Innovationsnetzwerke und Durchführbarkeitsstudien ist die VDI/VDE Innovation + Technik GmbH zuständig. Für FuE-Kooperationsprojekte (außerhalb von Netzwerken) ist die AiF Projekt GmbH der richtige Ansprechpartner. Beide Projektträger beraten kostenlos bei Fragen zur Antragstellung.",
   },
   {
+    question: "Was muss im ZIM-Abschlussbericht enthalten sein?",
+    answer:
+      "Der ZIM-Abschlussbericht dokumentiert Projektergebnisse, technische Erkenntnisse, Zielerreichung gegenüber dem Antrag, den Verwertungsplan und alle Kostennachweise. Er wird gemeinsam mit dem Verwendungsnachweis über das Formularcenter beim Projektträger eingereicht. Förder-Kompass unterstützt Sie strukturiert bei Berichtsaufbau, Nachweisführung und fristgerechter Einreichung – damit auch der Projektabschluss reibungslos läuft und die Schlusszahlung freigegeben wird.",
+  },
+  {
     question: "Wie erfolgt die Auszahlung der ZIM-Förderung?",
     answer:
       "Die Zuwendung wird als nicht-rückzahlbarer Zuschuss in Form einer Anteilsfinanzierung gewährt. Nach Bewilligung und Projektstart müssen Sie alle drei Monate eine Zahlungsanforderung mit detaillierter Kostenauflistung und Nachweisen beim Projektträger einreichen. Die Förderung dient somit auch der Vorfinanzierung laufender Projektkosten.",
@@ -109,6 +124,11 @@ export const faqData: FAQItem[] = [
       "Können Personalkosten für Geschäftsführer gefördert werden, auch wenn diese kein Gehalt beziehen?",
     answer:
       "Ja, das ist möglich. Grundsätzlich sind Personalkosten für Geschäftsführer förderfähig, wenn diese nachweislich am FuE-Projekt mitarbeiten – allerdings maximal bis zu 50 % der Normalarbeitszeit. Beziehen Geschäftsführer oder Unternehmensinhaber kein festes Gehalt (z. B. bei Personengesellschaften oder Einzelunternehmen), kann im Ausnahmefall ein kalkulatorischer Unternehmerlohn nach Nr. 24 der Leitsätze für die Preisermittlung auf Grund von Selbstkosten (PreisLS) angesetzt werden. Die Gehaltskosten sind dabei auf maximal 150.000 Euro pro Person und Jahr begrenzt. Als Nachweis kann der Projektträger den GF-Vertrag, die letzte Einkommensteuererklärung oder bestätigte Gewinnentnahmen anfordern.",
+  },
+  {
+    question: "Was ändert sich bei der ZIM-Förderung 2026?",
+    answer:
+      "Für 2026 gilt unverändert die ZIM-Richtlinie V5 (Bundesanzeiger vom 01.11.2024, gültig ab 01.01.2025). Die Förderkonditionen bleiben damit stabil: ZIM-Einzelprojekte werden mit 25–45 % auf bis zu 690.000 € Bemessungsgrundlage gefördert, ZIM-Kooperationsprojekte mit 30–60 % auf bis zu 3 Mio € Gesamtsumme. Das Programmbudget liegt bei rund 630 Mio € pro Jahr. Förder-Kompass berät erfolgsbasiert und prüft Ihre Antragsstrategie für 2026 kostenlos.",
   },
   {
     question: "Können auch Startups die ZIM-Förderung beantragen?",
