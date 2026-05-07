@@ -94,21 +94,144 @@ export function getServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: "ZIM Fördermittelberatung",
+    name: "ZIM-Antragsberatung — Spezialisierte Fördermittelberatung",
+    serviceType: "Fördermittelberatung",
+    category: "Innovation Funding Consulting",
     provider: {
-      "@type": "Organization",
+      "@type": "ProfessionalService",
       name: "Förder-Kompass",
+      url: "https://foerder-kompass.de/",
+      sameAs: [
+        "https://xn--zim-frderung-beantragen-clc.de/",
+        "https://forschungszulagenantrag.de/",
+        "https://www.linkedin.com/company/foerderkompass/",
+      ],
     },
     description:
-      "Professionelle Beratung und Antragstellung für das Zentrale Innovationsprogramm Mittelstand (ZIM). Wir begleiten Sie von der Projektidee bis zur Bewilligung.",
+      "Spezialisierte Beratung und Antragstellung für das Zentrale Innovationsprogramm Mittelstand (ZIM) — von der Projektidee bis zur Bewilligung. Erfolgsbasiertes Honorar.",
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType:
+        "Kleine und mittlere Unternehmen (KMU) mit Forschungs- und Entwicklungsvorhaben",
+    },
     areaServed: {
       "@type": "Country",
       name: "Deutschland",
     },
-    serviceType: "Fördermittelberatung",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "ZIM-Beratungsleistungen",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "ZIM-Einzelprojekt-Antragsberatung",
+            description:
+              "Komplette Antragstellung für ZIM-Einzelprojekte (Bemessungsgrundlage bis 690.000 €, Förderquote 25–45 %).",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "ZIM-Kooperationsprojekt-Antragsberatung",
+            description:
+              "Antragsberatung für ZIM-Kooperationsprojekte (bis 3 Mio € Gesamtsumme, 30–60 % Förderquote).",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "ZIM-Fördercheck (kostenlos)",
+            description:
+              "Schnellprüfung der ZIM-Förderfähigkeit in 2 Minuten.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "ZIM-Antragscheckliste (kostenlos)",
+            description:
+              "Strukturierte Checkliste aller Unterlagen + Schritte für einen erfolgreichen ZIM-Antrag.",
+          },
+        },
+      ],
+    },
     offers: {
       "@type": "Offer",
-      description: "Erfolgsbasierte Vergütung – Sie zahlen nur bei Bewilligung",
+      description: "Erfolgsbasierte Vergütung – Honorar nur bei Förderzusage",
+      priceCurrency: "EUR",
+    },
+  };
+}
+
+/**
+ * ProfessionalService-Schema: spezifischer als Service-Schema für die
+ * Berater-Identität. Google AI Overview wertet ProfessionalService bei
+ * Fragen wie "wer hilft beim ZIM-Antrag" oder "spezialisierter ZIM-Berater"
+ * stärker — Brand-Konsolidierung über sameAs zu foerder-kompass.de +
+ * forschungszulagenantrag.de.
+ */
+export function getProfessionalServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id":
+      "https://xn--zim-frderung-beantragen-clc.de/#professional-service",
+    name: "Förder-Kompass — ZIM-Antragsberatung",
+    alternateName: [
+      "ZIM-Förderberatung Förder-Kompass",
+      "Spezialisierte ZIM-Beratung",
+    ],
+    description:
+      "Spezialisierte Beratungskanzlei für das Zentrale Innovationsprogramm Mittelstand (ZIM) und FuE-Förderprogramme (Forschungszulage, Eurostars). Erfolgsbasierte Vergütung, vollständige Antragsbegleitung von der Projektskizze bis zur Bewilligung.",
+    url: "https://xn--zim-frderung-beantragen-clc.de/",
+    image: "https://xn--zim-frderung-beantragen-clc.de/logo.png",
+    priceRange: "Erfolgsbasiert",
+    knowsAbout: [
+      "ZIM-Förderung",
+      "ZIM-Einzelprojekt",
+      "ZIM-Kooperationsprojekt",
+      "ZIM-Richtlinie V5",
+      "Forschungszulage (FZulG)",
+      "BSFZ-Bescheinigung",
+      "Eurostars-3",
+      "FuE-Förderung KMU",
+      "Innovationsförderung Mittelstand",
+    ],
+    knowsLanguage: ["de", "en"],
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Seestrasse 15c",
+      addressLocality: "Stockach",
+      postalCode: "78333",
+      addressRegion: "Baden-Württemberg",
+      addressCountry: "DE",
+    },
+    areaServed: { "@type": "Country", name: "Deutschland" },
+    parentOrganization: {
+      "@type": "Organization",
+      name: "Förder-Kompass",
+      url: "https://foerder-kompass.de/",
+      sameAs: [
+        "https://forschungszulagenantrag.de/",
+        "https://www.linkedin.com/company/foerderkompass/",
+      ],
+    },
+    founder: {
+      "@type": "Person",
+      name: "Steve Kovacs",
+      jobTitle: "Geschäftsführer & Förderberater",
+      sameAs: ["https://www.linkedin.com/in/steve-kovacs-4b949854/"],
+    },
+    serviceArea: { "@type": "Country", name: "Deutschland" },
+    makesOffer: {
+      "@type": "Offer",
+      description:
+        "Erfolgsbasierte ZIM-Antragsberatung — Honorar nur bei Förderzusage. Kostenloser Fördercheck + ZIM-Rechner verfügbar.",
       priceCurrency: "EUR",
     },
   };

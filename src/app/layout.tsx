@@ -6,6 +6,7 @@ import {
   getOrganizationSchema,
   getLocalBusinessSchema,
   getServiceSchema,
+  getProfessionalServiceSchema,
   getWebApplicationSchema,
 } from "@/lib/schema";
 import "./globals.css";
@@ -39,6 +40,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(getServiceSchema()),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getProfessionalServiceSchema()),
           }}
         />
         <script
