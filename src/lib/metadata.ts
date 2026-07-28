@@ -15,11 +15,11 @@ export const defaultMetadata: Metadata = {
   },
   manifest: "/manifest.json",
   title: {
-    default: "ZIM-Förderung 2026 beantragen – bis zu 690.000 € Zuschuss",
+    default: "ZIM-Förderung 2026 beantragen | Förder-Kompass",
     template: "%s | ZIM Förderung beantragen – Förder-Kompass",
   },
   description:
-    "ZIM-Förderung 2026 beantragen: bis zu 690.000 € Zuschuss (25–60 %) für FuE-Projekte. Kostenloser Rechner, Antrags-Checkliste & rein erfolgsbasierte Beratung.",
+    "ZIM-Förderung 2026: bis zu 60 % Zuschuss für FuE-Projekte. Kostenloser Rechner, Antrags-Checkliste & erfolgsbasierte Beratung.",
   keywords: [
     "ZIM Förderung",
     "ZIM Förderung beantragen",
