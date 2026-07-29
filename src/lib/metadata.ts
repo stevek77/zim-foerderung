@@ -15,7 +15,7 @@ export const defaultMetadata: Metadata = {
   },
   manifest: "/manifest.json",
   title: {
-    default: "ZIM-Förderung 2026 beantragen | Förder-Kompass",
+    default: "ZIM-Förderung 2026 beantragen – bis zu 60 % Zuschuss",
     template: "%s | ZIM Förderung beantragen – Förder-Kompass",
   },
   description:
