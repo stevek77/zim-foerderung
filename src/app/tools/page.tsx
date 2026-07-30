@@ -44,10 +44,10 @@ interface ResourceItem {
 const resources: ResourceItem[] = [
   // ZIM (eigene Marke — oberste Priorität)
   {
-    title: "ZIM-Förderrechner 2025",
+    title: "ZIM-Förderrechner 2026",
     description:
       "Interaktiver Rechner: Ermitteln Sie Ihre ZIM-Zuwendung auf Basis von FuE-Personalkosten, Auftragsforschung und Sachkosten. KMU-Bonus und Kooperations-Aufschlag werden automatisch berücksichtigt.",
-    url: "https://claude.ai/public/artifacts/def0d28e-ee54-4169-92af-66fe935b6c06",
+    url: "https://xn--zim-frderung-beantragen-clc.de/zim-rechner",
     category: "ZIM",
     icon: Calculator,
   },
@@ -55,7 +55,7 @@ const resources: ResourceItem[] = [
     title: "ZIM-Antrags-Checkliste 2025",
     description:
       "Schritt-für-Schritt-Checkliste für Einzelprojekte und Kooperationsprojekte: alle einzureichenden Unterlagen, Stolperfallen und Formulare auf einen Blick.",
-    url: "https://claude.ai/public/artifacts/e95873df-343c-459e-a1a2-41af3fb0970f",
+    url: "https://xn--zim-frderung-beantragen-clc.de/tools/zim-antragscheckliste",
     category: "ZIM",
     icon: CheckCircle2,
   },
@@ -72,7 +72,7 @@ const resources: ResourceItem[] = [
     title: "Forschungszulage-Rechner 2026",
     description:
       "Aktueller FZulG-Rechner für 2026 mit KMU-Bonus (+10 %) und neuer Maximal-Zulage von 4,2 Mio. €. Für Unternehmen, die zusätzlich oder alternativ zur ZIM-Förderung FuE steuerlich fördern lassen.",
-    url: "https://claude.ai/public/artifacts/f6d45a48-bbc4-4c6e-879b-2cbca6642738",
+    url: "https://forschungszulagenantrag.de/forschungszulage-rechner-2026",
     category: "FZulG",
     icon: Calculator,
   },
@@ -88,7 +88,7 @@ const resources: ResourceItem[] = [
     title: "Forschungszulage-BranchenCheck 2026",
     description:
       "Branchen-spezifischer Fördercheck: Softwareentwicklung, Maschinenbau, Medizintechnik, Automotive — was zählt in Ihrer Branche als FuE?",
-    url: "https://claude.ai/public/artifacts/8c64406e-6e71-446b-8a7f-9e57ed94c66e",
+    url: "https://forschungszulagenantrag.de/forschungszulage-branchencheck",
     category: "FZulG",
     icon: Building2,
   },
@@ -96,7 +96,7 @@ const resources: ResourceItem[] = [
     title: "BSFZ-Antragsprozess-Checkliste 2026",
     description:
       "Detaillierte Checkliste für die Antragstellung bei der Bescheinigungsstelle Forschungszulage (BSFZ): Projekt-Beschreibung, Frascati-Kriterien, Dokumentation.",
-    url: "https://claude.ai/public/artifacts/a40bd773-c698-42b6-a7fc-75b96a188bbb",
+    url: "https://forschungszulagenantrag.de/bsfz-antragscheckliste",
     category: "FZulG",
     icon: CheckCircle2,
   },
@@ -104,7 +104,7 @@ const resources: ResourceItem[] = [
     title: "Forschungszulage-FAQ 2026",
     description:
       "Über 30 Fragen und Antworten zur Forschungszulage — vom Grundprinzip über Sonderfälle bis zu rückwirkenden Anträgen.",
-    url: "https://claude.ai/public/artifacts/f975b40c-444f-4534-aee3-df6090a98341",
+    url: "https://forschungszulagenantrag.de/forschungszulage-faq",
     category: "FZulG",
     icon: BookOpen,
   },
@@ -112,7 +112,7 @@ const resources: ResourceItem[] = [
     title: "Forschungszulage-Leitfaden für Steuerberater 2026",
     description:
       "Kompakter Guide für Steuerberater: Welche Mandanten-Situationen eignen sich für die Forschungszulage? Prozess, Haftung, Kooperationsmodelle.",
-    url: "https://claude.ai/public/artifacts/57e98ab4-1304-490a-bf13-4e42e1f42221",
+    url: "https://forschungszulagenantrag.de/steuerberater-leitfaden-forschungszulage",
     category: "FZulG",
     icon: BookOpen,
   },
