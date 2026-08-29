@@ -1,12 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import { ArrowRight, ClipboardCheck, Clock, Zap } from "lucide-react";
 import { trackCTAClick } from "@/lib/analytics";
-
-const ARTIFACT_URL =
-  "https://claude.ai/public/artifacts/fd1f3225-6900-4255-8e46-6f24219bf5e6";
+import SchnellcheckModal from "./SchnellcheckModal";
 
 export default function Schnellcheck() {
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <section id="schnellcheck" className="py-20">
       <div className="container-main">
@@ -49,22 +50,24 @@ export default function Schnellcheck() {
 
           {/* CTA */}
           <div className="text-center">
-            <a
-              href={ARTIFACT_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackCTAClick("ZIM Fördercheck starten", "schnellcheck-section")}
+            <button
+              type="button"
+              onClick={() => {
+                trackCTAClick("ZIM Fördercheck starten", "schnellcheck-section");
+                setModalOpen(true);
+              }}
               className="btn-pill bg-primary-DEFAULT text-white hover:bg-primary-dark shadow-lg shadow-primary-DEFAULT/30 text-[16px]"
             >
               ZIM Fördercheck starten
               <ArrowRight className="w-4 h-4" />
-            </a>
+            </button>
             <p className="text-body-light text-sm mt-4">
               Kostenlos &amp; unverbindlich — keine Anmeldung erforderlich
             </p>
           </div>
         </div>
       </div>
+      <SchnellcheckModal open={modalOpen} onClose={() => setModalOpen(false)} />
     </section>
   );
 }
