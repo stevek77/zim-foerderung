@@ -237,9 +237,8 @@ export default function ZimAntragschecklisteSeite() {
               </h3>
             </div>
             <p className="text-slate-700">
-              Die Bewilligungsquote bei ZIM liegt durchschnittlich bei{" "}
-              <strong>60–70 %</strong>. Mit sauberer Antrags­vorbereitung und
-              professioneller Begleitung steigt sie auf &gt;85 %. Der häufigste
+              Nach Angaben des BMWE wird etwa jeder zweite ZIM-Antrag bewilligt. Entscheidend
+              ist eine saubere Antragsvorbereitung. Der häufigste
               Ablehnungsgrund ist <em>nicht</em> fehlende Innovation, sondern
               eine mangelhaft dokumentierte Abgrenzung zum Stand der Technik.
             </p>
