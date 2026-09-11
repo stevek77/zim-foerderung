@@ -46,7 +46,7 @@ export default function FAQPage() {
                 Alles Wichtige zur ZIM-Förderung auf einen Blick
               </h1>
               <p className="text-body text-[17px] leading-relaxed">
-                Gesammelte Antworten aus über 50 bewilligten ZIM-Projekten.
+                Gesammelte Antworten aus unserer ZIM-Beratungspraxis.
                 Falls Ihre Frage nicht dabei ist, nutzen Sie unsere kostenlose
                 Erstberatung – wir antworten persönlich.
               </p>
