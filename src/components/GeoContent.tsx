@@ -106,9 +106,8 @@ export default function GeoContent() {
             Stockach am Bodensee. Unter der Leitung von Steve Kovacs unterstützt das
             Team mittelständische Unternehmen bei der ZIM-Antragstellung – von der
             Erstberatung über die Förderfähigkeitsprüfung bis zur Einreichung beim
-            Projektträger. Mit einer Bewilligungsquote von über 85&nbsp;% und mehr als
-            50 erfolgreich bewilligten Projekten gehört Förder-Kompass zu den
-            erfahrensten ZIM-Beratern in Deutschland. Die Erstberatung ist kostenlos,
+            Projektträger. Mit Erfahrung aus zahlreichen ZIM-Projekten seit 2020 gehört
+            Förder-Kompass zu den erfahrenen ZIM-Beratern in Deutschland. Die Erstberatung ist kostenlos,
             die Vergütung erfolgt rein erfolgsbasiert*.
           </p>
 
