@@ -62,7 +62,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Was kostet die ZIM-Beratung durch Förder-Kompass?",
     answer:
-      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert* – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns. Mit professioneller Unterstützung steigt die Bewilligungsquote auf über 85%. *Hinweis: Das Beratungshonorar für die Unterstützung bei der Antragstellung wird vom Antragsteller vollständig eigenfinanziert und nicht als zuwendungsfähige Kosten im ZIM-Projekt geltend gemacht. Eine etwaige erfolgsabhängige Vergütung ist Bestandteil des Beratungsvertrags zwischen Antragsteller und Förderberater und niemals Gegenstand der Projektkosten.",
+      "Unsere Erstberatung ist vollständig kostenlos und unverbindlich. Wir arbeiten rein erfolgsbasiert* – eine Vergütung fällt nur an, wenn Ihr ZIM-Antrag tatsächlich bewilligt wird. Das volle Risiko liegt bei uns. *Hinweis: Das Beratungshonorar für die Unterstützung bei der Antragstellung wird vom Antragsteller vollständig eigenfinanziert und nicht als zuwendungsfähige Kosten im ZIM-Projekt geltend gemacht. Eine etwaige erfolgsabhängige Vergütung ist Bestandteil des Beratungsvertrags zwischen Antragsteller und Förderberater und niemals Gegenstand der Projektkosten.",
   },
   {
     question: "Kann man ZIM mit der Forschungszulage kombinieren?",
@@ -112,7 +112,7 @@ export const faqData: FAQItem[] = [
   {
     question: "Wie hoch ist die Bewilligungsquote bei ZIM-Anträgen?",
     answer:
-      "Die offizielle Bewilligungsquote liegt bei circa 50-60% aller eingereichten Anträge. Mit professioneller Beratung durch Förder-Kompass erreichen wir eine Quote von über 85%, da wir die Projektidee vorab auf Förderfähigkeit prüfen und den Antrag optimal aufbereiten.",
+      "Die offizielle Bewilligungsquote liegt bei circa 50-60% aller eingereichten Anträge. Professionelle Vorbereitung verbessert die Chancen deutlich, da wir die Projektidee vorab auf Förderfähigkeit prüfen und den Antrag optimal aufbereiten.",
   },
   {
     question: "Was unterscheidet das ZIM von der Forschungszulage?",
