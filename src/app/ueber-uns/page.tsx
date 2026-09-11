@@ -8,14 +8,14 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Über uns – Ihr ZIM-Experte Steve Kovacs | Förder-Kompass",
   description:
-    "Steve Kovacs & Team: Spezialisierte ZIM-Fördermittelberatung aus Stockach am Bodensee. Über 50 bewilligte ZIM-Projekte, >85 % Bewilligungsquote, erfolgsbasierte Vergütung.",
+    "Steve Kovacs & Team: Spezialisierte ZIM-Fördermittelberatung aus Stockach am Bodensee. Erfahrung aus zahlreichen ZIM-Projekten seit 2020, erfolgsbasierte Vergütung.",
   alternates: {
     canonical: "https://xn--zim-frderung-beantragen-clc.de/ueber-uns/",
   },
   openGraph: {
     title: "Über Förder-Kompass – ZIM-Fördermittelberatung am Bodensee",
     description:
-      "Spezialisierte ZIM-Beratung von Steve Kovacs. >50 bewilligte Projekte, >85 % Bewilligungsquote.",
+      "Spezialisierte ZIM-Beratung von Steve Kovacs. Erfahrung aus zahlreichen ZIM-Projekten, erfolgsbasierte Vergütung.",
     url: "https://xn--zim-frderung-beantragen-clc.de/ueber-uns/",
     type: "website",
   },
@@ -84,8 +84,7 @@ export default function UeberUnsPage() {
               </h1>
               <p className="text-body text-[17px] leading-relaxed">
                 Seit 2020 begleiten wir KMU, Start-ups und Hochschulen bei der
-                ZIM-Förderung – mit technischer Tiefe, erfolgsbasiertem Honorar
-                und über 85 % Bewilligungsquote.
+                ZIM-Förderung – mit technischer Tiefe und erfolgsbasiertem Honorar.
               </p>
             </div>
           </div>
