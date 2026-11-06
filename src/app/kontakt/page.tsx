@@ -7,7 +7,7 @@ import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 import TrackedPhoneLink from "@/components/TrackedPhoneLink";
 
 export const metadata: Metadata = {
-  title: "Kontakt – ZIM-Projektanfrage stellen | Förder-Kompass",
+  title: "ZIM-Projektanfrage | Kontakt",
   description:
     "Beschreiben Sie Ihr ZIM-Vorhaben in wenigen Sätzen. Wir melden uns innerhalb von ein bis zwei Werktagen mit einer ersten Einschätzung, auf Wunsch mit Terminvorschlag.",
   alternates: {

@@ -7,7 +7,7 @@ import { getFAQSchema } from "@/lib/schema";
 import { faqData } from "@/lib/faq-data";
 
 export const metadata: Metadata = {
-  title: "Häufige Fragen zur ZIM-Förderung | Förder-Kompass FAQ",
+  title: "ZIM-Förderung FAQ | Häufige Fragen",
   description:
     "Alle Antworten zur ZIM-Förderung: Wer ist antragsberechtigt, wie hoch ist der Zuschuss, wie lange dauert ein Antrag? Über 15 häufig gestellte Fragen von unseren ZIM-Beratern beantwortet.",
   alternates: {

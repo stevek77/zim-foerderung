@@ -9,7 +9,7 @@ const siteUrl = "https://xn--zim-frderung-beantragen-clc.de";
 const pageUrl = `${siteUrl}/tools/`;
 
 export const metadata: Metadata = {
-  title: "Tools & Ressourcen – ZIM- & FZulG-Rechner, Checklisten, Leitfäden",
+  title: "ZIM-Tools | Rechner & Checklisten",
   description:
     "Kostenlose interaktive Tools zur Förderung für KMU: ZIM-Antragsrechner, FZulG-Rechner, Förderprogramm-Vergleich, Branchen-Check, Antragscheckliste. Direkt im Browser nutzen.",
   alternates: { canonical: pageUrl },

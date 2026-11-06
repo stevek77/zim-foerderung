@@ -6,7 +6,7 @@ import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Über uns – Ihr ZIM-Experte Steve Kovacs | Förder-Kompass",
+  title: "ZIM-Berater Steve Kovacs | Über uns",
   description:
     "Steve Kovacs & Team: Spezialisierte ZIM-Fördermittelberatung aus Stockach am Bodensee. Erfahrung aus zahlreichen ZIM-Projekten seit 2020, erfolgsbasierte Vergütung.",
   alternates: {

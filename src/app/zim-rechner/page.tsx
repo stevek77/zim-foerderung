@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import { getBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = generatePageMetadata(
-  "ZIM-Rechner – Berechnen Sie Ihre ZIM Förderung kostenlos",
+  "ZIM-Rechner | Förderung kostenlos berechnen",
   "Kostenloser ZIM-Rechner: Berechnen Sie in 2 Minuten Ihre individuelle ZIM-Förderhöhe. Fördersätze, maximale Zuschüsse und Kostenplanung auf einen Blick.",
   "/zim-rechner/"
 );

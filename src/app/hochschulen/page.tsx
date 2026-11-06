@@ -7,7 +7,7 @@ import TrackedCalendlyLink from "@/components/TrackedCalendlyLink";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = generatePageMetadata(
-  "ZIM Kooperationsprojekt Hochschule – Kostenfreie Partnersuche & Antragstellung",
+  "ZIM-Kooperation Hochschule | Partnersuche",
   "ZIM-Kooperationsprojekte für Hochschulen in Baden-Württemberg: Kostenfreie Partnersuche mit KI-Matching, professionelle Antragstellung, Projektbegleitung. Für HAW, DHBW, FH & Universitäten.",
   "/hochschulen/"
 );

@@ -11,7 +11,7 @@ const artifactUrl =
   "https://claude.ai/public/artifacts/e95873df-343c-459e-a1a2-41af3fb0970f";
 
 export const metadata: Metadata = {
-  title: "ZIM-Antragscheckliste 2025: Alle Unterlagen für Ihren ZIM-Antrag",
+  title: "ZIM-Antragscheckliste | Alle Unterlagen",
   description:
     "Komplette ZIM-Antragscheckliste 2025: Alle Unterlagen für Einzelprojekt und Kooperationsprojekt, Formulare, Stolperfallen, Einreichung. Interaktive Checkliste.",
   alternates: { canonical: pageUrl },
