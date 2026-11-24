@@ -104,4 +104,4 @@ Alle drei Domains gehören zum gleichen Anbieter (Förder-Kompass, Inhaber Steve
 **Programm-Differenzierung (Stand Mai 2026):**
 - **ZIM** (Zuschuss, antragspflichtig vor Projektstart): KMU-Programm, 25–45 % Einzelprojekt / 30–60 % Kooperation, max. ~310.500 € Einzel / 3 Mio € Verbund. Themenoffen für FuE.
 - **Forschungszulage / FZulG** (Steueranrechnung, antragslos rückwirkend): alle Unternehmensgrößen, 25 % Standard / 35 % KMU, Bemessungsgrundlage 12 Mio €/Jahr seit 01.01.2026 → max. 4,2 Mio € KMU-Zulage.
-- **Eurostars-3** (EU-Programm, KMU): 60 % KMU-Förderquote, max. 500.000 € für alle deutschen Partner zusammen pro Projekt.
+- **Eurostars-3** (EU-Programm, internationale FuE-Kooperation): Unternehmen, auch KMU, bis zu 50 % der zuwendungsfähigen Kosten; max. 500.000 € für alle deutschen Partner zusammen pro Projekt (Richtlinie vom 11.08.2021, Nr. 5).
